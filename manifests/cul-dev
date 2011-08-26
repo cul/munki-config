@@ -9,6 +9,7 @@
 	  <string>Vmware</string>
 	  <string>cul</string>
 	  <string>Microsoft</string>
+	  <string>Apple</string>
         </array>
 	<key>included_manifests</key>
         <array>
@@ -24,7 +25,7 @@
 	<array>
           <string>VMWare</string>
           <string>cul-vmware-license</string>
-
+	  <string>XcodeTools</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
