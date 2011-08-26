@@ -9,7 +9,7 @@
 	  <string>common</string>
 	  <string>Mozilla</string>
 	  <string>testing</string>
-	  <string>Microsoft</string>
+	  <string>MSLab</string>
         </array>
         <key>managed_installs</key>
         <array>
@@ -17,10 +17,8 @@
 	  <string>libx</string>
 	  <string>MunkiScripts</string>
 	  <string>AudioSculpt</string>
-	  <string>Outlook</string>
-          <string>Communicator</string>
-          <string>Messenger</string>
 	  <string>Office2011Lab</string>
+	  <string>XcodeTools</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
