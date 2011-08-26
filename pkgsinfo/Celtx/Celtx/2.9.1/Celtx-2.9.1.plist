@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Celtx</string>
+	</array>
+	<key>description</key>
+	<string>Celtx 2.9.1 for OSX</string>
+	<key>display_name</key>
+	<string>Celtx</string>
+	<key>installer_item_hash</key>
+	<string>c5d6c5281eed3053dc5842e736465e2e3518fb81a6347c9d3cf4fc48f9af98a8</string>
+	<key>installer_item_location</key>
+	<string>Celtx/Celtx/2.9.1/Celtx.dmg</string>
+	<key>installer_item_size</key>
+	<integer>34670</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>ca.greyfirst.celtx</string>
+			<key>CFBundleName</key>
+			<string>Celtx</string>
+			<key>CFBundleShortVersionString</key>
+			<string>2.9.1</string>
+			<key>path</key>
+			<string>/Applications/Celtx.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Celtx.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Celtx</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2.9.1</string>
+</dict>
+</plist>

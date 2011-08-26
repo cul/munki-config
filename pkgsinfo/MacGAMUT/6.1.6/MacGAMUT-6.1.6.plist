@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RestartAction</key>
+	<string>RequireRestart</string>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>MacGAMUT</string>
+	</array>
+	<key>description</key>
+	<string>Version 1.1.6a Copyright 1988-2011 MacGAMUT Music Software, Inc.</string>
+	<key>display_name</key>
+	<string>MacGAMUT 6.1.6a</string>
+	<key>installed_size</key>
+	<integer>4084</integer>
+	<key>installer_item_hash</key>
+	<string>3a07f03e6e30c3b9caccdef6603b3b67fe085c83f98361718fdbdfab5dcfa9ca</string>
+	<key>installer_item_location</key>
+	<string>MacGAMUT/6.1.6/MacGAMUT 6.1.6a Web Installer.dmg</string>
+	<key>installer_item_size</key>
+	<integer>1837</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>MacGAMUT</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Gamut2 Font installer.pkg</string>
+			<key>installed_size</key>
+			<integer>48</integer>
+			<key>packageid</key>
+			<string>com.macgamut.gamut2_font</string>
+			<key>version</key>
+			<string>2.1.1</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>MG 6.1.6a Web Installer.pkg</string>
+			<key>installed_size</key>
+			<integer>4036</integer>
+			<key>packageid</key>
+			<string>com.macgamut.macgamut_6</string>
+			<key>version</key>
+			<string>1.1.6</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>6.1.6</string>
+</dict>
+</plist>

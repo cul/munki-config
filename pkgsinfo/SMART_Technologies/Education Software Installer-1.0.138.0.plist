@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RestartAction</key>
+	<string>RequireRestart</string>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>SMART_Technologies</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Education Software Installer 2011</string>
+	<key>installed_size</key>
+	<integer>1426157</integer>
+	<key>installer_item_hash</key>
+	<string>18f4740c59f220d49fb263021afc8844a9e37fc49ab30e1d50a40d15e1c96b58</string>
+	<key>installer_item_location</key>
+	<string>SMART_Technologies/educationsoftwareinstaller2011mac2.dmg</string>
+	<key>installer_item_size</key>
+	<integer>303069</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Education Software Installer</string>
+	<key>installs</key>
+	<array>
+	
+	
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.smarttech.SMARTBoardTools</string>
+			<key>CFBundleName</key>
+			<string>SMART Board Tools</string>
+			<key>CFBundleShortVersionString</key>
+			<string>10.8.86.0</string>
+			<key>path</key>
+			<string>/Applications/SMART Technologies/Board Tools.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.smarttech.ControlPanel</string>
+			<key>CFBundleName</key>
+			<string>SMART Board Control Panel</string>
+			<key>CFBundleShortVersionString</key>
+			<string>10.8.130.0</string>
+			<key>path</key>
+			<string>/Applications/SMART Technologies/Control Panel.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.smarttech.notebook.Notebook.10</string>
+			<key>CFBundleShortVersionString</key>
+			<string>10.8.228.0</string>
+			<key>path</key>
+			<string>/Applications/SMART Technologies/Notebook.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.smarttech.DesktopMenu</string>
+			<key>CFBundleName</key>
+			<string>Response Desktop Menu</string>
+			<key>CFBundleShortVersionString</key>
+			<string>3.5.227.0</string>
+			<key>path</key>
+			<string>/Applications/SMART Technologies/Response Desktop Menu.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.smarttech.uninstaller</string>
+			<key>CFBundleName</key>
+			<string>SMART Uninstaller</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.0.32.0</string>
+			<key>path</key>
+			<string>/Applications/SMART Technologies/SMART Uninstaller.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.smarttech.Bridgit</string>
+			<key>CFBundleName</key>
+			<string>Bridgit</string>
+			<key>CFBundleShortVersionString</key>
+			<string>4.2.146.0</string>
+			<key>path</key>
+			<string>/Applications/SMART Technologies/SMART Tools/Bridgit.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.smarttech.SMARTFirmwareUpdater</string>
+			<key>CFBundleName</key>
+			<string>SMART Firmware Updater</string>
+			<key>CFBundleShortVersionString</key>
+			<string>10.8.130.0</string>
+			<key>path</key>
+			<string>/Applications/SMART Technologies/SMART Tools/Firmware Updater.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+		<dict>
+			<key>CFBundleShortVersionString</key>
+			<string>1.2.71.0</string>
+			<key>path</key>
+			<string>/Applications/SMART Technologies/SMART Tools/Gallery Setup.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.smarttech.InstantConferencing</string>
+			<key>CFBundleName</key>
+			<string>Instant Conferencing</string>
+			<key>CFBundleShortVersionString</key>
+			<string>10.8.86.0</string>
+			<key>path</key>
+			<string>/Applications/SMART Technologies/SMART Tools/Instant Conferencing.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.smarttech.OnScreenKeyboard</string>
+			<key>CFBundleName</key>
+			<string>OnScreenKeyboard</string>
+			<key>CFBundleShortVersionString</key>
+			<string>10.8.86.0</string>
+			<key>path</key>
+			<string>/Applications/SMART Technologies/SMART Tools/Keyboard.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.smarttech.Magnifier</string>
+			<key>CFBundleName</key>
+			<string>Magnifier</string>
+			<key>CFBundleShortVersionString</key>
+			<string>10.8.86.0</string>
+			<key>path</key>
+			<string>/Applications/SMART Technologies/SMART Tools/Magnifier.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.smarttech.Pointer</string>
+			<key>CFBundleName</key>
+			<string>Pointer</string>
+			<key>CFBundleShortVersionString</key>
+			<string>10.8.86.0</string>
+			<key>path</key>
+			<string>/Applications/SMART Technologies/SMART Tools/Pointer.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.smarttech.Recorder</string>
+			<key>CFBundleName</key>
+			<string>Recorder</string>
+			<key>CFBundleShortVersionString</key>
+			<string>10.8.86.0</string>
+			<key>path</key>
+			<string>/Applications/SMART Technologies/SMART Tools/Recorder.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.smarttech.senteo.SetupTool</string>
+			<key>CFBundleName</key>
+			<string>Response Setup Tool</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.0</string>
+			<key>path</key>
+			<string>/Applications/SMART Technologies/SMART Tools/Response Setup Tool.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.smarttech.response.ResponseClicker</string>
+			<key>CFBundleName</key>
+			<string>Response Simulator</string>
+			<key>CFBundleShortVersionString</key>
+			<string>3.5.227.0</string>
+			<key>path</key>
+			<string>/Applications/SMART Technologies/SMART Tools/Response Simulator.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.smarttech.senteo.SenteoTeacher</string>
+			<key>CFBundleName</key>
+			<string>Response Teacher Tools</string>
+			<key>CFBundleShortVersionString</key>
+			<string>3.5.227.0</string>
+			<key>path</key>
+			<string>/Applications/SMART Technologies/SMART Tools/Response Teacher Tools.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.smarttech.SMARTProductUpdate</string>
+			<key>CFBundleName</key>
+			<string>SMART Product Update</string>
+			<key>CFBundleShortVersionString</key>
+			<string>5.0.69.0</string>
+			<key>path</key>
+			<string>/Applications/SMART Technologies/SMART Tools/SMART Product Update.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.smarttech.ScreenCapture</string>
+			<key>CFBundleName</key>
+			<string>Screen Capture</string>
+			<key>CFBundleShortVersionString</key>
+			<string>10.8.86.0</string>
+			<key>path</key>
+			<string>/Applications/SMART Technologies/SMART Tools/Screen Capture.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.smarttech.ScreenShade</string>
+			<key>CFBundleName</key>
+			<string>ScreenShade</string>
+			<key>CFBundleShortVersionString</key>
+			<string>10.8.86.0</string>
+			<key>path</key>
+			<string>/Applications/SMART Technologies/SMART Tools/Screen Shade.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.smarttech.Spotlight</string>
+			<key>CFBundleName</key>
+			<string>Screen Spotlight</string>
+			<key>CFBundleShortVersionString</key>
+			<string>10.8.86.0</string>
+			<key>path</key>
+			<string>/Applications/SMART Technologies/SMART Tools/Screen Spotlight.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>SMARTCleanUp.pkg</string>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>name</key>
+			<string>SMARTCleanUp</string>
+			<key>packageid</key>
+			<string>com.smarttech.cleanup.pkg</string>
+			<key>version</key>
+			<string>1.0.8.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Admin.pkg</string>
+			<key>installed_size</key>
+			<integer>3686</integer>
+			<key>name</key>
+			<string>Admin</string>
+			<key>packageid</key>
+			<string>com.smarttech.admingallery.pkg</string>
+			<key>version</key>
+			<string>2.0.4.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Adobe Flash Player.pkg</string>
+			<key>installed_size</key>
+			<integer>7324</integer>
+			<key>packageid</key>
+			<string>com.adobe.pkg.FlashPlayer</string>
+			<key>version</key>
+			<string>10.1.102.64</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Art.pkg</string>
+			<key>installed_size</key>
+			<integer>10035</integer>
+			<key>name</key>
+			<string>Art</string>
+			<key>packageid</key>
+			<string>com.smarttech.artgallery.pkg</string>
+			<key>version</key>
+			<string>2.0.7.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Board Tools.pkg</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>name</key>
+			<string>All</string>
+			<key>packageid</key>
+			<string>com.smarttech.boardTools.pkg</string>
+			<key>version</key>
+			<string>1.0.8.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>BoostFramework.pkg</string>
+			<key>installed_size</key>
+			<integer>6524</integer>
+			<key>name</key>
+			<string>Boost Framework</string>
+			<key>packageid</key>
+			<string>com.smarttech.boostframework.pkg</string>
+			<key>version</key>
+			<string>2.0.23.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>CairoFramework.pkg</string>
+			<key>installed_size</key>
+			<integer>2344</integer>
+			<key>name</key>
+			<string>Cairo Framework</string>
+			<key>packageid</key>
+			<string>com.smarttech.cairoframework.pkg</string>
+			<key>version</key>
+			<string>2.0.34.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>com.smarttech.qt-4.5.3.pkg</string>
+			<key>installed_size</key>
+			<integer>37932</integer>
+			<key>name</key>
+			<string>SMART Qt Libraries</string>
+			<key>packageid</key>
+			<string>com.smarttech.qt-4.5.3.pkg</string>
+			<key>version</key>
+			<string>4.5.3</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>com.smarttech.qt-4.7.pkg</string>
+			<key>installed_size</key>
+			<integer>43704</integer>
+			<key>name</key>
+			<string>SMART Qt Libraries</string>
+			<key>packageid</key>
+			<string>com.smarttech.qt-4.7.pkg</string>
+			<key>version</key>
+			<string>4.7.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>English.pkg</string>
+			<key>installed_size</key>
+			<integer>81920</integer>
+			<key>name</key>
+			<string>English</string>
+			<key>packageid</key>
+			<string>com.smarttech.englishgallery.pkg</string>
+			<key>version</key>
+			<string>2.0.6.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Geography.pkg</string>
+			<key>installed_size</key>
+			<integer>14336</integer>
+			<key>name</key>
+			<string>Geography</string>
+			<key>packageid</key>
+			<string>com.smarttech.geographygallery.pkg</string>
+			<key>version</key>
+			<string>2.0.4.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>History.pkg</string>
+			<key>installed_size</key>
+			<integer>39936</integer>
+			<key>name</key>
+			<string>History</string>
+			<key>packageid</key>
+			<string>com.smarttech.historygallery.pkg</string>
+			<key>version</key>
+			<string>2.0.4.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>ICUFramework.pkg</string>
+			<key>installed_size</key>
+			<integer>28724</integer>
+			<key>name</key>
+			<string>ICU Framework</string>
+			<key>packageid</key>
+			<string>com.smarttech.icuframework.pkg</string>
+			<key>version</key>
+			<string>2.0.35.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>LabViewFramework.pkg</string>
+			<key>installed_size</key>
+			<integer>74788</integer>
+			<key>name</key>
+			<string>LabView Framework</string>
+			<key>packageid</key>
+			<string>com.smarttech.labview8.5framework.pkg</string>
+			<key>version</key>
+			<string>2.0.22.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>LAT.pkg</string>
+			<key>installed_size</key>
+			<integer>68608</integer>
+			<key>name</key>
+			<string>Lat</string>
+			<key>packageid</key>
+			<string>com.smarttech.latgallery.pkg</string>
+			<key>version</key>
+			<string>2.0.4.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>LibLoggerFramework.pkg</string>
+			<key>installed_size</key>
+			<integer>604</integer>
+			<key>name</key>
+			<string>LibLogger Framework</string>
+			<key>packageid</key>
+			<string>com.smarttech.libLoggerframework.pkg</string>
+			<key>version</key>
+			<string>2.0.22.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Math.pkg</string>
+			<key>installed_size</key>
+			<integer>46080</integer>
+			<key>name</key>
+			<string>Math</string>
+			<key>packageid</key>
+			<string>com.smarttech.mathgallery.pkg</string>
+			<key>version</key>
+			<string>2.0.4.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>MathTypeFramework.pkg</string>
+			<key>installed_size</key>
+			<integer>24616</integer>
+			<key>name</key>
+			<string>Mathtype Frameworks</string>
+			<key>packageid</key>
+			<string>com.smarttech.mathtypeframework.pkg</string>
+			<key>version</key>
+			<string>2.0.23.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>People.pkg</string>
+			<key>installed_size</key>
+			<integer>92160</integer>
+			<key>name</key>
+			<string>People</string>
+			<key>packageid</key>
+			<string>com.smarttech.peoplegallery.pkg</string>
+			<key>version</key>
+			<string>2.0.4.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>RedlandFramework.pkg</string>
+			<key>installed_size</key>
+			<integer>1720</integer>
+			<key>name</key>
+			<string>Redland Framework</string>
+			<key>packageid</key>
+			<string>com.smarttech.redlandframework.pkg</string>
+			<key>version</key>
+			<string>2.0.22.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Response Tools.pkg</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>name</key>
+			<string>All</string>
+			<key>packageid</key>
+			<string>com.smarttech.responseTools.pkg</string>
+			<key>version</key>
+			<string>1.0.5.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>ResponseSDKMacFramework.pkg</string>
+			<key>installed_size</key>
+			<integer>176</integer>
+			<key>name</key>
+			<string>Redland Framework</string>
+			<key>packageid</key>
+			<string>com.smarttech.resSDKMacframework.pkg</string>
+			<key>version</key>
+			<string>2.0.28.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>ResSDKFramework.pkg</string>
+			<key>installed_size</key>
+			<integer>644</integer>
+			<key>name</key>
+			<string>Response SDK Framework</string>
+			<key>packageid</key>
+			<string>com.smarttech.resSDKframework.pkg</string>
+			<key>version</key>
+			<string>2.0.33.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Science.pkg</string>
+			<key>installed_size</key>
+			<integer>191488</integer>
+			<key>name</key>
+			<string>Science</string>
+			<key>packageid</key>
+			<string>com.smarttech.sciencegallery.pkg</string>
+			<key>version</key>
+			<string>2.0.5.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>SenteoFramework.pkg</string>
+			<key>installed_size</key>
+			<integer>13312</integer>
+			<key>name</key>
+			<string>Senteo Framework</string>
+			<key>packageid</key>
+			<string>com.smarttech.senteoframework.pkg</string>
+			<key>version</key>
+			<string>2.0.24.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>SMART Gallery Setup.pkg</string>
+			<key>installed_size</key>
+			<integer>10344</integer>
+			<key>name</key>
+			<string>Gallery Setup</string>
+			<key>packageid</key>
+			<string>com.smarttech.gallerysetup10</string>
+			<key>version</key>
+			<string>1.2.71.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>SMART Notebook.pkg</string>
+			<key>installed_size</key>
+			<integer>159608</integer>
+			<key>name</key>
+			<string>SMART Notebook </string>
+			<key>packageid</key>
+			<string>com.smarttech.notebook10</string>
+			<key>version</key>
+			<string>10.8.228.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>SMART Product Drivers.pkg</string>
+			<key>installed_size</key>
+			<integer>76280</integer>
+			<key>name</key>
+			<string>SMART Product Drivers</string>
+			<key>packageid</key>
+			<string>com.smarttech.boardDrivers.pkg</string>
+			<key>version</key>
+			<string>10.8.134.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>SMART Product Update.pkg</string>
+			<key>installed_size</key>
+			<integer>4424</integer>
+			<key>name</key>
+			<string>SMART Product Update</string>
+			<key>packageid</key>
+			<string>com.smarttech.SPU.pkg</string>
+			<key>version</key>
+			<string>5.0.69.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>SMART Response.pkg</string>
+			<key>installed_size</key>
+			<integer>63008</integer>
+			<key>name</key>
+			<string>SMART Response 2009</string>
+			<key>packageid</key>
+			<string>com.smarttech.senteo1</string>
+			<key>version</key>
+			<string>3.5.227.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>SMART Sync Teacher.pkg</string>
+			<key>installed_size</key>
+			<integer>24292</integer>
+			<key>name</key>
+			<string>SMART Sync Teacher</string>
+			<key>packageid</key>
+			<string>com.smarttech.SMARTSyncTeacher.pkg</string>
+			<key>version</key>
+			<string>10.0.556.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>SMART Tools.pkg</string>
+			<key>installed_size</key>
+			<integer>21036</integer>
+			<key>name</key>
+			<string>SMART Product Drivers</string>
+			<key>packageid</key>
+			<string>com.smarttech.smartTools.pkg</string>
+			<key>version</key>
+			<string>10.8.86.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>SMART Uninstaller.pkg</string>
+			<key>installed_size</key>
+			<integer>2252</integer>
+			<key>name</key>
+			<string>SMART Uninstaller</string>
+			<key>packageid</key>
+			<string>com.smarttech.uninstaller.pkg</string>
+			<key>version</key>
+			<string>1.0.32.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>SMART Vantage.pkg</string>
+			<key>installed_size</key>
+			<integer>3752</integer>
+			<key>name</key>
+			<string>SMART Vantage</string>
+			<key>packageid</key>
+			<string>com.smarttech.vantage.pkg</string>
+			<key>version</key>
+			<string>1.0.20.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>SMARTActivation.pkg</string>
+			<key>installed_size</key>
+			<integer>4284</integer>
+			<key>name</key>
+			<string>SMART Activation</string>
+			<key>packageid</key>
+			<string>com.smarttech.pkg.Activation</string>
+			<key>version</key>
+			<string>2.1.20.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>SMARTHarvester.pkg</string>
+			<key>installed_size</key>
+			<integer>536</integer>
+			<key>name</key>
+			<string>SMART Harvester</string>
+			<key>packageid</key>
+			<string>com.smarttech.pkg.Harvester</string>
+			<key>version</key>
+			<string>1.1.19.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>SMARTHWR.pkg</string>
+			<key>installed_size</key>
+			<integer>96744</integer>
+			<key>name</key>
+			<string>SMART Handwriting Recognition</string>
+			<key>packageid</key>
+			<string>com.smarttech.SMARTHWR.pkg</string>
+			<key>version</key>
+			<string>1.0.5.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Special.pkg</string>
+			<key>installed_size</key>
+			<integer>5222</integer>
+			<key>name</key>
+			<string>Special</string>
+			<key>packageid</key>
+			<string>com.smarttech.specialgallery.pkg</string>
+			<key>version</key>
+			<string>2.0.4.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>SpiderMonkeyFramework.pkg</string>
+			<key>installed_size</key>
+			<integer>1780</integer>
+			<key>name</key>
+			<string>SpiderMonkey Framework</string>
+			<key>packageid</key>
+			<string>com.smarttech.spidermonkeyframework.pkg</string>
+			<key>version</key>
+			<string>2.0.22.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Sports.pkg</string>
+			<key>installed_size</key>
+			<integer>1946</integer>
+			<key>name</key>
+			<string>Sports</string>
+			<key>packageid</key>
+			<string>com.smarttech.sportsgallery.pkg</string>
+			<key>version</key>
+			<string>2.0.4.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>WebInterfaceFramework.pkg</string>
+			<key>installed_size</key>
+			<integer>976</integer>
+			<key>name</key>
+			<string>WebInterface Framework</string>
+			<key>packageid</key>
+			<string>com.smarttech.webinterfaceframework.pkg</string>
+			<key>version</key>
+			<string>2.0.24.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>XalanFramework.pkg</string>
+			<key>installed_size</key>
+			<integer>12196</integer>
+			<key>name</key>
+			<string>Xalan Framework</string>
+			<key>packageid</key>
+			<string>com.smarttech.xalanframework.pkg</string>
+			<key>version</key>
+			<string>2.0.26.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>XercesFramework.pkg</string>
+			<key>installed_size</key>
+			<integer>9640</integer>
+			<key>name</key>
+			<string>Xerces Framework</string>
+			<key>packageid</key>
+			<string>com.smarttech.xercesframework.pkg</string>
+			<key>version</key>
+			<string>2.0.22.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>XqillaFramework.pkg</string>
+			<key>installed_size</key>
+			<integer>10400</integer>
+			<key>name</key>
+			<string>Xqilla Framework</string>
+			<key>packageid</key>
+			<string>com.smarttech.xqillaframework.pkg</string>
+			<key>version</key>
+			<string>2.0.22.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>XtGradingFramework.pkg</string>
+			<key>installed_size</key>
+			<integer>6884</integer>
+			<key>name</key>
+			<string>Xtgrading Framework</string>
+			<key>packageid</key>
+			<string>com.smarttech.xtgradingframework.pkg</string>
+			<key>version</key>
+			<string>2.0.21.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>XthinkFramework.pkg</string>
+			<key>installed_size</key>
+			<integer>1464</integer>
+			<key>name</key>
+			<string>Xthink Framework</string>
+			<key>packageid</key>
+			<string>com.smarttech.xthinkframework.pkg</string>
+			<key>version</key>
+			<string>2.0.22.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>ZipArchiveFramework.pkg</string>
+			<key>installed_size</key>
+			<integer>644</integer>
+			<key>name</key>
+			<string>ZipArchive Framework</string>
+			<key>packageid</key>
+			<string>com.smarttech.ziparchiveframework.pkg</string>
+			<key>version</key>
+			<string>2.0.22.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0.138.0</string>
+</dict>
+</plist>

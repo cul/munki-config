@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Mozilla</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Firefox</string>
+	<key>installed_size</key>
+	<integer>71676</integer>
+	<key>installer_item_hash</key>
+	<string>6d3c7b9f83dacf57d9ae3935fb9d7f2f004ef92e7229921dcd78ec5429ae3d58</string>
+	<key>installer_item_location</key>
+	<string>Mozilla/Firefox/firefox_4.0.1.pkg</string>
+	<key>installer_item_size</key>
+	<integer>29010</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Firefox4</string>
+	<key>installs</key>
+        <array>
+                <dict>
+                        <key>CFBundleIdentifier</key>
+                        <string>org.mozilla.firefox</string>
+                        <key>CFBundleName</key>
+                        <string>Firefox</string>
+                        <key>CFBundleShortVersionString</key>
+                        <string>4.0.1</string>
+                        <key>minosversion</key>
+                        <string>10.5</string>
+                        <key>path</key>
+                        <string>/Applications/Firefox.app</string>
+                        <key>type</key>
+                        <string>application</string>
+                </dict>
+		<dict>
+		  <key>md5checksum</key>
+		  <string>0e3bbe61280138259ae610a91663d5b1</string>
+		  <key>path</key>
+		  <string>/Applications/Firefox.app/Contents/MacOS/firefox_CUL.cfg</string>
+		  <key>type</key>
+		  <string>file</string>
+		</dict>
+        </array>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>71676</integer>
+			<key>packageid</key>
+			<string>edu.ccnmtl.columbia.edu.Firefox_4.0.1pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>4.0.1</string>
+	<key>blocking_applications</key>
+	<array>
+	  <string>Firefox4</string>
+	  <string>Firefox5</string>
+	</array>
+	<key>postinstall_script</key>
+	<string>#!/bin/bash
+localsettings="/Applications/Firefox.app/Contents/MacOS/defaults/pref/local-settings.js"
+touch -f $localsettings
+echo "// MyOrganization additions
+pref('general.config.obscure_value', 0);
+pref('general.config.filename', 'firefox_CUL.cfg');" &gt; $localsettings
+
+firefox_cul="/Applications/Firefox.app/Contents/MacOS/firefox_CUL.cfg"
+touch -f $firefox_cul
+echo "// 
+// This file sets some default prefs for use at Columbia Libraries
+// and locks down some other prefs.
+// application updates
+//
+lockPref('app.update.enabled', false);
+lockPref('app.update.autoUpdateEnabled', false);
+lockPref('extensions.update.autoUpdate', false);
+lockPref('extensions.update.enabled', false);
+lockPref('browser.search.update', false);
+lockPref('browser.startup.homepage_override.mstone','ignore');
+// Password Manager
+pref('signon.rememberSignons', false);
+// Default browser check
+pref('browser.shell.checkDefaultBrowser', false);
+// Home page
+pref('browser.startup.homepage','http://library.columbia.edu');
+pref('browser.startup.homepage_reset','http://library.columbia.edu');" &gt; $firefox_cul
+
+override="/Applications/Firefox.app/Contents/MacOS/override.ini"
+touch -f $override
+echo "[XRE]
+EnableProfileMigrator=false" &gt; $override
+
+exit 0</string>
+</dict>
+</plist>

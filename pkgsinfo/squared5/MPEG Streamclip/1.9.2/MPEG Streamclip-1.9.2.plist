@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>squared5</string>
+	</array>
+	<key>description</key>
+	<string>powerful high-quality video converter, player, editor for MPEG, QuickTime, transport streams, iPod.</string>
+	<key>display_name</key>
+	<string>MPEG Streamclip</string>
+	<key>installer_item_hash</key>
+	<string>f539e527a7232a9ac4398c0d3e7730010058b300c8d7fd33c4baf8c9ac232b85</string>
+	<key>installer_item_location</key>
+	<string>squared5/MPEG Streamclip/1.9.2/MPEG_Streamclip_1.9.2.dmg</string>
+	<key>installer_item_size</key>
+	<integer>1305</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>it.alfanet.squared5.MPEGStreamclip</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.9.2</string>
+			<key>path</key>
+			<string>/Applications/MPEG Streamclip.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>MPEG Streamclip.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>MPEG Streamclip</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.9.2</string>
+</dict>
+</plist>

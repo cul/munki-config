@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>Serializes Sibelius 6 Music Macs</string>
+	<key>display_name</key>
+	<string>Silbelius 6 License</string>
+	<key>installed_size</key>
+	<integer>2564</integer>
+	<key>installer_item_hash</key>
+	<string>c9bd0659f72b6c786567c0d33eeb0cc0885a15a473462d695cdef0cba51a1060</string>
+	<key>installer_item_location</key>
+	<string>cul/serialization/Sibelius 6/SibeliusLicense.dmg</string>
+	<key>installer_item_size</key>
+	<integer>879</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>SibeliusLicense</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>comsibeliussari.pkg</string>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>edu.columbia.silbelius6License.com.sibelius.sari.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>comsibelius.pkg</string>
+			<key>installed_size</key>
+			<integer>2544</integer>
+			<key>packageid</key>
+			<string>edu.columbia.silbelius6License.com.sibelius.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>manuscript.pkg</string>
+			<key>installed_size</key>
+			<integer>16</integer>
+			<key>packageid</key>
+			<string>edu.columbia.silbelius6License._manuscript.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+	<key>requires</key>
+	<array>
+	  <string>Sibelius</string>
+	</array>
+	<key>postinstall_script</key>
+	<string>#!/bin/bash
+	  rm -rf "/Sibelius 6.app"
+	  
+	</string>
+</dict>
+</plist>

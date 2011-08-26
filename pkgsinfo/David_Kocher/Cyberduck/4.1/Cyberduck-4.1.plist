@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>David_Kocher</string>
+	</array>
+	<key>display_name</key>
+	<string>Cyberduck</string>
+	<key>installer_item_hash</key>
+	<string>71060f6d97d8687cd788ced89539dd2d690b24b2b9976da68ffff671623449a8</string>
+	<key>installer_item_location</key>
+	<string>David_Kocher/Cyberduck/4.1/Cyberduck.dmg</string>
+	<key>installer_item_size</key>
+	<integer>23832</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>ch.sudo.cyberduck</string>
+			<key>CFBundleName</key>
+			<string>Cyberduck</string>
+			<key>CFBundleShortVersionString</key>
+			<string>4.1</string>
+			<key>minosversion</key>
+			<string>10.5</string>
+			<key>path</key>
+			<string>/Applications/Cyberduck.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Cyberduck.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Cyberduck</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>4.1</string>
+</dict>
+</plist>

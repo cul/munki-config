@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Apple</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>iWork '09</string>
+	<key>installed_size</key>
+	<integer>883037</integer>
+	<key>installer_item_hash</key>
+	<string>30354aca256ce59b0710e28730bb603774656f72dc74c6baa541eab1c2f0925d</string>
+	<key>installer_item_location</key>
+	<string>Apple/iWork/9.0/iWork09.dmg</string>
+	<key>installer_item_size</key>
+	<integer>462980</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>iWork</string>
+	<key>package_path</key>
+	<string>Packages/iWork09.mpkg</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.apple.iWork.Numbers</string>
+	    <key>CFBundleName</key>
+	    <string>Numbers</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>2.0.3</string>
+	    <key>path</key>
+	    <string>/Applications/iWork '09/Numbers.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	    </dict>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.apple.iWork.Keynote</string>
+	    <key>CFBundleName</key>
+	    <string>Keynote</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>5.0.3</string>
+	    <key>path</key>
+	    <string>/Applications/iWork '09/Keynote.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	    </dict>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.apple.iWork.Pages</string>
+	    <key>CFBundleName</key>
+	    <string>Pages</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>4.0.3</string>
+	    <key>path</key>
+	    <string>/Applications/iWork '09/Pages.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	    </dict>
+	  </array>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>iWork09.pkg</string>
+			<key>installed_size</key>
+			<integer>888185</integer>
+			<key>name</key>
+			<string>iWork09</string>
+			<key>packageid</key>
+			<string>com.apple.pkg.iWork09</string>
+			<key>version</key>
+			<string>4.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>iLifeMediaBrowser.pkg</string>
+			<key>installed_size</key>
+			<integer>4302</integer>
+			<key>name</key>
+			<string>iLifeMediaBrowser</string>
+			<key>packageid</key>
+			<string>com.apple.pkg.iLifeMediaBrowser</string>
+			<key>version</key>
+			<string>1.0.10</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>GraphicsAppSupport.pkg</string>
+			<key>installed_size</key>
+			<integer>137</integer>
+			<key>name</key>
+			<string>GraphicsAppSupport</string>
+			<key>packageid</key>
+			<string>com.apple.pkg.GraphicsAppSupport</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>ImageKit_Tiger.pkg</string>
+			<key>installed_size</key>
+			<integer>1917</integer>
+			<key>name</key>
+			<string>ImageKit_Tiger</string>
+			<key>packageid</key>
+			<string>com.apple.pkg.ImageKit_Tiger</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>4.0</string>
+	        <key>postinstall_script</key>
+        <string>#!/bin/bash
+if [[ `ioreg -rd1 -c IOPlatformExpertDevice | grep -i "UUID" | cut -c27-50` == "00000000-0000-1000-8000-" ]]
+then 
+    LEOUUID=`ioreg -rd1 -c IOPlatformExpertDevice | grep -i "UUID" | cut -c51-62 | awk {'print tolower()'}` 
+elif [[ `ioreg -rd1 -c IOPlatformExpertDevice | grep -i "UUID" | cut -c27-50` != "00000000-0000-1000-8000-" ]]
+then 
+    LEOUUID=`ioreg -rd1 -c IOPlatformExpertDevice | grep -i "UUID" | cut -c27-62` 
+fi
+d="/usr/bin/defaults write"
+for folder in /Users/*
+do
+    pages="$folder/Library/Preferences/ByHost/com.apple.iWork.Pages.$LEOUUID"
+    numbers="$folder/Library/Preferences/ByHost/com.apple.iWork.Numbers.$LEOUUID"
+    keynote="$folder/Library/Preferences/ByHost/com.apple.iWork.Keynote.$LEOUUID"
+    iwork="$folder/Library/Preferences/ByHost/com.apple.iWork.$LEOUUID"
+    if [ $folder != "/Users/Shared" ]
+    then
+	  $d $pages FirstRunFlag -bool YES
+	  $d $numbers FirstRunFlag -bool YES
+          $d $keynote FirstRunFlag -bool YES
+	  $d $iwork SFLDefaultsAutoUpdateCheck -bool NO
+	  chown ${folder/\/Users\//} "$pages.plist"
+	  chown ${folder/\/Users\//} "$numbers.plist"
+	  chown ${folder/\/Users\//} "$keynote.plist"
+    fi
+done
+templatedir="/System/Library/User Template/English.lproj/Library"
+mkdir "$templatedir"/Preferences/ByHost
+templatepages="$templatedir/Preferences/ByHost/com.apple.iWork.Pages.$LEOUUID"
+templatenumbers="$templatedir/Preferences/ByHost/com.apple.iWork.Numbers.$LEOUUID"
+templatekeynote="$templatedir/Preferences/ByHost/com.apple.iWork.Keynote.$LEOUUID"
+templateiwork="$templatedir/Library/Preferences/ByHost/com.apple.iWork.$LEOUUID"
+$d "$templatepages" FirstRunFlag -bool YES
+$d "$templatenumbers" FirstRunFlag -bool YES
+$d "$templatekeynote" FirstRunFlag -bool YES
+$d "$templateiwork" SFLDefaultsAutoUpdateCheck -bool YES
+exit 0</string>
+
+</dict>
+</plist>
+

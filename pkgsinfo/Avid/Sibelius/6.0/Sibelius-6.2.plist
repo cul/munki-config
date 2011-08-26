@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>Avid</string>
+	</array>
+	<key>description</key>
+	<string>This will install Sibelius 6 on your computer.</string>
+	<key>display_name</key>
+	<string>Sibelius 6</string>
+	<key>installed_size</key>
+	<integer>885852</integer>
+	<key>installer_item_hash</key>
+	<string>43eeeb5adf285971faa8c2a881ac12e3fab8a58d3b4070086ee3e09c56443019</string>
+	<key>installer_item_location</key>
+	<string>Avid/Sibelius/6.0/Install Sibelius 6-6.2.dmg</string>
+	<key>installer_item_size</key>
+	<integer>572003</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Sibelius</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.sibelius.sibelius6</string>
+	    <key>CFBundleName</key>
+	    <string>Sibelius 6</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>6.2.0</string>
+	    <key>path</key>
+	    <string>/Applications/Sibelius 6.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	    </dict>
+	</array>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>English Scores.pkg</string>
+			<key>installed_size</key>
+			<integer>10012</integer>
+			<key>name</key>
+			<string>English Scores</string>
+			<key>packageid</key>
+			<string>com.sibelius.sibelius6.scores.english</string>
+			<key>version</key>
+			<string>6.2</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Fonts.pkg</string>
+			<key>installed_size</key>
+			<integer>1124</integer>
+			<key>name</key>
+			<string>Fonts</string>
+			<key>packageid</key>
+			<string>com.sibelius.sibelius6.fontspkg</string>
+			<key>version</key>
+			<string>6.2</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>French Scores.pkg</string>
+			<key>installed_size</key>
+			<integer>10304</integer>
+			<key>name</key>
+			<string>Partitions d'exemple de Sibelius</string>
+			<key>packageid</key>
+			<string>com.sibelius.sibelius6.scores.french</string>
+			<key>version</key>
+			<string>6.2</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>German Scores.pkg</string>
+			<key>installed_size</key>
+			<integer>10256</integer>
+			<key>name</key>
+			<string>Sibelius-Beispielpartituren</string>
+			<key>packageid</key>
+			<string>com.sibelius.sibelius6.scores.german</string>
+			<key>version</key>
+			<string>6.2</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Italian Scores.pkg</string>
+			<key>installed_size</key>
+			<integer>10276</integer>
+			<key>name</key>
+			<string>Partiture di esempio di Sibelius</string>
+			<key>packageid</key>
+			<string>com.sibelius.sibelius6.scores.italian</string>
+			<key>version</key>
+			<string>6.2</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Japanese Scores.pkg</string>
+			<key>installed_size</key>
+			<integer>10348</integer>
+			<key>name</key>
+			<string>Sibelius サンプルスコア</string>
+			<key>packageid</key>
+			<string>com.sibelius.sibelius6.scores.japanese</string>
+			<key>version</key>
+			<string>6.2</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>M-Audio module.pkg</string>
+			<key>installed_size</key>
+			<integer>207580</integer>
+			<key>name</key>
+			<string>General MIDI Module</string>
+			<key>packageid</key>
+			<string>com.sibelius.m-audioGMModule.package</string>
+			<key>version</key>
+			<string>6.2</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Sibelius 6.pkg</string>
+			<key>installed_size</key>
+			<integer>615648</integer>
+			<key>name</key>
+			<string>Sibelius 6</string>
+			<key>packageid</key>
+			<string>com.sibelius.sibelius6.apppkg</string>
+			<key>version</key>
+			<string>6.2</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Spanish Scores.pkg</string>
+			<key>installed_size</key>
+			<integer>10304</integer>
+			<key>name</key>
+			<string>Ejemplos de partitura de Sibelius</string>
+			<key>packageid</key>
+			<string>com.sibelius.sibelius6.scores.spanish</string>
+			<key>version</key>
+			<string>6.2</string>
+		</dict>
+	</array>
+	<key>requires</key>
+	<array>
+		<string>Sibelius6SerialValidation</string>
+		<string>SibeliusLicense</string>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>6.2</string>
+</dict>
+</plist>

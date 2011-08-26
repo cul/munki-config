@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>HairerSoft</string>
+	</array>
+	<key>display_name</key>
+	<string>Amadeus Pro</string>
+	<key>installer_item_hash</key>
+	<string>0392878423dffffe8daa09e455f4433d925fab0654760446a21740eb08c60254</string>
+	<key>installer_item_location</key>
+	<string>HairerSoft/Amadeus Pro/1.5/AmadeusProEnglish.dmg</string>
+	<key>installer_item_size</key>
+	<integer>6568</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.HairerSoft.AmadeusPro</string>
+			<key>CFBundleName</key>
+			<string>Amadeus Pro</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.5</string>
+			<key>minosversion</key>
+			<string>10.4</string>
+			<key>path</key>
+			<string>/Applications/Amadeus Pro.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Amadeus Pro.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Amadeus Pro</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.5</string>
+</dict>
+</plist>

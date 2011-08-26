@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Bare_Bones</string>
+	</array>
+	<key>installer_item_hash</key>
+	<string>929ee8d79d5edffaac2359e1ff5fb332b38f2f4b458221c52457509b9e4690e8</string>
+	<key>installer_item_location</key>
+	<string>Bare_Bones/BBEdit/BBEdit_9.6.3.dmg</string>
+	<key>installer_item_size</key>
+	<integer>15565</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.barebones.bbedit</string>
+			<key>CFBundleName</key>
+			<string>BBEdit</string>
+			<key>CFBundleShortVersionString</key>
+			<string>9.6.3</string>
+			<key>minosversion</key>
+			<string>10.5</string>
+			<key>path</key>
+			<string>/Applications/BBEdit.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>BBEdit.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>BBEdit_9.6.3</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>9.6.3</string>
+</dict>
+</plist>

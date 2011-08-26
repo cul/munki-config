@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Microsoft</string>
+	</array>
+	<key>description</key>
+	<string>Registers Office 2011 for CUL users</string>
+	<key>display_name</key>
+	<string>cul-office-setup</string>
+	<key>installed_size</key>
+	<integer>7704</integer>
+	<key>installer_item_hash</key>
+	<string>154e8f3201c0aef1f917263a4ec3d6895193086d11996c5ff5510383060c5375</string>
+	<key>installer_item_location</key>
+	<string>Microsoft/Office/2011/postinstalls/cul-office-postinstall.dmg</string>
+	<key>installer_item_size</key>
+	<integer>541</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>cul-office-postinstall</string>
+	<key>update_for</key>
+	<array>
+	  <string>Office2011</string>
+	</array>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>md5checksum</key>
+	    <string>49fea699dc7e9b8803c7859e08c99d74</string>
+	    <key>path</key>
+	    <string>/System/Library/User Template/English.lproj/Library/Preferences/com.microsoft.office.plist</string>
+	    <key>type</key>
+	    <string>file</string>
+	    </dict>
+	  </array>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>commicrosoftautoupdate2.pkg</string>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>edu.columbia.edu.culofficesetup.com.microsoft.autoupdate2.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>commicrosofterrorreporting.pkg</string>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>edu.columbia.edu.culofficesetup.com.microsoft.error_reporting.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>commicrosoftexcel.pkg</string>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>edu.columbia.edu.culofficesetup.com.microsoft.Excel.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>commicrosoftlanguageregister.pkg</string>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>edu.columbia.edu.culofficesetup.com.microsoft.language_register.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>commicrosoftoffice.pkg</string>
+			<key>installed_size</key>
+			<integer>184</integer>
+			<key>packageid</key>
+			<string>edu.columbia.edu.culofficesetup.com.microsoft.office.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>commicrosoftoutlookdatabasedaemon.pkg</string>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>edu.columbia.edu.culofficesetup.com.microsoft.outlook.database_daemon.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>commicrosoftoutlookofficereminders.pkg</string>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>edu.columbia.edu.culofficesetup.com.microsoft.outlook.office_reminders.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>commicrosoftpowerpoint.pkg</string>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>edu.columbia.edu.culofficesetup.com.microsoft.Powerpoint.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>commicrosoftword.pkg</string>
+			<key>installed_size</key>
+			<integer>12</integer>
+			<key>packageid</key>
+			<string>edu.columbia.edu.culofficesetup.com.microsoft.Word.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>microsoft.pkg</string>
+			<key>installed_size</key>
+			<integer>7440</integer>
+			<key>packageid</key>
+			<string>edu.columbia.edu.culofficesetup.Microsoft-1.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>microsoft-1.pkg</string>
+			<key>installed_size</key>
+			<integer>40</integer>
+			<key>packageid</key>
+			<string>edu.columbia.edu.culofficesetup.Microsoft.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+	<key>postinstall_script</key>
+	<string>#!/bin/sh
+dir="/System/Library/User*Template/English.lproj/Library"
+
+for folder in /Users/*
+do
+if [ $folder != "/Users/Shared" ]
+then
+/bin/cp $dir/"Preferences/com.microsoft.autoupdate2.plist" $folder/Library/Preferences/
+/bin/cp $dir/"Preferences/com.microsoft.error_reporting.plist" $folder/Library/Preferences/
+/bin/cp $dir/"Preferences/com.microsoft.Excel.plist" $folder/Library/Preferences/
+/bin/cp $dir/"Preferences/com.microsoft.language_register.plist" $folder/Library/Preferences/
+/bin/cp $dir/"Preferences/com.microsoft.office.plist" $folder/Library/Preferences/
+/bin/cp $dir/"Preferences/com.microsoft.outlook.database_daemon.plist" $folder/Library/Preferences/
+/bin/cp $dir/"Preferences/com.microsoft.outlook.office_reminders.plist" $folder/Library/Preferences/
+/bin/cp $dir/"Preferences/com.microsoft.Powerpoint.plist" $folder/Library/Preferences/
+/bin/cp $dir/"Preferences/com.microsoft.Word.plist" $folder/Library/Preferences/
+chown -R ${folder/\/Users\//} "$folder/Library/Preferences/"
+
+fi
+done
+
+exit 0</string>
+
+</dict>
+</plist>

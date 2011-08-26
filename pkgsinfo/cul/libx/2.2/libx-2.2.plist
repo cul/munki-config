@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>cul</string>
+	</array>
+	<key>description</key>
+	<string>LibX for CUL</string>
+	<key>display_name</key>
+	<string>LibX</string>
+	<key>installed_size</key>
+	<integer>212</integer>
+	<key>installer_item_hash</key>
+	<string>767b365624449aae8fe3696745a6afeea1c1a10ce87749c11d4599a2d2689920</string>
+	<key>installer_item_location</key>
+	<string>cul/libx/2.2/cul-libx-v2.2.dmg</string>
+	<key>installer_item_size</key>
+	<integer>205</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>libx</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>cul-libx-v2.2.pkg</string>
+			<key>installed_size</key>
+			<integer>212</integer>
+			<key>packageid</key>
+			<string>edu.columbia.cul-libx.pkg</string>
+			<key>version</key>
+			<string>2.2</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2.2</string>
+	<key>postinstall_script</key>
+        <string>#!/bin/bash
+          exepath="/Library/Application Support/Mozilla/"
+          chmod -R 755 "$exepath"
+          exit 0
+        </string>
+	<key>update_for</key>
+	<array>
+	  <string>libx</string>
+	</array>
+	<key>blocking_applications</key>
+	<array>
+          <string>Firefox</string>
+        </array>
+</dict>
+</plist>

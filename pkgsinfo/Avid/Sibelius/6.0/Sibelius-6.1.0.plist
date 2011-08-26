@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>Avid</string>
+	</array>
+	<key>description</key>
+	<string>This will install Sibelius 6 on your computer.</string>
+	<key>display_name</key>
+	<string>Sibelius 6</string>
+	<key>installed_size</key>
+	<integer>556572</integer>
+	<key>installer_item_hash</key>
+	<string>ea17e096fc3b3b6da1d39129004ed227207328bff523122cf8c1035414666a53</string>
+	<key>installer_item_location</key>
+	<string>Avid/Sibelius/6.0/Install Sibelius 6.dmg</string>
+	<key>installer_item_size</key>
+	<integer>370977</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Sibelius</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.sibelius.sibelius6</string>
+	    <key>CFBundleName</key>
+	    <string>Sibelius 6</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>6.1.0</string>
+	    <key>path</key>
+	    <string>/Applications/Sibelius 6.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	    </dict>
+	  </array>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Install Sibelius 6.pkg</string>
+			<key>installed_size</key>
+			<integer>556572</integer>
+			<key>packageid</key>
+			<string>com.sibelius.sibelius6</string>
+			<key>version</key>
+			<string>6.1.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>6.1.0</string>
+	<key>requires</key>
+	<array>
+	  <string>Sibelius6SerialValidation</string>
+	</array>
+</dict>
+</plist>

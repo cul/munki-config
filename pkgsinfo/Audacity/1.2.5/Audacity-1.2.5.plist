@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Audacity</string>
+	</array>
+	<key>description</key>
+	<string>free, open source software for recording and editing sounds.</string>
+	<key>display_name</key>
+	<string>Audacity</string>
+	<key>installer_item_hash</key>
+	<string>d391074eb6d1de808069d7ed4a157be2c2f1f487a3706bc90f5fffb3716149a5</string>
+	<key>installer_item_location</key>
+	<string>Audacity/1.2.5/audacity-macosx-intel-1.2.5.dmg</string>
+	<key>installer_item_size</key>
+	<integer>3401</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>net.sourceforge.audacity</string>
+			<key>CFBundleName</key>
+			<string>Audacity</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.2.5</string>
+			<key>path</key>
+			<string>/Applications/Audacity.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Audacity.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Audacity</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.2.5</string>
+	<key>postinstall_script</key>
+	<string>#!/bin/bash
+for folder in /Users/*
+do
+    pref="$folder/Library/Preferences/audacity Preferences"
+    if [ $folder != "/Users/Shared" ]
+    then
+	  touch -f "$pref"
+	  echo "Version=1.2.5" >> "$pref"
+	  echo "PrefsVersion=1.1.1r1" >> "$pref"
+	  echo "[Locale]" >> "$pref"
+	  echo "Language=en" >> "$pref"
+	  echo "[Directories]" >> "$pref"
+	  echo "[Window"] >> "$pref"
+	  echo "Width=600" >> "$pref"
+	  echo "Height=400" >> "$pref"
+	  echo "Maximized=0" >> "$pref"
+	  chown ${folder/\/Users\//} "$pref"
+    fi
+done
+dir="/System/Library/User*Template/English.lproj/Library"
+pref="$dir/audacity Preferences"
+          touch -f "$pref"
+          echo "Version=1.2.5" >> "$pref"
+          echo "PrefsVersion=1.1.1r1" >> "$pref"
+          echo "[Locale]" >> "$pref"
+          echo "Language=en" >> "$pref"
+          echo "[Directories]" >> "$pref"
+          echo "[Window"] >> "$pref"
+          echo "Width=600" >> "$pref"
+          echo "Height=400" >> "$pref"
+          echo "Maximized=0" >> "$pref"
+          chown ${folder/\/Users\//} "$pref"
+exit 0</string>
+
+</dict>
+</plist>

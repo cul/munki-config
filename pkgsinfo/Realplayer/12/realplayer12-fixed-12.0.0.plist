@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>RealPlayerSP</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>RealPlayer 12.0.0</string>
+	<key>installed_size</key>
+	<integer>38096</integer>
+	<key>installer_item_hash</key>
+	<string>f3a511b6f1ba113f262f08b769c1b5b85e498eb682b69354906be8ed12784d15</string>
+	<key>installer_item_location</key>
+	<string>RealPlayer/12/realplayer-12.0.0-fixed.pkg</string>
+	<key>installer_item_size</key>
+	<integer>13307</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>realplayer12-fixed</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>52</integer>
+			<key>packageid</key>
+			<string>edu.ccnmtl.columbia.edu.realplayer1200.RealMediaMetadataImporter.pkg</string>
+			<key>version</key>
+			<string>12.0.0</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>38044</integer>
+			<key>packageid</key>
+			<string>edu.ccnmtl.columbia.edu.realplayer1200.RealPlayer.pkg</string>
+			<key>version</key>
+			<string>12.0.0</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>packageid</key>
+			<string>edu.ccnmtl.columbia.edu.realplayer1200.RealPlayerPlugin.pkg</string>
+			<key>version</key>
+			<string>12.0.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>12.0.0</string>
+</dict>
+</plist>

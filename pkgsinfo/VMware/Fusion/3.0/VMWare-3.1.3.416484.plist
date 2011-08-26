@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Vmware</string>
+	</array>
+	<key>description</key>
+	<string>VMware Fusion 3.1.3 for Mac</string>
+	<key>display_name</key>
+	<string>VMware Fusion</string>
+	<key>installed_size</key>
+	<integer>405852</integer>
+	<key>installer_item_hash</key>
+	<string>f2e6c40c7aaea66b52533496bd0eb9d15b29b28c32277ce4e2f703d338ca59cf</string>
+	<key>installer_item_location</key>
+	<string>VMware/Fusion/3.0/Install VMware Fusion-3.1.3.416484.dmg</string>
+	<key>installer_item_size</key>
+	<integer>149476</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>VMWare</string>
+	<key>installs</key>
+        <array>
+          <dict>
+            <key>CFBundleShortVersionString</key>
+            <string>3.1.3</string>
+            <key>path</key>
+            <string>/Applications/VMware Fusion.app/Contents/Info.plist</string>
+            <key>type</key>
+            <string>plist</string>
+          </dict>
+        </array>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Install VMware Fusion.pkg</string>
+			<key>installed_size</key>
+			<integer>335344</integer>
+			<key>name</key>
+			<string>VMware Fusion</string>
+			<key>packageid</key>
+			<string>com.vmware.fusion.application</string>
+			<key>version</key>
+			<string>3.1.3.416484</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>MacFUSE.pkg</string>
+			<key>installed_size</key>
+			<integer>7024</integer>
+			<key>name</key>
+			<string>MacFUSE</string>
+			<key>packageid</key>
+			<string>com.google.macfuse</string>
+			<key>version</key>
+			<string>2.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>com.vmware.fusion.tools.windows.pkg</string>
+			<key>installed_size</key>
+			<integer>50692</integer>
+			<key>name</key>
+			<string>VMware Fusion</string>
+			<key>packageid</key>
+			<string>com.vmware.fusion.tools.windows</string>
+			<key>version</key>
+			<string>3.1.3.416484</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>com.vmware.fusion.tools.darwin.pkg</string>
+			<key>installed_size</key>
+			<integer>12792</integer>
+			<key>name</key>
+			<string>VMware Fusion</string>
+			<key>packageid</key>
+			<string>com.vmware.fusion.tools.darwin</string>
+			<key>version</key>
+			<string>3.1.3.416484</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>3.1.3.416484</string>
+</dict>
+</plist>

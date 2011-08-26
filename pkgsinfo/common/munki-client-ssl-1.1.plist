@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>common</string>
+	</array>
+	<key>description</key>
+	<string>Installs SSL certs</string>
+	<key>display_name</key>
+	<string>munki-client-ssl</string>
+	<key>installed_size</key>
+	<integer>12</integer>
+	<key>installer_item_hash</key>
+	<string>15c1246d14cf59861eea58e7d9502f82ca71de3aa0b95eb4ec9eaf7643c98a38</string>
+	<key>installer_item_location</key>
+	<string>common/munki-client-ssl.dmg</string>
+	<key>installer_item_size</key>
+	<integer>19</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>munki-client-ssl</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>md5checksum</key>
+	    <string>e452e991f124957d48db01126cf3f562</string>
+	    <key>path</key>
+	    <string>/etc/munki/certs/cacert.pem</string>
+	    <key>type</key>
+	    <string>file</string>
+	    </dict>
+	  <dict>
+	    <key>md5checksum</key>
+	    <string>b0d3ef5d59ca427729ffb53abd5cc676</string>
+	    <key>path</key>
+	    <string>/etc/munki/certs/munki.pem</string>
+	    <key>type</key>
+	    <string>file</string>
+	  </dict>
+	  </array>
+	<key>receipts</key>
+	<array>
+	  <dict>
+	    <key>filename</key>
+	    <string>cacert.pkg</string>
+	    <key>installed_size</key>
+	    <integer>4</integer>
+	    <key>packageid</key>
+	    <string>edu.columbia.munkiclientssl.cacert.pkg</string>
+	    <key>version</key>
+	    <string>1</string>
+	  </dict>
+	  <dict>
+	    <key>filename</key>
+	    <string>munki.pkg</string>
+	    <key>installed_size</key>
+	    <integer>8</integer>
+	    <key>packageid</key>
+	    <string>edu.columbia.munkiclientssl.munki.pkg</string>
+	    <key>version</key>
+	    <string>1</string>
+	  </dict>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.1</string>
+	<key>postinstall_script</key>
+	<string>#!/bin/sh
+# removes old /Library/Preferences/ManagedInstall.plist and creates a private one and a public one
+d="/usr/bin/defaults write"
+plist="/private/var/root/Library/Preferences/ManagedInstalls"
+publist="/Library/Preferences/ManagedInstalls"
+$d $publist InstallAppleSoftwareUpdates -bool TRUE
+$d $plist SoftwareRepoURL -string https://munki.cul.columbia.edu/repo
+$d $publist ManagedInstallDir -string /etc/munki
+$d $plist AdditionalHttpHeaders -array "Authorization: Basic bXVua2k6YWtlbDRrZWxh"
+$d $plist ManifestURL -string https://munki.cul.columbia.edu/repo/manifests
+$d $plist SoftwareRepoCACertificate -string /etc/munki/certs/cacert.pem
+$d $plist ClientKeyPath -string /etc/munki/certs/munki.pem
+$d $plist ClientCertificatePath -string /etc/munki/certs/munki.pem
+$d $plist SuppressUserNotification -bool TRUE
+$d $plist UseClientCertificate -bool TRUE
+$d $plist SuppressAutoInstall -bool FALSE
+$d $plist SuppressStopButtonOnInstall -bool TRUE
+$d $plist InstallRequiresLogout -bool FALSE
+$d $plist LoggingLevel -int 1
+$d $plist LogFile -string /etc/munki/Logs/ManagedSoftwareUpdate.log 
+$d $plist DaysBetweenNotifications -int 1
+$d $publist ShowRemovalDetail -bool FALSE
+$d $publist InstallRequiresLogout -bool FALSE
+
+exit 0</string>
+</dict>
+</plist>

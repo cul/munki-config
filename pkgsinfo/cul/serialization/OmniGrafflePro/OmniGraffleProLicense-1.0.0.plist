@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>cul</string>
+	</array>
+	<key>description</key>
+	<string>OminiGraffle Pro 5 License for CUL machines</string>
+	<key>display_name</key>
+	<string>OmniGraffle Pro 5 License</string>
+	<key>installed_size</key>
+	<integer>4</integer>
+	<key>installer_item_hash</key>
+	<string>792a5d8c91f51f6f07abcd94dc6facf210a45da8637e192aef910fe04c402f41</string>
+	<key>installer_item_location</key>
+	<string>cul/serialization/OmniGrafflePro/OmniGraffleProLicense.dmg</string>
+	<key>installer_item_size</key>
+	<integer>12</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>OmniGraffleProLicense</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>md5checksum</key>
+	    <string>5bf587f2b8e7e13656612bd18f202005</string>
+	    <key>path</key>
+	    <string>/Library/Application Support/Omni Group/Software Licenses/OmniGraffle-384933.omnilicense</string>
+	    <key>type</key>
+	    <string>file</string>
+	    </dict>
+	  </array>
+	<key>receipts</key>
+	<array>
+	  <dict>
+	    <key>filename</key>
+	    <string>OmniGraffleProLicense.pkg</string>
+	    <key>installed_size</key>
+	    <integer>4</integer>
+	    <key>packageid</key>
+	    <string>edu.columbia.OmniGroupLicense.pkg</string>
+	    <key>version</key>
+	    <string>1.0.0</string>
+	  </dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0.0</string>
+</dict>
+</plist>

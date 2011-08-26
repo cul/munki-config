@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>cul</string>
+	</array>
+	<key>description</key>
+	<string>Serializes Logic Studio for CUL users</string>
+	<key>display_name</key>
+	<string>Logic_Serialization</string>
+	<key>installed_size</key>
+	<integer>4</integer>
+	<key>installer_item_hash</key>
+	<string>6e88d449764d4ca41f2d55093b4610f5bd0c2fc22ef1da3294fc3cef25e096e4</string>
+	<key>installer_item_location</key>
+	<string>cul/serialization/Logic Studio/Logic_Serialization.dmg</string>
+	<key>installer_item_size</key>
+	<integer>165</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Logic_Serialization</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Logic_Serialization.pkg</string>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>edu.columbia.logicserialization.proapps.pkg</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0.0.0.0</string>
+	<key>postinstall_script</key>
+	<string>#!/bin/bash
+mv "/Library/Application Support/Logic Studio System ID" "/Library/Application Support/ProApps/"
+</string>
+</dict>
+</plist>

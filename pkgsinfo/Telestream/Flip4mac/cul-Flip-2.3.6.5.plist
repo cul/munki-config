@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Telestream</string>
+	</array>
+	<key>description</key>
+	<string>Flip4Mac WMV QuickTime components, plug-ins, and preference pane.</string>
+	<key>display_name</key>
+	<string>Flip4Mac WMV</string>
+	<key>installed_size</key>
+	<integer>58216</integer>
+	<key>installer_item_hash</key>
+	<string>e11787edc972a5e6d43d25f82e5c01cfd1dd87ff935be58a99ca7efa6c936eb9</string>
+	<key>installer_item_location</key>
+	<string>Telestream/Flip4mac/cul-Flip4MacWMV.dmg</string>
+	<key>installer_item_size</key>
+	<integer>24008</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>cul-Flip</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Flip4Mac QuickTime Components.pkg</string>
+			<key>installed_size</key>
+			<integer>24016</integer>
+			<key>name</key>
+			<string>QuickTime Components</string>
+			<key>packageid</key>
+			<string>net.telestream.wmv.components</string>
+			<key>version</key>
+			<string>2.3.6.5</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Flip4Mac Web Plugins.pkg</string>
+			<key>installed_size</key>
+			<integer>820</integer>
+			<key>name</key>
+			<string>Web Browser Support</string>
+			<key>packageid</key>
+			<string>net.telestream.wmv.plugins</string>
+			<key>version</key>
+			<string>2.3.6.5</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Silverlight.pkg</string>
+			<key>installed_size</key>
+			<integer>33380</integer>
+			<key>packageid</key>
+			<string>com.microsoft.installSilverlightPlugin</string>
+			<key>version</key>
+			<string>4.0.50917.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2.3.6.5</string>
+</dict>
+</plist>

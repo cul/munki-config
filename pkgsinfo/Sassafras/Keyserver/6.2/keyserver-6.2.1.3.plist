@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RestartAction</key>
+	<string>RecommendRestart</string>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Sassafras</string>
+	</array>
+	<key>description</key>
+	<string>This is the OS X installer for the KeyAccess client software.</string>
+	<key>display_name</key>
+	<string>Keyserver Client</string>
+	<key>installed_size</key>
+	<integer>6656</integer>
+	<key>installer_item_hash</key>
+	<string>56833ff719d3515a061357256eaa19dc6e8584d241be173d00b9ceaa2a71662d</string>
+	<key>installer_item_location</key>
+	<string>Sassafras/Keyserver/6.2/K2Client.dmg</string>
+	<key>installer_item_size</key>
+	<integer>3119</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>keyserver</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>CFBundleShortVersionString</key>
+	    <string>6.2</string>
+	    <key>path</key>
+	    <string>/Library/PreferencePanes/KeyAccessPref.prefPane</string>
+	    <key>type</key>
+	    <string>bundle</string>
+	    </dict>
+	  <dict>
+	    <key>md5checksum</key>
+	    <string>430bd37337139e97ce71c41bf711a9db</string>
+	    <key>path</key>
+	    <string>/Library/LaunchDaemons/com.sassafras.KeyAccess.plist</string>
+	    <key>type</key>
+	    <string>file</string>
+	  </dict>
+	  <dict>
+	    <key>md5checksum</key>
+	    <string>2292f2d1f14502a418df8acbf864e025</string>
+	    <key>path</key>
+	    <string>/Library/LaunchAgents/com.sassafras.KeyAccess.plist</string>
+	    <key>type</key>
+	    <string>file</string>
+	    </dict>
+	  </array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>6.2.1.3</string>
+</dict>
+</plist>

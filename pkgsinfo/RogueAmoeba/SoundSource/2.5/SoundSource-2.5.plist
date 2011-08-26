@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>RogueAmoeba</string>
+	</array>
+	<key>display_name</key>
+	<string>SoundSource</string>
+	<key>installer_item_hash</key>
+	<string>9d2d1de827e7ecbdb8b2314237fdd50fa0a74c88f1301afe6d80acdb2b7a50a3</string>
+	<key>installer_item_location</key>
+	<string>RogueAmoeba/SoundSource/2.5/SoundSource.dmg</string>
+	<key>installer_item_size</key>
+	<integer>361</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.rogueamoeba.soundsource</string>
+			<key>CFBundleName</key>
+			<string>SoundSource</string>
+			<key>CFBundleShortVersionString</key>
+			<string>2.5</string>
+			<key>minosversion</key>
+			<string>10.5.0</string>
+			<key>path</key>
+			<string>/Applications/SoundSource.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>SoundSource.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>SoundSource</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2.5</string>
+</dict>
+</plist>

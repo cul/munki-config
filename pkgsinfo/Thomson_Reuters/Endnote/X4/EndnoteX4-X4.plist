@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Thomson_Reuters</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>EndNote X4</string>
+	<key>installed_size</key>
+	<integer>361976</integer>
+	<key>installer_item_hash</key>
+	<string>276fd23ebd491222a6155d85727ff5aa8c6c468e82cda818883a16f3ff671505</string>
+	<key>installer_item_location</key>
+	<string>Thomson_Reuters/Endnote/X4/cul-endnotex4.dmg</string>
+	<key>installer_item_size</key>
+	<integer>84631</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>EndnoteX4</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.ThomsonResearchSoft.EndNote</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>14.0.0.6695</string>
+	    <key>path</key>
+	    <string>/Applications/EndNote X4/EndNote X4.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	    </dict>
+	  </array>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>cul-endnotex4.pkg</string>
+			<key>installed_size</key>
+			<integer>361976</integer>
+			<key>packageid</key>
+			<string>edu.columbia.edu.EndNoteX4.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>X4</string>
+</dict>
+</plist>

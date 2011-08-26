@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>catalogs</key>
+        <array>
+		<string>Apple</string>
+		<string>common</string>
+		<string>Google</string>
+		<string>Microsoft</string>
+		<string>Mozilla</string>
+		<string>RealPlayerSP</string>
+		<string>Sassafras</string>
+		<string>Skype</string>
+		<string>Symantec</string>
+		<string>Telestream</string>
+		<string>Thomson_Reuters</string>
+		<string>cul</string>
+		<string>umich</string>
+		<string>VideoLAN</string>
+        </array>
+	<key>included_manifests</key>
+        <array>
+          <string>Acrobat</string>
+	  <string>CS5</string>
+	  <string>Office2008</string>
+	</array>
+        <key>managed_installs</key>
+        <array>
+		<string>Rosetta</string>
+		<string>MunkiScripts</string>
+		<string>munkitools</string>
+		<string>Firefox4</string>
+		
+		<string>Chrome</string>
+		<string>cul-ChromeProfile</string>
+		<string>VLC_media_player</string>
+		<string>EndnoteX4</string>
+		<string>RealPlayerSP</string>
+		<string>cul-Flip-2.3.6.5</string>
+		<string>Fugu-1.2.0</string>
+		<string>iTunesAgreementByPass</string>
+		<string>CUL-ard-client-3.4.0.0</string>
+		<string>cul-altiris</string>
+        </array>
+	<key>managed_uninstalls</key>
+	<array>
+	  <string>Thunderbird</string>
+	  <string>skype-5.0.0.6378</string>
+	  </array>
+</dict>
+</plist>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>R_Project</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>R 2.13.1 for Mac OS X 10.5 or higher (Leopard build)</string>
+	<key>installed_size</key>
+	<integer>120800</integer>
+	<key>installer_item_hash</key>
+	<string>7da56a58f30b8f146684a086db9d0aab9744aa89102661a52b7a83c033f15d60</string>
+	<key>installer_item_location</key>
+	<string>R_Project/R/2.13.1/R-2.13.1.pkg</string>
+	<key>installer_item_size</key>
+	<integer>51978</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>R</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>4272</integer>
+			<key>packageid</key>
+			<string>org.r-project.R.Leopard.GUI.pkg</string>
+			<key>version</key>
+			<string>1.41</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>112624</integer>
+			<key>packageid</key>
+			<string>org.r-project.R.Leopard.fw.pkg</string>
+			<key>version</key>
+			<string>201356322</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>3904</integer>
+			<key>packageid</key>
+			<string>org.r-project.R.Leopard.GUI64.pkg</string>
+			<key>version</key>
+			<string>1.41</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2.13.1</string>
+</dict>
+</plist>

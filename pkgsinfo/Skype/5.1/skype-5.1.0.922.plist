@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Skype</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Skype</string>
+	<key>installed_size</key>
+	<integer>36940</integer>
+	<key>installer_item_hash</key>
+	<string>3c20f1463be4ec748125ea27c4940d50f31ae43c5de086ea1fecbcf7a9970990</string>
+	<key>installer_item_location</key>
+	<string>Skype/5.1/skype_5.1.0.922.pkg</string>
+	<key>installer_item_size</key>
+	<integer>18928</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>skype</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.skype.skype</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>5.1.0.922</string>
+	    <key>path</key>
+	    <string>/Applications/Skype.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	    </dict>
+	  </array>
+	<key>receipts</key>
+	<array>
+	  <dict>
+	    <key>installed_size</key>
+	    <integer>36940</integer>
+	    <key>packageid</key>
+	    <string>edu.ccnmtl.columbia.edu.Skype.pkg</string>
+	    <key>version</key>
+	    <string>1.0</string>
+	  </dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>5.1.0.922</string>
+</dict>
+</plist>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Red</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>REDCINE-X</string>
+	<key>installed_size</key>
+	<integer>210584</integer>
+	<key>installer_item_hash</key>
+	<string>8bda36746c253ee0c7e634ee30f95f33570764b3688ee9a710c8946ee4c876d6</string>
+	<key>installer_item_location</key>
+	<string>Red/Redcine X/b454/redcinex.dmg</string>
+	<key>installer_item_size</key>
+	<integer>69611</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>redcinex</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>redcinex.pkg</string>
+			<key>installed_size</key>
+			<integer>210584</integer>
+			<key>packageid</key>
+			<string>edu.columbia.redcinex.pkg</string>
+			<key>version</key>
+			<string>10.0.454</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>10.0.454</string>
+</dict>
+</plist>

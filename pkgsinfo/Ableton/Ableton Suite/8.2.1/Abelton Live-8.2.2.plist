@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Ableton Live</string>
+	<key>installer_item_hash</key>
+	<string>2d3a27a07fa704cfe593b1b746c73ee5b47756e646a80445c41d62b47bc7bcf7</string>
+	<key>installer_item_location</key>
+	<string>Ableton/Ableton Suite/8.2.1/Live.dmg</string>
+	<key>installer_item_size</key>
+	<integer>1677711</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.ableton.live</string>
+			<key>CFBundleName</key>
+			<string>Live</string>
+			<key>CFBundleShortVersionString</key>
+			<string>8.2.2</string>
+			<key>path</key>
+			<string>/Applications//Live 8.2.1/Live.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications/Live 8.2.1</string>
+			<key>source_item</key>
+			<string>Live.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Abelton Live</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>8.2.2</string>
+	<key>update_for</key>
+	<array>
+	  <string>Ableton Live</string>
+	</array>
+</dict>
+</plist>

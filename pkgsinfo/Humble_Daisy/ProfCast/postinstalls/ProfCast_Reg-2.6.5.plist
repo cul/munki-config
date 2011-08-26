@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Humble_Daisy</string>
+	</array>
+	<key>description</key>
+	<string>ProfCast_Reg for FLS Mac mini 06</string>
+	<key>display_name</key>
+	<string>ProfCast_Reg</string>
+	<key>installed_size</key>
+	<integer>4</integer>
+	<key>installer_item_hash</key>
+	<string>de60d6ef6e0cd9ba8cef6800433194e9f3e81635c8082f7d6c4ccd1b45c5def7</string>
+	<key>installer_item_location</key>
+	<string>Humble_Daisy/ProfCast/postinstalls/ProfCast_Reg.pkg</string>
+	<key>installer_item_size</key>
+	<integer>2</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>ProfCast_Reg</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>edu.columbia.ccnmtl.comhumbledaisyprofcastplist.com.HumbleDaisy.ProfCast.pkg</string>
+			<key>version</key>
+			<string>2.6.5</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2.6.5</string>
+</dict>
+</plist>

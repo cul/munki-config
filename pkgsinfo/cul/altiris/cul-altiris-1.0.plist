@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>cul</string>
+	</array>
+	<key>description</key>
+	<string>installs altris notification client </string>
+	<key>display_name</key>
+	<string>altiris7</string>
+	<key>installed_size</key>
+	<integer>2100</integer>
+	<key>installer_item_hash</key>
+	<string>2862f131fc68de68fada8da9b70024a7f5724fa1aec52e09e1a8a441d4c55949</string>
+	<key>installer_item_location</key>
+	<string>cul/altiris/cul-altiris7.dmg</string>
+	<key>installer_item_size</key>
+	<integer>6661</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>cul-altiris</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.altiris.ui.AltirisAgent</string>
+	    <key>CFBundleName</key>
+	    <string>Altiris Agent</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>7.0.8641</string>
+	    <key>path</key>
+	    <string>/Applications/Utilities/Altiris Agent.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	    </dict>
+	</array>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>cul-altiris7.pkg</string>
+			<key>installed_size</key>
+			<integer>2100</integer>
+			<key>packageid</key>
+			<string>edu.columbia.edu.aex-bootstrap-macosx.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>

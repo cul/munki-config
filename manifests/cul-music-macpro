@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>catalogs</key>
+        <array>
+	  <string>Avid</string>
+	  <string>cul</string>
+	  <string>Cycling74</string>
+	  <string>HairerSoft</string>
+	  <string>MacGAMUT</string>
+	  <string>RogueAmoeba</string>
+	  <string>seventhstring</string>
+	  <string>MakeMusic</string>
+	  <string>snoize</string>
+        </array>
+	<key>included_manifests</key>
+        <array>
+	  <string>cul-music-mini</string>
+	  <string>LogicStudio</string>
+	  <string>Sibelius</string>
+	</array>
+        <key>managed_installs</key>
+        <array>
+	  <string>Amadeus Pro</string>
+	  <string>Finale2010</string>
+	  <string>MacGAMUT</string>
+	  <string>Max</string>
+	  <string>MIDI Monitor</string>
+	  <string>PhotoScore Ultimate</string>
+	  <string>Soundflower</string>
+	  <string>SoundSource</string>
+	  <string>Transcribe!</string>
+	  <string>Music_Logic_Serialization</string>
+        </array>
+	<key>managed_uninstalls</key>
+	<array>
+	</array>
+</dict>
+</plist>

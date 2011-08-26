@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>MakeMusic</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Finale 2010 Update</string>
+	<key>installed_size</key>
+	<integer>484952</integer>
+	<key>installer_item_hash</key>
+	<string>5a97ca8e6e4944e3e58ff9ee488df0f7e3d8af66a0169c99eb50a8c3ebb21323</string>
+	<key>installer_item_location</key>
+	<string>MakeMusic/Finale/2010/UpdateFinale.dmg</string>
+	<key>installer_item_size</key>
+	<integer>225310</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>FinaleUpdate</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.makemusic.Finale</string>
+	    <key>CFBundleName</key>
+	    <string>Finale 2010</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>15.0a.r2</string>
+	    <key>path</key>
+	    <string>/Applications/Finale 2010/Finale 2010.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	    </dict>
+	  </array>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Fin2010Application_Updater.pkg</string>
+			<key>installed_size</key>
+			<integer>197924</integer>
+			<key>name</key>
+			<string>Finale 2010 Application</string>
+			<key>packageid</key>
+			<string>com.makemusic.pkg.Finale2010b.App.Exe_Updater</string>
+			<key>version</key>
+			<string>15.2.r1.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Fin2010PlugIns_Updater.pkg</string>
+			<key>installed_size</key>
+			<integer>83332</integer>
+			<key>name</key>
+			<string>Finale 2010 Plug-Ins</string>
+			<key>packageid</key>
+			<string>com.makemusic.pkg.Finale2010a.App.PlugIns_Updater</string>
+			<key>version</key>
+			<string>15.2.r1.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Fin2010ComponentFiles_Updater.pkg</string>
+			<key>installed_size</key>
+			<integer>40904</integer>
+			<key>name</key>
+			<string>Component Files</string>
+			<key>packageid</key>
+			<string>com.makemusic.pkg.Finale2010a.Aux.CompFiles_Updater</string>
+			<key>version</key>
+			<string>15.1.r2.1</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Fin2010MIDIDevices_Updater.pkg</string>
+			<key>installed_size</key>
+			<integer>68</integer>
+			<key>name</key>
+			<string>Finale 2010 MIDI Device support for percussion.</string>
+			<key>packageid</key>
+			<string>com.makemusic.pkg.Finale2010b.Aux.MIDIDevices_Updater</string>
+			<key>version</key>
+			<string>15.2.r1.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Fin2010DocStyleTemplLib_Updater.pkg</string>
+			<key>installed_size</key>
+			<integer>3880</integer>
+			<key>name</key>
+			<string>Document Styles, Templates, and Libraries</string>
+			<key>packageid</key>
+			<string>com.makemusic.pkg.Finale2010a.Aux.DocStylesTemplLib_Updater</string>
+			<key>version</key>
+			<string>15.1.r2.1</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Fin2010DocuSample_Updater.pkg</string>
+			<key>installed_size</key>
+			<integer>140936</integer>
+			<key>name</key>
+			<string>Documentation and Sample Files</string>
+			<key>packageid</key>
+			<string>com.makemusic.pkg.Finale2010b.docuSample_Updater</string>
+			<key>version</key>
+			<string>15.2.r1.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>AriaMain.pkg</string>
+			<key>installed_size</key>
+			<integer>9632</integer>
+			<key>packageid</key>
+			<string>com.Plogue.AriaMainpck</string>
+			<key>version</key>
+			<string>1.072</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Instruments for Finale SA.pkg</string>
+			<key>installed_size</key>
+			<integer>7392</integer>
+			<key>packageid</key>
+			<string>com.Garritan.Instruments for Finale SA pck</string>
+			<key>version</key>
+			<string>1.080</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Instruments for Finale AU.pkg</string>
+			<key>installed_size</key>
+			<integer>884</integer>
+			<key>packageid</key>
+			<string>com.Garritan.Instruments for Finale AUpck</string>
+			<key>version</key>
+			<string>1.080</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>15.2.r1.0</string>
+	<key>update_for</key>
+	<array>
+	  <string>Finale2010</string>
+	</array>
+</dict>
+</plist>

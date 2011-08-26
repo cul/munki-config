@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>Avid</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>PhotoScore Lite</string>
+	<key>installed_size</key>
+	<integer>40908</integer>
+	<key>installer_item_hash</key>
+	<string>d0934aa15e7093ac931255bf3a28a753ea7b6f7c2a5eb8b3c7444afa7a3d58db</string>
+	<key>installer_item_location</key>
+	<string>Avid/Sibelius/6.0/Install PhotoScore Lite.dmg</string>
+	<key>installer_item_size</key>
+	<integer>15863</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>PhotoScore Lite</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>photoscoreLite.pkg</string>
+			<key>installed_size</key>
+			<integer>13868</integer>
+			<key>packageid</key>
+			<string>com.Neuratron.PhotoscoreLite.pkg</string>
+			<key>version</key>
+			<string>6.0.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>photse.pkg</string>
+			<key>installed_size</key>
+			<integer>28</integer>
+			<key>packageid</key>
+			<string>com.Neuratron.PhotoScoreFont.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>ghostscript.pkg</string>
+			<key>installed_size</key>
+			<integer>27012</integer>
+			<key>packageid</key>
+			<string>com.ghostscript.Ghostscript.pkg</string>
+			<key>version</key>
+			<string>8.54</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>8.54</string>
+</dict>
+</plist>

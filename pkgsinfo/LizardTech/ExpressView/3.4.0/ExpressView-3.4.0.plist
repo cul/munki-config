@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>LizardTech</string>
+	</array>
+	<key>description</key>
+	<string>Meta package of ExpressView.</string>
+	<key>display_name</key>
+	<string>ExpressView</string>
+	<key>installed_size</key>
+	<integer>14858</integer>
+	<key>installer_item_hash</key>
+	<string>5fd90ab8e29fa5441b22b99ff88d6be48854ed078319dc84e5b47140148de596</string>
+	<key>installer_item_location</key>
+	<string>LizardTech/ExpressView/3.4.0/ExpressView.dmg</string>
+	<key>installer_item_size</key>
+	<integer>4756</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>ExpressView</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>ExpressView App.pkg</string>
+			<key>name</key>
+			<string>ExpressView app</string>
+			<key>packageid</key>
+			<string>com.lizardtech.ExpressView.app</string>
+			<key>version</key>
+			<string>3.4.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>ExpressView Components.pkg</string>
+			<key>name</key>
+			<string>ExpressView Components</string>
+			<key>packageid</key>
+			<string>com.lizardtech.NPExView</string>
+			<key>version</key>
+			<string>3.4.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>ExpressView Plug-In.pkg</string>
+			<key>name</key>
+			<string>ExpressView Browser Plugin</string>
+			<key>packageid</key>
+			<string>com.lizardtech.NPExView</string>
+			<key>version</key>
+			<string>3.4.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>3.4.0</string>
+	<key>requires</key>
+	<array>
+	  <string>Rosetta</string>
+	</array>
+</dict>
+</plist>

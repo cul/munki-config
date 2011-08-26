@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Handbrake</string>
+	</array>
+	<key>description</key>
+	<string>HandBrake 32bit</string>
+	<key>display_name</key>
+	<string>HandBrake 32bit</string>
+	<key>installer_item_hash</key>
+	<string>ea1492b947a80fc5637973e3f9f38381a1fb8db5ef17d14f23a8612345a92292</string>
+	<key>installer_item_location</key>
+	<string>Handbrake/0.9.5/32bit/HandBrake-0.9.5-MacOSX.5_GUI_i386.dmg</string>
+	<key>installer_item_size</key>
+	<integer>6713</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.m0k.handbrake</string>
+			<key>CFBundleName</key>
+			<string>HandBrake</string>
+			<key>CFBundleShortVersionString</key>
+			<string>0.9.5</string>
+			<key>path</key>
+			<string>/Applications/HandBrake.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>HandBrake.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>HandBrake</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>0.9.5</string>
+</dict>
+</plist>

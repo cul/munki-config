@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>Djvu</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>DjVu Browser Plugin</string>
+	<key>installed_size</key>
+	<integer>18303</integer>
+	<key>installer_item_hash</key>
+	<string>bd15659af50a625cab22a1c675bb6c7df19239273b9ea43fd67a914b57540ffa</string>
+	<key>installer_item_location</key>
+	<string>Djvu/DjvuBrowserPlugin/6.1/djvuplug_macosx6.1.dmg</string>
+	<key>installer_item_size</key>
+	<integer>8041</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>DjVu Browser Plugin</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>DjVu Browser Plugin.pkg</string>
+			<key>packageid</key>
+			<string>DjVu Browser Plugin.pkg</string>
+			<key>version</key>
+			<string>0.0.0.0.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>DjVu Plugin Host.pkg</string>
+			<key>packageid</key>
+			<string>DjVu Plugin Host.pkg</string>
+			<key>version</key>
+			<string>0.0.0.0.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>6.1</string>
+</dict>
+</plist>

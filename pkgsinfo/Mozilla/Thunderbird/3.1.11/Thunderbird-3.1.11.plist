@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Mozilla</string>
+	</array>
+	<key>description</key>
+	<string>Thunderbird 3.1.11</string>
+	<key>display_name</key>
+	<string>Thunderbird</string>
+	<key>installer_item_hash</key>
+	<string>0561eab242efe7aeab33badb0e48e7a2e8cd5f4d59607dfe3fb5f5c4f7f9db71</string>
+	<key>installer_item_location</key>
+	<string>Mozilla/Thunderbird/3.1.11/Thunderbird 3.1.11.dmg</string>
+	<key>installer_item_size</key>
+	<integer>21169</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.mozilla.thunderbird</string>
+			<key>CFBundleName</key>
+			<string>Thunderbird</string>
+			<key>CFBundleShortVersionString</key>
+			<string>3.1.11</string>
+			<key>path</key>
+			<string>/Applications/Thunderbird.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Thunderbird.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Thunderbird</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>3.1.11</string>
+</dict>
+</plist>

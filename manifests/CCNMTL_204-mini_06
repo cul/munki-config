@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>catalogs</key>
+        <array>
+		<string>Telestream</string>
+		<string>Humble_Daisy</string>
+        </array>
+		<key>included_manifests</key>
+        <array>
+		<string>CCNMTL_Base</string>
+        </array>
+        <key>managed_installs</key>
+        <array>
+		<string>ScreenFlow-2.1.8</string>
+		<string>TelestreamAudio-2.1.18</string>
+		<string>ScreenFlow_Reg_mini_06-06</string>
+		<string>ProfCast-2.6.5</string>
+		<string>ProfCast_Reg-2.6.5</string>
+
+        </array>
+	<key>managed_uninstalls</key>
+	<array>
+	</array>
+</dict>
+</plist>

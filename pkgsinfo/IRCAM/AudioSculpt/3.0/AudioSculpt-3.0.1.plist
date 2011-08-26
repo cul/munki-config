@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>display_name</key>
+	<string>AudioSculpt</string>
+	<key>installer_item_hash</key>
+	<string>fd2e5d9a4c270c6b6d854156f982de03bfe8e9c9ce4325d248308c2bca09f683</string>
+	<key>installer_item_location</key>
+	<string>IRCAM/AudioSculpt/3.0/AudioSculpt.dmg</string>
+	<key>installer_item_size</key>
+	<integer>197545</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>fr.ircam.audiosculpt3</string>
+			<key>CFBundleName</key>
+			<string>AudioSculpt 3.0</string>
+			<key>CFBundleShortVersionString</key>
+			<string>3.0.1</string>
+			<key>path</key>
+			<string>/Applications/AudioSculpt/AudioSculpt 3.0.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications/AudioSculpt</string>
+			<key>source_item</key>
+			<string>AudioSculpt 3.0.app</string>
+		</dict>
+		<dict>
+                        <key>destination_path</key>
+                        <string>/Applications/AudioSculpt</string>
+                        <key>source_item</key>
+                        <string>Annotation</string>
+                </dict>
+		<dict>
+                        <key>destination_path</key>
+                        <string>/Applications/AudioSculpt</string>
+                        <key>source_item</key>
+                        <string>AudioSculpt-audio-example-files</string>
+                </dict>
+		<dict>
+                        <key>destination_path</key>
+                        <string>/Applications/AudioSculpt</string>
+                        <key>source_item</key>
+                        <string>ChordSeqs</string>
+                </dict>
+		<dict>
+                        <key>destination_path</key>
+                        <string>/Applications/AudioSculpt</string>
+                        <key>source_item</key>
+                        <string>Documentation</string>
+                </dict>
+		<dict>
+		        <key>destination_path</key>
+                        <string>/Applications/AudioSculpt</string>
+                        <key>source_item</key>
+                        <string>Fft</string>
+                </dict>
+		<dict>
+                        <key>destination_path</key>
+                        <string>/Applications/AudioSculpt</string>
+                        <key>source_item</key>
+                        <string>Fundamental</string>
+                </dict>
+		<dict>
+                        <key>destination_path</key>
+                        <string>/Applications/AudioSculpt</string>
+                        <key>source_item</key>
+                        <string>Kernels</string>
+                </dict>
+                <dict>
+                        <key>destination_path</key>
+                        <string>/Applications/AudioSculpt</string>
+                        <key>source_item</key>
+                        <string>Markers</string>
+                </dict>
+                <dict>
+                        <key>destination_path</key>
+                        <string>/Applications/AudioSculpt</string>
+                        <key>source_item</key>
+                        <string>Partials</string>
+                </dict>
+                <dict>
+                        <key>destination_path</key>
+                        <string>/Applications/AudioSculpt</string>
+                        <key>source_item</key>
+                        <string>SDIF Utilities</string>
+                </dict>
+                <dict>
+                        <key>destination_path</key>
+                        <string>/Applications/AudioSculpt</string>
+                        <key>source_item</key>
+                        <string>Settings</string>
+                </dict>
+                <dict>
+                        <key>destination_path</key>
+                        <string>/Applications/AudioSculpt</string>
+                        <key>source_item</key>
+                        <string>Sounds</string>
+                </dict>
+                <dict>
+                        <key>destination_path</key>
+                        <string>/Applications/AudioSculpt</string>
+                        <key>source_item</key>
+                        <string>SpectralEstimates</string>
+                </dict>
+                <dict>
+                        <key>destination_path</key>
+                        <string>/Applications/AudioSculpt</string>
+                        <key>source_item</key>
+                        <string>Temp</string>
+                </dict>
+                <dict>
+                        <key>destination_path</key>
+                        <string>/Applications/AudioSculpt</string>
+                        <key>source_item</key>
+                        <string>Treatments</string>
+                </dict>
+                <dict>
+                        <key>destination_path</key>
+                        <string>/Applications/AudioSculpt</string>
+                        <key>source_item</key>
+                        <string>VoicedUnvoiced</string>
+                </dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>AudioSculpt</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>3.0.1</string>
+	<key>preinstall_script</key>
+	<string>#!/bin/bash
+	  mkdir /Applications/AudioSculpt
+	</string>
+	<key>postinstall_script</key>
+	<string>#!/bin/bash
+	  rm -v /Applications/AudioSculpt/AudioSculpt-audio-example-files/AS-292-exe-son-FR-EN.zip 
+	  mv -v /Applications/AudioSculpt/AudioSculpt-audio-example-files/AS-292-exe-son-FR-EN/* /Applications/AudioSculpt/AudioSculpt-audio-example-files/
+	  rm -rv /Applications/AudioSculpt/AudioSculpt-audio-example-files/AS-292-exe-son-FR-EN/
+	  chmod -v -R 755 /Applications/AudioSculpt/AudioSculpt-audio-example-files/
+	  chmod -v -R 775 /Applications/AudioSculpt/Temp/
+	</string>
+</dict>
+</plist>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdobeSetupType</key>
+	<string>ProductInstall</string>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Adobe</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Adobe Dreamweaver CS5</string>
+	<key>installed_size</key>
+	<integer>250078</integer>
+	<key>installer_item_hash</key>
+	<string>298cf1d2a10f5aa80f98f2a6e0488ef74985e08d041b40eab92b44f160a307e1</string>
+	<key>installer_item_location</key>
+	<string>Adobe/CS5/Patches/AdobeDreamweaver-11-0-All-Update.dmg</string>
+	<key>installer_item_size</key>
+	<integer>14595</integer>
+	<key>installer_type</key>
+	<string>AdobeCS5PatchInstaller</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>path</key>
+			<string>/Library/Application Support/Adobe/Uninstall/{E489B5E9-5646-4F0D-89E3-FF9E4A27DF1B}.db</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>AdobeDreamweaverCS5</string>
+	<key>payloads</key>
+	<array>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{E489B5E9-5646-4F0D-89E3-FF9E4A27DF1B}</string>
+			<key>display_name</key>
+			<string>Adobe Dreamweaver CS5</string>
+			<key>installed_size</key>
+			<integer>181052</integer>
+			<key>version</key>
+			<string>11.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{F2356432-A364-48D9-84A4-2CA99ED506AF}</string>
+			<key>display_name</key>
+			<string>Adobe Dreamweaver CS5 LangPack (cs_CZ)</string>
+			<key>installed_size</key>
+			<integer>5257</integer>
+			<key>version</key>
+			<string>11.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{546E110C-0AFC-4589-8594-9AFD8252B78E}</string>
+			<key>display_name</key>
+			<string>Adobe Dreamweaver CS5 LangPack (de_DE)</string>
+			<key>installed_size</key>
+			<integer>5570</integer>
+			<key>version</key>
+			<string>11.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{CE85218E-3276-4952-B872-A06C6C9C9C1E}</string>
+			<key>display_name</key>
+			<string>Adobe Dreamweaver CS5 LangPack (en_US)</string>
+			<key>installed_size</key>
+			<integer>5046</integer>
+			<key>version</key>
+			<string>11.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{AA3A973A-FC0F-4677-BE09-AB1DF261606D}</string>
+			<key>display_name</key>
+			<string>Adobe Dreamweaver CS5 LangPack (es_ES)</string>
+			<key>installed_size</key>
+			<integer>5545</integer>
+			<key>version</key>
+			<string>11.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{0EF31E72-23B7-4546-AAE3-3F030733A7E7}</string>
+			<key>display_name</key>
+			<string>Adobe Dreamweaver CS5 LangPack (fr_FR)</string>
+			<key>installed_size</key>
+			<integer>5651</integer>
+			<key>version</key>
+			<string>11.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{7635F28F-FDC2-40BE-B2B7-50B9799EC887}</string>
+			<key>display_name</key>
+			<string>Adobe Dreamweaver CS5 LangPack (it_IT)</string>
+			<key>installed_size</key>
+			<integer>5489</integer>
+			<key>version</key>
+			<string>11.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{C3E5CFCE-33C7-4650-BA95-5ED0C6F7AE81}</string>
+			<key>display_name</key>
+			<string>Adobe Dreamweaver CS5 LangPack (ja_JP)</string>
+			<key>installed_size</key>
+			<integer>4335</integer>
+			<key>version</key>
+			<string>11.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{DEA549CD-5138-45B2-866A-38BEAB25C101}</string>
+			<key>display_name</key>
+			<string>Adobe Dreamweaver CS5 LangPack (nl_NL)</string>
+			<key>installed_size</key>
+			<integer>5421</integer>
+			<key>version</key>
+			<string>11.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{E01E802C-B836-42A1-8C38-80AF8A4DD94C}</string>
+			<key>display_name</key>
+			<string>Adobe Dreamweaver CS5 LangPack (pl_PL)</string>
+			<key>installed_size</key>
+			<integer>5400</integer>
+			<key>version</key>
+			<string>11.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{F3A291DA-3098-4251-97AF-14923C44E2C8}</string>
+			<key>display_name</key>
+			<string>Adobe Dreamweaver CS5 LangPack (pt_BR)</string>
+			<key>installed_size</key>
+			<integer>5442</integer>
+			<key>version</key>
+			<string>11.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{A8741A76-64BB-45A5-B432-D079CE77D66C}</string>
+			<key>display_name</key>
+			<string>Adobe Dreamweaver CS5 LangPack (ru_RU)</string>
+			<key>installed_size</key>
+			<integer>5441</integer>
+			<key>version</key>
+			<string>11.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{2481587B-C26A-4304-8B14-E9F37994C863}</string>
+			<key>display_name</key>
+			<string>Adobe Dreamweaver CS5 LangPack (sv_SE)</string>
+			<key>installed_size</key>
+			<integer>5217</integer>
+			<key>version</key>
+			<string>11.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{20459855-0466-4AE3-BD06-162AE4FB0712}</string>
+			<key>display_name</key>
+			<string>Adobe Dreamweaver CS5 LangPack (tr_TR)</string>
+			<key>installed_size</key>
+			<integer>5212</integer>
+			<key>version</key>
+			<string>11.0.4</string>
+		</dict>
+	</array>
+	<key>uninstallable</key>
+	<false/>
+	<key>version</key>
+	<string>11.0.4</string>
+        <key>update_for</key>
+        <string>CreativeSuite5DesignPremium</string>
+</dict>
+</plist>

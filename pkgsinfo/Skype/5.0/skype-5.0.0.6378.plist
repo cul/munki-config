@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Skype</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Skype</string>
+	<key>installed_size</key>
+	<integer>34332</integer>
+	<key>installer_item_hash</key>
+	<string>4d8e0905dd36c8179e56bd11739e6fa74498379dd6b0829d777b2a2d11936f80</string>
+	<key>installer_item_location</key>
+	<string>Skype/5.0/cul-skype.5.0.dmg</string>
+	<key>installer_item_size</key>
+	<integer>18019</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>skype</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>cul-skype.5.0.pkg</string>
+			<key>installed_size</key>
+			<integer>34332</integer>
+			<key>packageid</key>
+			<string>edu.columbia.edu.Skype.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>5.0.0.6378</string>
+</dict>
+</plist>

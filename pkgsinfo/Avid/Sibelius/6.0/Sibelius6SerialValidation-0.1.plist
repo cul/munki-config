@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>Avid</string>
+	</array>
+	<key>description</key>
+	<string>Updates Sibelius 6.1 to allow all valid serial numbers</string>
+	<key>display_name</key>
+	<string>Sibelius 6.1 Serial Number Validation Update</string>
+	<key>installed_size</key>
+	<integer>1664</integer>
+	<key>installer_item_hash</key>
+	<string>a8ab10fad181170c4d59a891465546e1da65a3b385cab33cf1a589e94bfcd3cc</string>
+	<key>installer_item_location</key>
+	<string>Avid/Sibelius/6.0/Sibelius 6.1 Serial Number Validation Update.dmg</string>
+	<key>installer_item_size</key>
+	<integer>2561</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Sibelius6SerialValidation</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Sibelius 6.1 Serial Number Validation Update.pkg</string>
+			<key>installed_size</key>
+			<integer>1664</integer>
+			<key>packageid</key>
+			<string>com.sibelius.sibelius610serialnumberupdate</string>
+			<key>version</key>
+			<string>0.1</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>0.1</string>
+</dict>
+</plist>

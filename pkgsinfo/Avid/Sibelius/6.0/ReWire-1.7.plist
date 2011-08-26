@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>Avid</string>
+	</array>
+	<key>description</key>
+	<string>This will install version 1.7 of the ReWire extension.</string>
+	<key>display_name</key>
+	<string>ReWire</string>
+	<key>installed_size</key>
+	<integer>1132</integer>
+	<key>installer_item_hash</key>
+	<string>8675b99c8c44f9598d63fff152e933883a04a4043969bf8e8b4a4f9f23a47c83</string>
+	<key>installer_item_location</key>
+	<string>Avid/Sibelius/6.0/Install ReWire.dmg</string>
+	<key>installer_item_size</key>
+	<integer>371</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>ReWire</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Install ReWire.pkg</string>
+			<key>installed_size</key>
+			<integer>1132</integer>
+			<key>packageid</key>
+			<string>se.propellerheads.rewire.installer</string>
+			<key>version</key>
+			<string>1.7</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.7</string>
+</dict>
+</plist>

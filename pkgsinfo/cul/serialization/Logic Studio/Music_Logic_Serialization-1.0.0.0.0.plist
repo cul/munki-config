@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>cul</string>
+	</array>
+	<key>description</key>
+	<string>Serializes Logic Studio at DML</string>
+	<key>display_name</key>
+	<string>Logic_Serialization</string>
+	<key>installed_size</key>
+	<integer>24588</integer>
+	<key>installer_item_hash</key>
+	<string>ef77bb9629d8cb775f19bede202413c37704eeb66b6506249700c05f6959f42a</string>
+	<key>installer_item_location</key>
+	<string>cul/serialization/Logic Studio/Music_Logic_Serialization.dmg</string>
+	<key>installer_item_size</key>
+	<integer>8044</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Music_Logic_Serialization</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Music_Logic_Serialization.pkg</string>
+			<key>installed_size</key>
+			<integer>24588</integer>
+			<key>packageid</key>
+			<string>edu.columbia.logicserialization.ProApps.pkg</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0.0.0.0</string>
+</dict>
+</plist>

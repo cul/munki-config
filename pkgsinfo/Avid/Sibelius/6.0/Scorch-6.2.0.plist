@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>Avid</string>
+	</array>
+	<key>description</key>
+	<string>This will install Sibelius Scorch on your computer.</string>
+	<key>display_name</key>
+	<string>Sibelius Scorch</string>
+	<key>installed_size</key>
+	<integer>10468</integer>
+	<key>installer_item_hash</key>
+	<string>bcab91313fe3916b4f78df75d2c3429566aeee942325940c89f8fe4170bf57c4</string>
+	<key>installer_item_location</key>
+	<string>Avid/Sibelius/6.0/Install Scorch.dmg</string>
+	<key>installer_item_size</key>
+	<integer>9394</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Scorch</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Install Scorch.pkg</string>
+			<key>installed_size</key>
+			<integer>10468</integer>
+			<key>packageid</key>
+			<string>com.sibelius.scorch</string>
+			<key>version</key>
+			<string>6.2.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>6.2.0</string>
+</dict>
+</plist>

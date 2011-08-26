@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>cul</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>iTunesAgreementByPass</string>
+	<key>installed_size</key>
+	<integer>4</integer>
+	<key>installer_item_hash</key>
+	<string>414b05e85e02bc4e2f80cddf46e4556ee0e83d6168fcd818045e981652475c77</string>
+	<key>installer_item_location</key>
+	<string>cul/customization/itunes/iTunesAgreementByPass-1.1.dmg</string>
+	<key>installer_item_size</key>
+	<integer>12</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>iTunesAgreementByPass</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>iTunesAgreementByPass.pkg</string>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>edu.columbia.iTunesAgreementByPass.pkg</string>
+			<key>version</key>
+			<string>1.1</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.1</string>
+	<key>update_for</key>
+	<array>
+	  <string>iTunesAgreementByPass</string>
+	</array>
+</dict>
+</plist>

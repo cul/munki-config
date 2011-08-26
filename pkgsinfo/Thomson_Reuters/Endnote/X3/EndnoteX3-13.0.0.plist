@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Thomson_Reuters</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>EndNote X3</string>
+	<key>installed_size</key>
+	<integer>290020</integer>
+	<key>installer_item_hash</key>
+	<string>a2231aff0eb1b733b3ca097df6d7aadb86fb87dd97a29938376352a84a4eaba2</string>
+	<key>installer_item_location</key>
+	<string>Thomson_Reuters/Endnote/X3/endnotex3.dmg</string>
+	<key>installer_item_size</key>
+	<integer>75836</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>EndnoteX3</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.ThomsonResearchSoft.EndNote</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>13.0.0.5276</string>
+	    <key>path</key>
+	    <string>/Applications/EndNote X3/EndNote X3.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	  </dict>
+	</array>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>endnotex3.pkg</string>
+			<key>installed_size</key>
+			<integer>290020</integer>
+			<key>packageid</key>
+			<string>edu.columbia.EndNoteX3.pkg</string>
+			<key>version</key>
+			<string>0.0.0.0.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>13.0.0</string>
+</dict>
+</plist>

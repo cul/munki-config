@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>MaxMSP 5.1.8 (45300)</string>
+	<key>installed_size</key>
+	<integer>140036</integer>
+	<key>installer_item_hash</key>
+	<string>401a631edc33a038ff1091963fb49c15388bce4c0574b730626f5e49c2358c91</string>
+	<key>installer_item_location</key>
+	<string>Cycling74/MaxMSP/5.1.8/Max5_45300.dmg</string>
+	<key>installer_item_size</key>
+	<integer>174248</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Max</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>InterLok Extensions.pkg</string>
+			<key>installed_size</key>
+			<integer>6556</integer>
+			<key>name</key>
+			<string>InterLok Extensions</string>
+			<key>packageid</key>
+			<string>com.paceap.pkg.InterLokExtensions</string>
+			<key>version</key>
+			<string>5.6.1</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Max5.pkg</string>
+			<key>installed_size</key>
+			<integer>133480</integer>
+			<key>name</key>
+			<string>MaxMSP 5</string>
+			<key>packageid</key>
+			<string>com.cycling74.pkg.MaxMSP</string>
+			<key>version</key>
+			<string>5.1.8</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>5.1.8</string>
+</dict>
+</plist>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>Avid</string>
+	</array>
+	<key>description</key>
+	<string>This will install Sibelius Sounds Essentials for Sibelius 6 on your computer.</string>
+	<key>display_name</key>
+	<string>Sibelius Sounds Essentials for Sibelius 6</string>
+	<key>installed_size</key>
+	<integer>2594188</integer>
+	<key>installer_item_hash</key>
+	<string>e118f7fe1d056251b0ba37874f088d73418de2af87468adc1f72e31c2b055a28</string>
+	<key>installer_item_location</key>
+	<string>Avid/Sibelius/6.0/Install Sibelius Sounds Essentials.dmg</string>
+	<key>installer_item_size</key>
+	<integer>2083932</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Sibelius Sounds Essentials</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Install Sibelius Sounds Essentials.pkg</string>
+			<key>installed_size</key>
+			<integer>2594188</integer>
+			<key>packageid</key>
+			<string>com.sibelius.sibelius6essentials</string>
+			<key>version</key>
+			<string>6.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>6.0</string>
+</dict>
+</plist>

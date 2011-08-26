@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>catalogs</key>
+        <array>
+	  <string>Apple</string>
+	  <string>Audacity</string>
+	  <string>blender</string>
+	  <string>cul</string>
+	  <string>Celtx</string>
+	  <string>Google</string>
+	  <string>hamingja</string>
+	  <string>Red</string>
+	  <string>squared5</string>
+	  <string>Tug</string>
+	  <string>MSLab</string>
+        </array>
+	<key>included_manifests</key>
+        <array>
+	  <string>Final_Cut_Studio</string>
+	  <string>LogicStudio</string>
+	  <string>cul-base</string>
+	</array>
+        <key>managed_installs</key>
+        <array>
+	  <string>iLife</string>
+	  <string>iWork</string>
+	  <string>Logic_Serialization</string>
+	  <string>ProApps_Registration</string>
+	  <string>libx</string>
+          <string>MacTeX</string>
+          <string>Audacity</string>
+          <string>blender</string>
+          <string>colorfixer-1</string>
+	  <string>Celtx</string>
+          <string>MPEG Streamclip</string>
+          <string>redcinex</string>
+          <string>Google Earth</string>
+          <string>Google SketchUp 8.0 Installer</string>
+	  <string>Office2011Lab</string>
+        </array>
+	<key>managed_uninstalls</key>
+	<array>
+	</array>
+
+</dict>
+</plist>

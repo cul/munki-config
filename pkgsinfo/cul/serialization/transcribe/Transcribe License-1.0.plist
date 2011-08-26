@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Transcribe License</string>
+	<key>installed_size</key>
+	<integer>16</integer>
+	<key>installer_item_hash</key>
+	<string>5f715bd77c9738aa8953d3e6940addb0ff02ad5931ec6db1179e372c542fa374</string>
+	<key>installer_item_location</key>
+	<string>cul/serialization/transcribe/Transcribe License.dmg</string>
+	<key>installer_item_size</key>
+	<integer>21</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Transcribe License</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>transcribe7Preferences.pkg</string>
+			<key>installed_size</key>
+			<integer>8</integer>
+			<key>packageid</key>
+			<string>edu.columbia.transcribeLicense.Transcribe!7Preferences.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>xisncsmmPreferences.pkg</string>
+			<key>installed_size</key>
+			<integer>8</integer>
+			<key>packageid</key>
+			<string>edu.columbia.transcribeLicense.xisncsmmPreferences.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+	<key>postinstall_script</key>
+	<string>#!/bin/bash
+templatedir="/System/Library/User Template/English.lproj/Library/Preferences"
+for folder in /Users/*
+do
+if [ $folder != "/Users/Shared" ]
+then
+	  cp "$templatedir/Transcribe"* $folder/Library/Preferences/
+	  cp "$templatedir/xisn"* $folder/Library/Preferences/
+fi
+done
+</string>
+	<key>update_for</key>
+	<array>
+	  <string>Transcribe!</string>
+	</array>
+</dict>
+</plist>

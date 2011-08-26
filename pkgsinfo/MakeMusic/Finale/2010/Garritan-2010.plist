@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>MakeMusic</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Instruments for Finale v1.011</string>
+	<key>installed_size</key>
+	<integer>2382708</integer>
+	<key>installer_item_hash</key>
+	<string>47a24e9fc9b6398b9d02d3e14e84005730954dc084a422cddd55e180861bbca6</string>
+	<key>installer_item_location</key>
+	<string>MakeMusic/Finale/2010/Garritan_F2010.dmg</string>
+	<key>installer_item_size</key>
+	<integer>8260</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Garritan</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.Garritan.InstrumentsFinale</string>
+	    <key>CFBundleName</key>
+	    <string>Instruments for Finale</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>1.080</string>
+	    <key>path</key>
+	    <string>/Applications/Garritan Instruments for Finale/Instruments for Finale.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	    </dict>
+	  </array>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>AriaMain.pkg</string>
+			<key>installed_size</key>
+			<integer>9632</integer>
+			<key>packageid</key>
+			<string>com.Plogue.AriaMainpck</string>
+			<key>version</key>
+			<string>1.072</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Instruments for Finale SA.pkg</string>
+			<key>installed_size</key>
+			<integer>7392</integer>
+			<key>packageid</key>
+			<string>com.Garritan.Instruments for Finale SA pck</string>
+			<key>version</key>
+			<string>1.080</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Instruments for Finale AU.pkg</string>
+			<key>installed_size</key>
+			<integer>884</integer>
+			<key>packageid</key>
+			<string>com.Garritan.Instruments for Finale AUpck</string>
+			<key>version</key>
+			<string>1.080</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>F2010SamplesSetup.pkg</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>packageid</key>
+			<string>com.Garritan.Finale2010Samples</string>
+			<key>version</key>
+			<string>1.068</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2010</string>
+	<key>update_for</key>
+	<array>
+	  <string>Finale2010</string>
+	</array>
+</dict>
+</plist>

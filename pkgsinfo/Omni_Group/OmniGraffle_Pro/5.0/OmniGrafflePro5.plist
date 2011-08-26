@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Omni_Group</string>
+	</array>
+	<key>display_name</key>
+	<string>OmniGraffle Pro</string>
+	<key>installer_item_hash</key>
+	<string>21472502021e2def9a2b61f7d9fc567daec28a64f445356b73d3ab89395ee351</string>
+	<key>installer_item_location</key>
+	<string>Omni_Group/OmniGraffle_Pro/5.0/OmniGrafflePro5.dmg</string>
+	<key>installer_item_size</key>
+	<integer>250896</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.omnigroup.OmniGrafflePro</string>
+			<key>CFBundleName</key>
+			<string>OmniGraffle Pro</string>
+			<key>CFBundleShortVersionString</key>
+			<string>5.0</string>
+			<key>minosversion</key>
+			<string>10.5.0</string>
+			<key>path</key>
+			<string>/Applications/OmniGraffle Professional 5.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>OmniGraffle Professional 5.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>OmniGrafflePro</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>5.0</string>
+	<key>requires</key>
+	<array>
+	  <string>OmniGraffleProLicense</string>
+	</array>
+	
+</dict>
+</plist>

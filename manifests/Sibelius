@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>catalogs</key>
+  <array>
+    <string>Avid</string>
+  </array>
+  <key>managed_installs</key>
+  <array>
+    <string>AudioScore Lite</string>
+    <string>ReWire</string>
+    <string>Sibelius Sounds Essentials</string>
+    <string>Sibelius</string>
+  </array>
+</dict>
+</plist>

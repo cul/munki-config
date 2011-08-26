@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Apple</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Final Cut Studio</string>
+	<key>installed_size</key>
+	<integer>52934658</integer>
+	<key>installer_item_hash</key>
+	<string>ec2f07f2db71e565c976c1d540124da51dc29b09bccdab8878c9fe2de0c9f94f</string>
+	<key>installer_item_location</key>
+	<string>Apple/Final Cut Studio/3.0/Final_Cut_Studio_Install.dmg</string>
+	<key>installer_item_size</key>
+	<integer>3394622</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>FinalCutStudio</string>
+	<key>package_path</key>
+	<string>Installer/FinalCutStudio.mpkg</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.apple.dvdstudiopro</string>
+	    <key>CFBundleName</key>
+	    <string>DVD Studio Pro</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>4.2.2</string>
+	    <key>path</key>
+	    <string>/Applications/DVD Studio Pro.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	  </dict>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.apple.AppleQmaster</string>
+	    <key>CFBundleName</key>
+	    <string>Apple Qmaster</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>3.5</string>
+	    <key>path</key>
+	    <string>/Applications/Apple Qmaster.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	    </dict>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.apple.CinemaTools</string>
+	    <key>CFBundleName</key>
+	    <string>Cinema Tools</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>4.5</string>
+	    <key>path</key>
+	    <string>/Applications/Cinema Tools.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	  </dict>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.apple.color</string>
+	    <key>CFBundleName</key>
+	    <string>Color</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>1.5</string>
+	    <key>path</key>
+	    <string>/Applications/Color.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	  </dict>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.apple.compressor.Compressor</string>
+	    <key>CFBundleName</key>
+	    <string>Compressor</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>3.5</string>
+	    <key>path</key>
+	    <string>/Applications/Compressor.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	  </dict>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.apple.FinalCutPro</string>
+	    <key>CFBundleName</key>
+	    <string>Final Cut Pro</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>7.0</string>
+	    <key>path</key>
+	    <string>/Applications/Final Cut Pro.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	  </dict>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.apple.motion</string>
+	    <key>CFBundleName</key>
+	    <string>Motion</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>4.0.0</string>
+	    <key>path</key>
+	    <string>/Applications/Motion.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	  </dict>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.apple.Qadministrator</string>
+	    <key>CFBundleName</key>
+	    <string>Apple Qadministrator</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>3.5</string>
+	    <key>path</key>
+	    <string>/Applications/Apple Qadministrator.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	  </dict>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.apple.soundtrackpro</string>
+	    <key>CFBundleName</key>
+	    <string>Soundtrack Pro</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>3.0</string>
+	    <key>path</key>
+	    <string>/Applications/Soundtrack Pro.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	  </dict>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.apple.BatchMonitor</string>
+	    <key>CFBundleName</key>
+	    <string>Batch Monitor</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>3.5</string>
+	    <key>path</key>
+	    <string>/Applications/Utilities/Batch Monitor.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	  </dict>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.apple.SoundtrackLoopUtility</string>
+	    <key>CFBundleName</key>
+	    <string>Apple Loops Utility</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>3.0</string>
+	    <key>path</key>
+	    <string>/Applications/Utilities/Apple Loops Utility.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	  </dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>3.0</string>
+</dict>
+</plist>
+

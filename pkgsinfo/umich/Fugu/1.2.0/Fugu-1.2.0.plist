@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>umich</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Fugu</string>
+	<key>installed_size</key>
+	<integer>1796</integer>
+	<key>installer_item_hash</key>
+	<string>f507ce947d5b9974382e43fbcfdc60574c3c99dd185620c646c5661cc1e4c834</string>
+	<key>installer_item_location</key>
+	<string>umich/Fugu/1.2.0/cul-Fugu.dmg</string>
+	<key>installer_item_size</key>
+	<integer>672</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Fugu</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>edu.umich.fugu</string>
+	    <key>CFBundleName</key>
+	    <string>Fugu</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>1.2.0</string>
+	    <key>path</key>
+	    <string>/Applications/Fugu.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	  </dict>
+	</array>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>cul-Fugu.pkg</string>
+			<key>installed_size</key>
+			<integer>1796</integer>
+			<key>packageid</key>
+			<string>edu.columbia.edu.Fugu.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.2.0</string>
+</dict>
+</plist>

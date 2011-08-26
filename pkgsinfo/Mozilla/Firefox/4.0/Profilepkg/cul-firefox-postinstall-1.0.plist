@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Mozilla</string>
+	</array>
+	<key>description</key>
+	<string>Profile for CUL</string>
+	<key>display_name</key>
+	<string>CUL-Firefox-Profile</string>
+	<key>installed_size</key>
+	<integer>1080</integer>
+	<key>installer_item_hash</key>
+	<string>0662d7c2e02b13dca5c5a19eea254a564842e2cabf761d635f7307a664c37208</string>
+	<key>installer_item_location</key>
+	<string>Mozilla/Firefox/4.0/Profilepkg/cul-firefox-postinstall.dmg</string>
+	<key>installer_item_size</key>
+	<integer>203</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>cul-firefox-postinstall</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>md5checksum</key>
+	    <string>f507e967c6a0cd2d0862e7c9e015f646</string>
+	    <key>path</key>
+	    <string>/System/Library/User Template/English.lproj/Library/Preferences/org.mozilla.firefox.plist</string>
+	    <key>type</key>
+	    <string>file</string>
+	    </dict>
+	  </array>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>mozilla.pkg</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>packageid</key>
+			<string>edu.columbia.edu.firefox.Mozilla.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>orgmozillafirefox.pkg</string>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>edu.columbia.edu.firefox.org.mozilla.firefox.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>firefox-1.pkg</string>
+			<key>installed_size</key>
+			<integer>1076</integer>
+			<key>packageid</key>
+			<string>edu.columbia.edu.firefox.Firefox-1.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+	<key>requires</key>
+	<array>
+	  <string>Firefox</string>
+	</array>
+	<key>postinstall_script</key>
+	<string>#!/bin/sh
+
+dir="/System/Library/User Template/English.lproj/Library"
+
+for folder in /Users/*
+do
+if [ $folder != "/Users/Shared" ] 
+then
+/bin/cp -R "$dir/Application Support/Mozilla" "$folder/Library/Application Support/Mozilla"
+/bin/cp -R "$dir/Application Support/Firefox" "$folder/Library/Application Support/"
+/bin/cp "$dir/Preferences/org.mozilla.firefox.plist" "$folder/Library/Preferences/"
+chown -R ${folder/\/Users\//} "$folder/Library/Application Support/"
+chown -R ${folder/\/Users\//} "$folder/Library/Preferences/"
+fi
+done
+
+exit 0</string>
+
+</dict>
+</plist>

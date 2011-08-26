@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>MestReNova LITE 5.2
+State of the art processing and analysis of NMR data	</string>
+	<key>display_name</key>
+	<string>MestReNova LITE</string>
+	<key>installed_size</key>
+	<integer>120380</integer>
+	<key>installer_item_hash</key>
+	<string>582c261b0236aa4b3eeeceaaee28423ca52f20edd64dc229d69b4498fd2570d6</string>
+	<key>installer_item_location</key>
+	<string>CambridgeSoft/MestReNova/5.2.5/MestReNova-LITE-5.2.5-4119.dmg</string>
+	<key>installer_item_size</key>
+	<integer>47345</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>MestReNovaLITE</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>md5checksum</key>
+	    <string>11eb89d573bbca0beb2e0deb9ffff593</string>
+	    <key>path</key>
+	    <string>/Applications/MestReNova-LITE.app/Contents/MacOS/MestReNova</string>
+	    <key>type</key>
+	    <string>file</string>
+	    </dict>
+	</array>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>MestReNovaLITE.pkg</string>
+			<key>installed_size</key>
+			<integer>57204</integer>
+			<key>name</key>
+			<string>MestReNova LITE</string>
+			<key>packageid</key>
+			<string>com.mestrelab.pkg.MestReNovaLITE.Main</string>
+			<key>version</key>
+			<string>5.2</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>NMRPredictDesktop-lite-i386.pkg</string>
+			<key>installed_size</key>
+			<integer>31504</integer>
+			<key>name</key>
+			<string>NMRPredict Desktop - i386</string>
+			<key>packageid</key>
+			<string>com.mestrelab.pkg.NMRPredictDesktopLITE.i386</string>
+			<key>version</key>
+			<string>1.1</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>5.2.5</string>
+</dict>
+</plist>

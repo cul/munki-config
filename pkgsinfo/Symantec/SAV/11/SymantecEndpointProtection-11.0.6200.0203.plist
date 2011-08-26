@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RestartAction</key>
+	<string>RequireLogout</string>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Symantec</string>
+	</array>
+	<key>description</key>
+	<string>Installer for Symantec Endpoint Protection software</string>
+	<key>display_name</key>
+	<string>Symantec Endpoint Protection</string>
+	<key>installed_size</key>
+	<integer>190231</integer>
+	<key>installer_item_hash</key>
+	<string>e66f4fe5ef33472a194e76d024d94e96b95cb3be3dc66431f68022021cbeaad6</string>
+	<key>installer_item_location</key>
+	<string>Symantec/SAV/11/SymantecEndpointProtection.dmg</string>
+	<key>installer_item_size</key>
+	<integer>107364</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>SymantecEndpointProtection</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>LiveUpdate.pkg</string>
+			<key>installed_size</key>
+			<integer>6902</integer>
+			<key>name</key>
+			<string>LiveUpdate Installer</string>
+			<key>packageid</key>
+			<string>com.Symantec.LiveUpdate.install</string>
+			<key>version</key>
+			<string>5.1.3.1</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>NAVContextualMenu.pkg</string>
+			<key>installed_size</key>
+			<integer>255</integer>
+			<key>name</key>
+			<string>Symantec AntiVirus Contextual Menu Installer</string>
+			<key>packageid</key>
+			<string>com.symantec.navcm.install</string>
+			<key>version</key>
+			<string>11.0.6200</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>NAVcorporate.pkg</string>
+			<key>installed_size</key>
+			<integer>46</integer>
+			<key>name</key>
+			<string>Symantec AntiVirus Corporate Installer</string>
+			<key>packageid</key>
+			<string>com.symantec.corporate.install</string>
+			<key>version</key>
+			<string>11.0.6200</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>NAVDefs.pkg</string>
+			<key>installed_size</key>
+			<integer>145317</integer>
+			<key>name</key>
+			<string>Symantec AntiVirus Engine Installer</string>
+			<key>packageid</key>
+			<string>com.symantec.virusengine.install</string>
+			<key>version</key>
+			<string>11.0.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>navx.pkg</string>
+			<key>installed_size</key>
+			<integer>137</integer>
+			<key>name</key>
+			<string>Symantec AntiVirus Shell Tool Installer</string>
+			<key>packageid</key>
+			<string>com.symantec.navx.install</string>
+			<key>version</key>
+			<string>11.0.6200</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>SavLog.pkg</string>
+			<key>installed_size</key>
+			<integer>103</integer>
+			<key>name</key>
+			<string>Symantec AntiVirus Logging Installer</string>
+			<key>packageid</key>
+			<string>com.symantec.savlog.install</string>
+			<key>version</key>
+			<string>10.2.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>SMC.pkg</string>
+			<key>installed_size</key>
+			<integer>7011</integer>
+			<key>name</key>
+			<string>SMC.English</string>
+			<key>packageid</key>
+			<string>com.symantec.smc</string>
+			<key>version</key>
+			<string>11.0.6200</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Symantec AutoProtect Prefs.pkg</string>
+			<key>installed_size</key>
+			<integer>1041</integer>
+			<key>name</key>
+			<string>Symantec AntiVirus AutoProtect Preferences Installer</string>
+			<key>packageid</key>
+			<string>com.symantec.savautoprotectprefs.install</string>
+			<key>version</key>
+			<string>11.0.6200</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Symantec AutoProtect.pkg</string>
+			<key>installed_size</key>
+			<integer>2718</integer>
+			<key>name</key>
+			<string>Symantec AntiVirus AutoProtect Installer</string>
+			<key>packageid</key>
+			<string>com.symantec.savautoprotect.install</string>
+			<key>version</key>
+			<string>11.0.6200</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Symantec Endpoint Protection.pkg</string>
+			<key>installed_size</key>
+			<integer>2793</integer>
+			<key>name</key>
+			<string>Symantec Endpoint Protection Installer</string>
+			<key>packageid</key>
+			<string>com.symantec.sepapplication</string>
+			<key>version</key>
+			<string>11.0.6200</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Symantec Scheduled Scans.pkg</string>
+			<key>installed_size</key>
+			<integer>505</integer>
+			<key>name</key>
+			<string>Symantec Scheduled Scans Installer</string>
+			<key>packageid</key>
+			<string>com.symantec.schedulerScans.install</string>
+			<key>version</key>
+			<string>11.0.6200</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Symantec Scheduler.pkg</string>
+			<key>installed_size</key>
+			<integer>4613</integer>
+			<key>name</key>
+			<string>Symantec Scheduler Installer</string>
+			<key>packageid</key>
+			<string>com.symantec.scheduler.install</string>
+			<key>version</key>
+			<string>4.0.3f9</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>SymantecSAQuickMenu.pkg</string>
+			<key>installed_size</key>
+			<integer>1165</integer>
+			<key>name</key>
+			<string>Symantec QuickMenu</string>
+			<key>packageid</key>
+			<string>com.symantec.pkg.symQuickMenuSA</string>
+			<key>version</key>
+			<string>2.1.1.5307660.5</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>SymHelpScripts.pkg</string>
+			<key>name</key>
+			<string>Symantec Help Scripts Installer</string>
+			<key>packageid</key>
+			<string>com.symantec.symHelpScripts.install</string>
+			<key>version</key>
+			<string>3.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>SymProtector.pkg</string>
+			<key>installed_size</key>
+			<integer>80</integer>
+			<key>name</key>
+			<string>SymProtector Installer</string>
+			<key>packageid</key>
+			<string>com.symantec.protector.install</string>
+			<key>version</key>
+			<string>1.0f5</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>SymSharedFrameworks.pkg</string>
+			<key>installed_size</key>
+			<integer>1857</integer>
+			<key>name</key>
+			<string>Symantec Shared Frameworks Installer</string>
+			<key>packageid</key>
+			<string>com.symantec.sharedframeworks</string>
+			<key>version</key>
+			<string>2.3.0.5327041.15</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>SymStuffit.pkg</string>
+			<key>installed_size</key>
+			<integer>13768</integer>
+			<key>name</key>
+			<string>Smith Micro StuffIt™ Installer</string>
+			<key>packageid</key>
+			<string>com.symantec.symstuffit.install</string>
+			<key>version</key>
+			<string>11.0.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>11.0.6200.0203</string>
+</dict>
+</plist>

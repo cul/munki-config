@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>ccnmtl</string>
+	</array>
+	<key>description</key>
+	<string>CCNMTL Registration for BBEdit</string>
+	<key>display_name</key>
+	<string>BBedit 9 Reg</string>
+	<key>installed_size</key>
+	<integer>4</integer>
+	<key>installer_item_hash</key>
+	<string>96f3381f3dadcddceed4aaa630842c40c9f3c542e9c21ea399d6c821c183d83b</string>
+	<key>installer_item_location</key>
+	<string>Bare_Bones/BBedit/postinstalls/BBEdit Reg.pkg</string>
+	<key>installer_item_size</key>
+	<integer>2</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>BBEdit 9 Reg</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>edu.columbia.ccnmtl.bbeditReg.com.barebones.bbedit.pkg</string>
+			<key>version</key>
+			<string>9.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>9.0</string>
+</dict>
+</plist>

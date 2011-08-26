@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>HairerSoft</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>AUEffects</string>
+	<key>installed_size</key>
+	<integer>6448</integer>
+	<key>installer_item_hash</key>
+	<string>7c563041a20e4351a938722df9093efb2a7e7398d4c0456247be9bd517e1d457</string>
+	<key>installer_item_location</key>
+	<string>HairerSoft/Amadeus Pro/1.5/AUEffects.dmg</string>
+	<key>installer_item_size</key>
+	<integer>3421</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>AUEffects</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>freeverb.pkg</string>
+			<key>installed_size</key>
+			<integer>168</integer>
+			<key>packageid</key>
+			<string>edu.columbia.aueffects.Freeverb.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>mda.pkg</string>
+			<key>installed_size</key>
+			<integer>336</integer>
+			<key>packageid</key>
+			<string>edu.columbia.aueffects.mda.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>mda-1.pkg</string>
+			<key>installed_size</key>
+			<integer>5944</integer>
+			<key>packageid</key>
+			<string>edu.columbia.aueffects.mda-1.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+	<key>update_for</key>
+	<array>
+	  <string>Amadeus Pro</string>
+	</array>
+</dict>
+</plist>

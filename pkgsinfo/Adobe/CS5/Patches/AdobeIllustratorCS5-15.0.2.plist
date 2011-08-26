@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdobeSetupType</key>
+	<string>ProductInstall</string>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Adobe</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Adobe Illustrator CS5</string>
+	<key>installed_size</key>
+	<integer>0</integer>
+	<key>installer_item_hash</key>
+	<string>30901e31f413afb9577b5af04612e06313c38b049a42b78c4f542cb25dabb518</string>
+	<key>installer_item_location</key>
+	<string>Adobe/CS5/Patches/AdobeIllustrator_15.0.2.dmg</string>
+	<key>installer_item_size</key>
+	<integer>17880</integer>
+	<key>installer_type</key>
+	<string>AdobeCS5PatchInstaller</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>path</key>
+			<string>/Library/Application Support/Adobe/Uninstall/{AD7623FD-F90A-4181-A37C-63342ACC3FA7}.db</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>AdobeIllustratorCS5</string>
+	<key>payloads</key>
+	<array>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{AD7623FD-F90A-4181-A37C-63342ACC3FA7}</string>
+			<key>display_name</key>
+			<string>Adobe Illustrator CS5</string>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>15.0.2</string>
+		</dict>
+	</array>
+	<key>uninstallable</key>
+	<false/>
+	<key>version</key>
+	<string>15.0.2</string>
+        <key>update_for</key>
+        <string>CreativeSuite5DesignPremium</string>
+</dict>
+</plist>

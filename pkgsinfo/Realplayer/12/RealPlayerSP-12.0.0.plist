@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>RealPlayerSP</string>
+	</array>
+	<key>description</key>
+	<string>RealPlayerSP-12.0.0_1569</string>
+	<key>display_name</key>
+	<string>RealPlayerSP</string>
+	<key>installed_size</key>
+	<integer>38044</integer>
+	<key>installer_item_hash</key>
+	<string>4ec206a0aad5be0ec9de5e5d6c78140543d2e3fa2ca9268f54aa11f23c285a00</string>
+	<key>installer_item_location</key>
+	<string>RealPlayer/12/RealPlayerSP.pkg</string>
+	<key>installer_item_size</key>
+	<integer>13296</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>RealPlayerSP</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>38044</integer>
+			<key>packageid</key>
+			<string>edu.ccnmtl.columbia.edu.realplayersp.RealPlayer.pkg</string>
+			<key>version</key>
+			<string>12.0.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>12.0.0</string>
+	<key>postinstall_script</key>
+        <string>#!/bin/sh
+
+tempfile="/System/Library/User Template/English.lproj/Library/Preferences/com.RealNetworks.RealPlayer"
+tempfile2="/System/Library/User Template/English.lproj/Library/Preferences/com.realnetworks.realplayerdownloader"
+d="/usr/bin/defaults write"
+ln -s "/Applications/RealPlayer.app/Contents/MacOS/RealPlayer Plugin.plugin" "/Library/Internet Plug-ins/"
+for folder in /Users/*
+do
+if [ $folder != "/Users/Shared" ]
+then
+	  pref=$folder"/Library/Preferences/com.RealNetworks.RealPlayer"
+	  pref2=$folder"/Library/Preferences/com.realnetworks.realplayerdownloader"
+	  $d $pref "HelixPreferenceFileID" -string "com.RealNetworks.RealPlayer"
+	  $d $pref "RealPlayer\AppCopiedToHardDrive" -string "1"
+	  $d $pref "RealPlayer\BrowsersConfigured" -string "1"
+	  $d $pref "RealPlayer\DistCode" -string "M51END"
+	  $d $pref "RealPlayer\EULAAccepted" -string "1"
+	  $d $pref "RealPlayer\LangID" -string "en"
+	  $d $pref "RealPlayer\Language" -string "en-us"
+	  $d $pref "RealPlayer\LatestBuild" -string "-1073740255"
+	  $d $pref "RealShared\CountryID" -string "us"
+	  $d $pref "WebIconDatabaseDirectoryDefaultsKey" -string "~/Library/Icons"
+	  $d $pref2 "RealDVREnabled" -bool NO
+	  chown ${folder/\/Users\//} "$pref.plist"
+	  chown ${folder/\/Users\//} "$pref2.plist"
+fi
+done
+          $d $tempfile HelixPreferenceFileID -string "com.RealNetworks.RealPlayer"
+          $d $tempfile "RealPlayer\AppCopiedToHardDrive" -string "1"
+          $d $tempfile "RealPlayer\BrowsersConfigured" -string "1"
+          $d $tempfile "RealPlayer\DistCode" -string "M51END"
+          $d $tempfile "RealPlayer\EULAAccepted" -string "1"
+          $d $tempfile "RealPlayer\LangID" -string "en"
+          $d $tempfile "RealPlayer\Language" -string "en-us"
+          $d $tempfile "RealPlayer\LatestBuild" -string "-1073740255"
+          $d $tempfile "RealShared\CountryID" -string "us"
+          $d $pref "WebIconDatabaseDirectoryDefaultsKey" -string "~/Library/Icons"
+	  $d $tempfile2 "RealDVREnabled" -bool NO
+exit 0</string>
+</dict>
+</plist>

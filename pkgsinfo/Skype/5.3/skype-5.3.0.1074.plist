@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Skype</string>
+	</array>
+	<key>installer_item_hash</key>
+	<string>6c060460f193d1a82364ef993f7f898c52e4d8da11e89ea1e897b480dd541c6e</string>
+	<key>installer_item_location</key>
+	<string>Skype/5.3/skype_5.3.0.1074.dmg</string>
+	<key>installer_item_size</key>
+	<integer>22750</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.skype.skype</string>
+			<key>CFBundleShortVersionString</key>
+			<string>5.3.0.1074</string>
+			<key>minosversion</key>
+			<string>10.5.8</string>
+			<key>path</key>
+			<string>/Applications/Skype.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Skype.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>skype</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>5.3.0.1074</string>
+</dict>
+</plist>

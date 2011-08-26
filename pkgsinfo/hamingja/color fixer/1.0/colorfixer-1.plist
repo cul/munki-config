@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>hamingja</string>
+	</array>
+	<key>description</key>
+	<string>The utility for fixing the infamous "looping bug" in Apple Color projects</string>
+	<key>display_name</key>
+	<string>ColorFixer</string>
+	<key>installed_size</key>
+	<integer>184</integer>
+	<key>installer_item_hash</key>
+	<string>cc75ff4aac2fd660ff253f08bb9643800813c813e379bb7e05e9d65987ccb611</string>
+	<key>installer_item_location</key>
+	<string>hamingja/color fixer/1.0/colorfixer.dmg</string>
+	<key>installer_item_size</key>
+	<integer>138</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>colorfixer</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>colorfixer.pkg</string>
+			<key>installed_size</key>
+			<integer>184</integer>
+			<key>packageid</key>
+			<string>edu.columbia.colorfixer.pkg</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1</string>
+</dict>
+</plist>

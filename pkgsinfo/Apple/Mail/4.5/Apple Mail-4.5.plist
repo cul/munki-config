@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>Apple</string>
+	</array>
+	<key>display_name</key>
+	<string>Apple Mail</string>
+	<key>installer_item_hash</key>
+	<string>312d985468f34c90f39921eb0256afe85b93457143344089e28212f151f45a1d</string>
+	<key>installer_item_location</key>
+	<string>Apple/Mail/4.5/Mail.dmg</string>
+	<key>installer_item_size</key>
+	<integer>29772</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.mail</string>
+			<key>CFBundleName</key>
+			<string>Mail</string>
+			<key>CFBundleShortVersionString</key>
+			<string>4.5</string>
+			<key>minosversion</key>
+			<string>10.6</string>
+			<key>path</key>
+			<string>/Applications/Mail.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Mail.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Apple Mail</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>4.5</string>
+</dict>
+</plist>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>catalogs</key>
+        <array>
+	  <string>Apple</string>
+	  <string>cul</string>
+	  <string>common</string>
+	  <string>Mozilla</string>
+	  <string>testing</string>
+	  <string>Microsoft</string>
+        </array>
+        <key>managed_installs</key>
+        <array>
+	  <string>Firefox4</string>
+	  <string>libx</string>
+	  <string>MunkiScripts</string>
+	  <string>AudioSculpt</string>
+	  <string>Outlook</string>
+          <string>Communicator</string>
+          <string>Messenger</string>
+	  <string>Office2011Lab</string>
+	</array>
+	<key>managed_uninstalls</key>
+	<array>
+	  <string>Apple Mail</string>
+        </array>
+	<key>managed_updates</key>
+	<array>
+	</array>
+</dict>
+</plist>

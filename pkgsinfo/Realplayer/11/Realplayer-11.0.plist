@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Realplayer</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>RealPlayer</string>
+	<key>installed_size</key>
+	<integer>44756</integer>
+	<key>installer_item_hash</key>
+	<string>759616f5cece65386b60e3a7fa40e4a0b676d4d236e3d78af87ecdb2a5858277</string>
+	<key>installer_item_location</key>
+	<string>Realplayer/11/cul-realplayer.dmg</string>
+	<key>installer_item_size</key>
+	<integer>15290</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Realplayer</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.RealNetworks.RealPlayer</string>
+	    <key>CFBundleName</key>
+	    <string>RealPlayer</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>11.0.0</string>
+	    <key>path</key>
+	    <string>/Applications/RealPlayer.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	    </dict>
+	  </array>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>cul-realplayer.pkg</string>
+			<key>installed_size</key>
+			<integer>44756</integer>
+			<key>packageid</key>
+			<string>edu.columbia.edu.RealPlayer.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>11.0</string>
+</dict>
+</plist>

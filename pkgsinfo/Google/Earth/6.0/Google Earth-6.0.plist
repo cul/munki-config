@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Google</string>
+	</array>
+	<key>description</key>
+	<string>Google Earth for Intel Macs</string>
+	<key>display_name</key>
+	<string>Google Earth</string>
+	<key>installed_size</key>
+	<integer>128804</integer>
+	<key>installer_item_hash</key>
+	<string>f820751b78b21f5add0957304148f277781c6ae41508a1244f91a7d09712fa8c</string>
+	<key>installer_item_location</key>
+	<string>Google/Earth/6.0/Google Earth.dmg</string>
+	<key>installer_item_size</key>
+	<integer>45452</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Google Earth</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>googleEarth.pkg</string>
+			<key>installed_size</key>
+			<integer>70816</integer>
+			<key>packageid</key>
+			<string>edu.columbia.googleEarth.googleEarth.pkg</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>googleEarthWebPlugin.pkg</string>
+			<key>installed_size</key>
+			<integer>57984</integer>
+			<key>packageid</key>
+			<string>edu.columbia.googleEarth.googleEarthWebPlugin.pkg</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>comgooglegoogleearthplus.pkg</string>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>edu.columbia.googleEarth.comgooglegoogleearthplus.pkg</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>6.0</string>
+	<key>postinstall_script</key>
+	<string>#!/bin/bash
+d="/usr/bin/defaults write"
+mv "/Google Earth Web Plug-in.plugin" "/Library/Internet Plug-ins/"
+exit 0</string>
+</dict>
+</plist>

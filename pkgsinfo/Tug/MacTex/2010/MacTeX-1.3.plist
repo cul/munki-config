@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Tug</string>
+	</array>
+	<key>description</key>
+	<string>LaTeX application for OSX</string>
+	<key>display_name</key>
+	<string>MacTeX-2010</string>
+	<key>installed_size</key>
+	<integer>3019728</integer>
+	<key>installer_item_hash</key>
+	<string>12e8986a798bfbee8d7deb7ddc70bfbcdf885d88f48e1039f69a9e4913bea6be</string>
+	<key>installer_item_location</key>
+	<string>Tug/MacTex/2010/MacTeX-2010.dmg</string>
+	<key>installer_item_size</key>
+	<integer>1622764</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>MacTeX</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Ghostscript-8.71.pkg</string>
+			<key>installed_size</key>
+			<integer>146064</integer>
+			<key>packageid</key>
+			<string>org.tug.mactex.ghostscript8.71</string>
+			<key>version</key>
+			<string>1.3</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>GUI-Applications.pkg</string>
+			<key>installed_size</key>
+			<integer>224960</integer>
+			<key>packageid</key>
+			<string>org.tug.mactex.gui</string>
+			<key>version</key>
+			<string>1.3</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>ImageMagick-Convert-6.6.1.pkg</string>
+			<key>installed_size</key>
+			<integer>7504</integer>
+			<key>packageid</key>
+			<string>org.tug.mactex.imagemagick-convert-6.6.1</string>
+			<key>version</key>
+			<string>1.3</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>TeXLive-2010.pkg</string>
+			<key>installed_size</key>
+			<integer>2629500</integer>
+			<key>packageid</key>
+			<string>org.tug.mactex.texlive2010</string>
+			<key>version</key>
+			<string>1.3</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.3</string>
+</dict>
+</plist>

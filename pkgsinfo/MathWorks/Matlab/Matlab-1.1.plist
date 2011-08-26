@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Mathworks</string>
+	</array>
+	<key>display_name</key>
+	<string>Matlab 2008b</string>
+	<key>installer_item_hash</key>
+	<string>576d976b7d6ee0e94a2286abfec95e3a11e21f132733286fe6294b4b1f0ab98e</string>
+	<key>installer_item_location</key>
+	<string>MathWorks/Matlab/MATLAB_R2008b.dmg</string>
+	<key>installer_item_size</key>
+	<integer>1065515</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.mathworks.StartMATLAB</string>
+			<key>CFBundleName</key>
+			<string>StartMATLAB</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.1</string>
+			<key>path</key>
+			<string>/Applications/MATLAB_R2008b.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>MATLAB_R2008b.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Matlab</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>7.7.0.471</string>
+</dict>
+</plist>

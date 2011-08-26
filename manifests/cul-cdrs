@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>catalogs</key>
+        <array>
+	  <string>Mozilla</string>
+	  <string>Skype</string>
+	  <string>Vmware</string>
+	  <string>cul</string>
+	  <string>Google</string>
+	  <string>Bare_Bones</string>
+          <string>Omni_Group</string>
+          <string>SyncRO</string>
+          <string>David_Kocher</string>
+	  <string>Dropbox</string>
+	  <string>Microsoft</string>
+        </array>
+	<key>included_manifests</key>
+        <array>
+	  <string>cul-base</string>
+	</array>
+        <key>managed_installs</key>
+        <array>
+	  <string>Office2011</string>
+	  <string>Thunderbird</string>
+	  <string>skype-5.1.0.922</string>
+	  <string>TextWrangler</string>
+          <string>Cyberduck</string>
+          <string>OmniGrafflePro</string>
+          <string>Oxygen</string>
+	  <string>Google Earth</string>
+        </array>
+	<key>optional_installs</key>
+	<array>
+	  <string>Dropbox</string>
+	</array>
+	<key>managed_uninstalls</key>
+	<array>
+	</array>
+
+</dict>
+</plist>

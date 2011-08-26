@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Google</string>
+	</array>
+	<key>description</key>
+	<string>Google SketchUp for Intel Mac</string>
+	<key>display_name</key>
+	<string>Google SketchUp 8.0 (English)</string>
+	<key>installed_size</key>
+	<integer>105164</integer>
+	<key>installer_item_hash</key>
+	<string>8486075400b167c43ffb3cadadd269e17a92b30701523d48b5b07875567d9b64</string>
+	<key>installer_item_location</key>
+	<string>Google/SketchUp/3.0.4810/Google SketchUp 8.0 Installer.dmg</string>
+	<key>installer_item_size</key>
+	<integer>39827</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Google SketchUp 8.0 Installer</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Google_SU8_EN_SketchUp_Application.pkg</string>
+			<key>installed_size</key>
+			<integer>87944</integer>
+			<key>name</key>
+			<string>Google SketchUp Application</string>
+			<key>packageid</key>
+			<string>com.google.sketchup8.sketchup.application</string>
+			<key>version</key>
+			<string>8.0.4810</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Google_SU8_EN_SketchUp_Support.pkg</string>
+			<key>installed_size</key>
+			<integer>17216</integer>
+			<key>name</key>
+			<string>Google SketchUp Support</string>
+			<key>packageid</key>
+			<string>com.google.sketchup8.sketchup.support</string>
+			<key>version</key>
+			<string>8.0.4810</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Google_SU8_EN_SketchUp_Free.pkg</string>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>name</key>
+			<string>Google SketchUp 8.0 (English) Add-Ons</string>
+			<key>packageid</key>
+			<string>com.google.sketchup8.sketchup_free.addons</string>
+			<key>version</key>
+			<string>3.0.4810</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>3.0.4810</string>
+</dict>
+</plist>

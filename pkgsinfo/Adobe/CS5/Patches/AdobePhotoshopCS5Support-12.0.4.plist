@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdobeSetupType</key>
+	<string>ProductInstall</string>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Adobe</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Adobe Photoshop CS5 Support</string>
+	<key>installed_size</key>
+	<integer>840626</integer>
+	<key>installer_item_hash</key>
+	<string>581702f26a4d161976deb64e960b22ec2692c4474253f42f07bf1296a5cbcabf</string>
+	<key>installer_item_location</key>
+	<string>Adobe/CS5/Patches/AdobePhotoshop12-4-mul-AdobeUpdate.dmg</string>
+	<key>installer_item_size</key>
+	<integer>20139</integer>
+	<key>installer_type</key>
+	<string>AdobeCS5PatchInstaller</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>path</key>
+			<string>/Library/Application Support/Adobe/Uninstall/{D6A4C9B1-5AE2-4118-AD9D-24313C79F2B6}.db</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>AdobePhotoshopCS5Support</string>
+	<key>payloads</key>
+	<array>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{809CAFEA-B905-4940-8451-DBA0AE0AA825}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5</string>
+			<key>installed_size</key>
+			<integer>709733</integer>
+			<key>version</key>
+			<string>12.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{F8088B2E-D9FC-4D84-B9E2-5161693DDC46}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5 Check Language Pack</string>
+			<key>installed_size</key>
+			<integer>6634</integer>
+			<key>version</key>
+			<string>12.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{65A0C22E-4A77-44F8-BF2D-207F62C443D2}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5 German Language Pack</string>
+			<key>installed_size</key>
+			<integer>6934</integer>
+			<key>version</key>
+			<string>12.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{92CE603A-ABA5-4BF1-A3BB-84F0FF3A3A7F}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5 International English Language Pack</string>
+			<key>installed_size</key>
+			<integer>6463</integer>
+			<key>version</key>
+			<string>12.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{2F9A388D-5338-41F0-8296-FD4E949DC861}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5 Spanish Language Pack</string>
+			<key>installed_size</key>
+			<integer>6961</integer>
+			<key>version</key>
+			<string>12.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{FE37D9E3-BD4A-4789-8F8A-20E889AEDC8B}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5 North American Spanish Language Pack</string>
+			<key>installed_size</key>
+			<integer>6961</integer>
+			<key>version</key>
+			<string>12.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{83A7A2C8-37EE-4809-A198-CEE46EBFD886}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5 Canadian French Language Pack</string>
+			<key>installed_size</key>
+			<integer>7043</integer>
+			<key>version</key>
+			<string>12.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{BE0A3BBF-CC63-4DE2-8568-BCC91DEB65C9}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5 French Language Pack</string>
+			<key>installed_size</key>
+			<integer>7043</integer>
+			<key>version</key>
+			<string>12.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{AAFE39F6-7493-49CF-8958-0F2A1092D514}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5 Hungarian Language Pack</string>
+			<key>installed_size</key>
+			<integer>6811</integer>
+			<key>version</key>
+			<string>12.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{6B45B728-5886-427D-96E1-E5ADECEC703A}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5 Italian Language Pack</string>
+			<key>installed_size</key>
+			<integer>6955</integer>
+			<key>version</key>
+			<string>12.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{7A79D8B5-BF04-47CC-86C3-BC5C965BD3AF}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5 Japanese Language Pack</string>
+			<key>installed_size</key>
+			<integer>5550</integer>
+			<key>version</key>
+			<string>12.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{CA04E0C8-8E26-467A-9FE2-884FAE666DCA}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5 Korean Language Pack</string>
+			<key>installed_size</key>
+			<integer>5501</integer>
+			<key>version</key>
+			<string>12.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{82333F23-CCE9-41BC-A36D-FEF31ED9C7B1}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5 Dutch Language Pack</string>
+			<key>installed_size</key>
+			<integer>6857</integer>
+			<key>version</key>
+			<string>12.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{1D580812-3754-4CB2-A925-C6176813B334}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5 Polish Language Pack</string>
+			<key>installed_size</key>
+			<integer>6823</integer>
+			<key>version</key>
+			<string>12.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{71A1A5C2-FF8C-48BF-ABB5-947CAE18C1AA}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5 Brazilian Portugese Language Pack</string>
+			<key>installed_size</key>
+			<integer>6923</integer>
+			<key>version</key>
+			<string>12.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{61304F67-1DC6-4890-A950-069006DDC6A1}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5 Romanian Language Pack</string>
+			<key>installed_size</key>
+			<integer>6847</integer>
+			<key>version</key>
+			<string>12.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{2C12EE3A-DC09-4A67-B2C4-C82F0E1DEA72}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5 Rumanian Language Pack</string>
+			<key>installed_size</key>
+			<integer>6850</integer>
+			<key>version</key>
+			<string>12.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{D6A4C9B1-5AE2-4118-AD9D-24313C79F2B6}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5 Support</string>
+			<key>installed_size</key>
+			<integer>1</integer>
+			<key>version</key>
+			<string>12.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{116D1091-CD99-4ABB-8F09-CF9AD8344086}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5 Turkish Language Pack</string>
+			<key>installed_size</key>
+			<integer>6624</integer>
+			<key>version</key>
+			<string>12.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{1D335228-EA49-47EC-8318-402055FEEF19}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5 Ukranian Language Pack</string>
+			<key>installed_size</key>
+			<integer>6844</integer>
+			<key>version</key>
+			<string>12.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{AFC68267-EE68-4201-9E00-CD69782EED6B}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5 Chinese Language Pack</string>
+			<key>installed_size</key>
+			<integer>5117</integer>
+			<key>version</key>
+			<string>12.0.4</string>
+		</dict>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{E24190BD-9889-4225-BA79-B94BA3C83784}</string>
+			<key>display_name</key>
+			<string>Adobe Photoshop CS5 Chinese (traditional) Language Pack</string>
+			<key>installed_size</key>
+			<integer>5151</integer>
+			<key>version</key>
+			<string>12.0.4</string>
+		</dict>
+	</array>
+	<key>uninstallable</key>
+	<false/>
+	<key>version</key>
+	<string>12.0.4</string>
+	<key>update_for</key>
+        <string>CreativeSuite5DesignPremium</string>
+</dict>
+</plist>

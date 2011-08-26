@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdobeSetupType</key>
+	<string>ProductInstall</string>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Adobe</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Adobe Bridge CS5</string>
+	<key>installed_size</key>
+	<integer>174432</integer>
+	<key>installer_item_hash</key>
+	<string>4453a32faa1581436f7aea3ec235bce14f07fe98c1e283a767ab44f0d8cd4af9</string>
+	<key>installer_item_location</key>
+	<string>Adobe/CS5/Patches/AdobeBridge_4.0.4_mul_AdobeUpdate.dmg</string>
+	<key>installer_item_size</key>
+	<integer>31221</integer>
+	<key>installer_type</key>
+	<string>AdobeCS5PatchInstaller</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>path</key>
+			<string>/Library/Application Support/Adobe/Uninstall/{123ABCFA-AE86-4B1C-A4D8-A732BEF9C86B}.db</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>AdobeBridgeCS5</string>
+	<key>payloads</key>
+	<array>
+		<dict>
+			<key>AdobeCode</key>
+			<string>{123ABCFA-AE86-4B1C-A4D8-A732BEF9C86B}</string>
+			<key>display_name</key>
+			<string>Adobe Bridge CS5</string>
+			<key>installed_size</key>
+			<integer>174432</integer>
+			<key>version</key>
+			<string>4.0.4</string>
+		</dict>
+	</array>
+	<key>uninstallable</key>
+	<false/>
+	<key>version</key>
+	<string>4.0.4</string>
+	<key>requires</key>
+	<array>
+	  <string>AdobeBridgeCS5-4.0.3</string>
+	</array>
+        <key>update_for</key>
+        <string>CreativeSuite5DesignPremium</string>
+</dict>
+</plist>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Humble_Daisy</string>
+	</array>
+	<key>display_name</key>
+	<string>ProfCast</string>
+	<key>installer_item_hash</key>
+	<string>0a26eb62e609fae0044991d34358a4fc3ce62e6e40da625d44ba848359565642</string>
+	<key>installer_item_location</key>
+	<string>Humble_Daisy/ProfCast/ProfCast.app.dmg</string>
+	<key>installer_item_size</key>
+	<integer>7829</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.HumbleDaisy.ProfCast</string>
+			<key>CFBundleShortVersionString</key>
+			<string>2.6.5</string>
+			<key>path</key>
+			<string>/Applications/ProfCast.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>ProfCast.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>ProfCast</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2.6.5</string>
+</dict>
+</plist>
