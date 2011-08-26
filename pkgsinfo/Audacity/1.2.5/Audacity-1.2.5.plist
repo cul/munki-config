@@ -87,7 +87,10 @@ pref="$dir/audacity Preferences"
           echo "Height=400" >> "$pref"
           echo "Maximized=0" >> "$pref"
           chown ${folder/\/Users\//} "$pref"
-exit 0</string>
-
+	  exit 0</string>
+	<key>requires</key>
+	<array>
+	  <string>Lame Library</string>
+	</array>
 </dict>
 </plist>
