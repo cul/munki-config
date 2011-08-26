@@ -8,8 +8,9 @@
 	  <string>Cycling74</string>
 	  <string>RogueAmoeba</string>
 	  <string>Avid</string>
-	  <string>Microsoft</string>
+	  <string>MSLab</string>
 	  <string>Apple</string>
+	  <string>Lame</string>
         </array>
 	<key>included_manifests</key>
         <array>
