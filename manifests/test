@@ -5,6 +5,7 @@
         <key>catalogs</key>
         <array>
 	  <string>Apple</string>
+	  <string>Audacity</string>
 	  <string>cul</string>
 	  <string>common</string>
 	  <string>Mozilla</string>
@@ -20,6 +21,7 @@
 	  <string>AudioSculpt</string>
 	  <string>Office2011Lab</string>
 	  <string>XcodeTools</string>
+	  <string>Audacity</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
