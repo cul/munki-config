@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>IRCAM</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>OpenMusic 6.5</string>
+	<key>installed_size</key>
+	<integer>181384</integer>
+	<key>installer_item_hash</key>
+	<string>e364cfc54a33a045498e66dccc618f41faa3b9950e26aeea2f4b7a854aec7228</string>
+	<key>installer_item_location</key>
+	<string>IRCAM/OpenMusic/6.5.0/OM-6.5-MacOSX.dmg</string>
+	<key>installer_item_size</key>
+	<integer>58636</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>OpenMusic</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.lispworks.lispworks</string>
+	    <key>CFBundleName</key>
+	    <string>OM 6.5</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>6.5.0</string>
+	    <key>path</key>
+	    <string>/Applications/OM 6.5/OM 6.5.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	    </dict>
+	  </array>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>fonts.pkg</string>
+			<key>installed_size</key>
+			<integer>36</integer>
+			<key>packageid</key>
+			<string>ircam.repmus.omfonts.pkg</string>
+			<key>version</key>
+			<string>1.0.1</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>om6.pkg</string>
+			<key>installed_size</key>
+			<integer>179040</integer>
+			<key>packageid</key>
+			<string>ircam.repmus.openmusic650.pkg</string>
+			<key>version</key>
+			<string>6.5.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>MidiShare-1.93.pkg</string>
+			<key>installed_size</key>
+			<integer>2308</integer>
+			<key>packageid</key>
+			<string>Grame</string>
+			<key>version</key>
+			<string>1.93</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>6.5.0</string>
+	<key>requires</key>
+	<array>
+	  <string>MidiShare</string>
+	  <string>LibAudioStream</string>
+	</array>
+</dict>
+</plist>
