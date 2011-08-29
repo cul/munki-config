@@ -22,6 +22,7 @@
 	  <string>Office2011Lab</string>
 	  <string>XcodeTools</string>
 	  <string>Audacity</string>
+	  <string>OpenMusic</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

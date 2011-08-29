@@ -13,6 +13,9 @@
 	  <string>seventhstring</string>
 	  <string>MakeMusic</string>
 	  <string>snoize</string>
+	  <string>IRCAM</string>
+	  <string>Grame</string>
+	  <string>letz</string>
         </array>
 	<key>included_manifests</key>
         <array>
@@ -32,6 +35,7 @@
 	  <string>SoundSource</string>
 	  <string>Transcribe!</string>
 	  <string>Music_Logic_Serialization</string>
+	  <string>OpenMusic</string>
         </array>
 	<key>managed_uninstalls</key>
 	<array>
