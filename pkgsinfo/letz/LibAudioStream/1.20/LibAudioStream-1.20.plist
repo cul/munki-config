@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>letz</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>LibAudioStream</string>
+	<key>installed_size</key>
+	<integer>3092</integer>
+	<key>installer_item_hash</key>
+	<string>397777d9dab5c00d0a721d69a2ebce06d3bd3a9441897260b83fad2208b69444</string>
+	<key>installer_item_location</key>
+	<string>letz/LibAudioStream/1.20/LibAudioStream-1.20.dmg</string>
+	<key>installer_item_size</key>
+	<integer>873</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>LibAudioStream</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>CFBundleShortVersionString</key>
+	    <string>1.2.0</string>
+	    <key>path</key>
+	    <string>/Library/Frameworks/LibAudioStream120</string>
+	    <key>type</key>
+	    <string>bundle</string>
+	    </dict>
+	</array>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>LibAudioStream.pkg</string>
+			<key>installed_size</key>
+			<integer>3092</integer>
+			<key>packageid</key>
+			<string>edu.columbia.LibAudioStream.pkg</string>
+			<key>version</key>
+			<string>1.20</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.20</string>
+</dict>
+</plist>
