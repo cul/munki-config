@@ -5,6 +5,7 @@
   <key>catalogs</key>
   <array>
     <string>Avid</string>
+    <string>cul</string>
   </array>
   <key>managed_installs</key>
   <array>
