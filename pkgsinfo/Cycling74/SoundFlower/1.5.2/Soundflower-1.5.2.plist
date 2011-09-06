@@ -25,6 +25,19 @@
 	<string>10.4.0</string>
 	<key>name</key>
 	<string>Soundflower</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.cycling74.Soundflowerbed</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>1.0</string>
+	    <key>path</key>
+	    <string>/Applications/Soundflower/Soundflowerbed.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	  </dict>
+	</array>
 	<key>receipts</key>
 	<array>
 		<dict>
@@ -82,5 +95,9 @@
 	<true/>
 	<key>version</key>
 	<string>1.5.2</string>
+	<key>postinstall_script</key>
+	<string>#!/bin/bash
+	  chmod -R 755 /Applications/Soundflower
+	</string>
 </dict>
 </plist>
