@@ -11,18 +11,20 @@
 	  <string>Mozilla</string>
 	  <string>testing</string>
 	  <string>MSLab</string>
+	  <string>Sassafras</string>
         </array>
         <key>managed_installs</key>
         <array>
 	  <string>Firefox4</string>
+	  <string>cul-altiris</string>
 	  <string>libx</string>
-	  <string>MunkiScripts</string>
+	  <string>MunkiScripts-1.4</string>
 	  <string>munkitools</string>
 	  <string>AudioSculpt</string>
-	  <string>Office2011Lab</string>
-	  <string>XcodeTools</string>
 	  <string>Audacity</string>
 	  <string>OpenMusic</string>
+	  <string>Soundflower</string>
+	  <string>keyserver</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
