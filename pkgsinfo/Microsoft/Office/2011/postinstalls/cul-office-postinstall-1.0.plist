@@ -24,10 +24,6 @@
 	<string>10.4.0</string>
 	<key>name</key>
 	<string>cul-office-postinstall</string>
-	<key>update_for</key>
-	<array>
-	  <string>Office2011</string>
-	</array>
 	<key>installs</key>
 	<array>
 	  <dict>
