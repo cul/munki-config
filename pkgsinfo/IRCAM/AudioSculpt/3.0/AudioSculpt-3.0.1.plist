@@ -7,6 +7,7 @@
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
+		<string>IRCAM</string>
 	</array>
 	<key>display_name</key>
 	<string>AudioSculpt</string>
