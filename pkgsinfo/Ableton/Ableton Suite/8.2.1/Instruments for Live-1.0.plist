@@ -48,5 +48,9 @@
 	<array>
 	  <string>Ableton Live</string>
 	</array>
+	<key>postinstall_script</key>
+	<string>#!/bin/bash
+	  chmod -R 755 "/Applications/Live 8.2.1"
+	</string>
 </dict>
 </plist>
