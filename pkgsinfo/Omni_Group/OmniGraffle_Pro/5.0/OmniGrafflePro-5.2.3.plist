@@ -52,7 +52,6 @@
 	<string>OmniGrafflePro</string>
 	<key>requires</key>
 	<array>
-		<string>OmniGraffleProLicense</string>
 		<string>OmniGrafflePro</string>
 	</array>
 	<key>uninstall_method</key>

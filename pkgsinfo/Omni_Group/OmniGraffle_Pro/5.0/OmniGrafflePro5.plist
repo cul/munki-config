@@ -54,10 +54,6 @@
 	<true/>
 	<key>version</key>
 	<string>5.0</string>
-	<key>requires</key>
-	<array>
-	  <string>OmniGraffleProLicense</string>
-	</array>
 	
 </dict>
 </plist>
