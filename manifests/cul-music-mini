@@ -5,6 +5,7 @@
         <key>catalogs</key>
         <array>
 	  <string>Audacity</string>
+	  <string>cul</string>
 	  <string>Cycling74</string>
 	  <string>RogueAmoeba</string>
 	  <string>Avid</string>
@@ -23,6 +24,7 @@
 	  <string>SoundSource</string>
 	  <string>Scorch</string>
 	  <string>Office2011Lab</string>
+	  <string>Music Printers</string>
         </array>
 	<key>managed_uninstalls</key>
 	<array>
