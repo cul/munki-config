@@ -12,6 +12,7 @@
 	  <string>testing</string>
 	  <string>MSLab</string>
 	  <string>Sassafras</string>
+	  <string>FileMaker</string>
         </array>
         <key>managed_installs</key>
         <array>
@@ -25,6 +26,7 @@
 	  <string>Soundflower</string>
 	  <string>keyserver</string>
 	  <string>Max</string>
+	  <string>FileMakerPro</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
