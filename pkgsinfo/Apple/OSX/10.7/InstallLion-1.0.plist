@@ -17,11 +17,11 @@
 	<key>installed_size</key>
 	<integer>8388608</integer>
 	<key>installer_item_hash</key>
-	<string>dd06286d61d8408822f30a78bcd5ec621e2c6d3e19e23648bb21fee839312a1e</string>
+	<string>5de95918d56daf52dcc62918e23d2812a574c7ad02fdfbb43406601423fb8af4</string>
 	<key>installer_item_location</key>
 	<string>Apple/OSX/10.7/InstallLion.dmg</string>
 	<key>installer_item_size</key>
-	<integer>3659997</integer>
+	<integer>3659740</integer>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
