@@ -9,6 +9,7 @@
 	  <string>blender</string>
 	  <string>cul</string>
 	  <string>Celtx</string>
+	  <string>FileMaker</string>
 	  <string>Google</string>
 	  <string>hamingja</string>
 	  <string>Red</string>
@@ -40,6 +41,7 @@
           <string>Google Earth</string>
           <string>Google SketchUp 8.0 Installer</string>
 	  <string>Office2011Lab</string>
+	  <string>FileMakerPro</string>
         </array>
 	<key>managed_uninstalls</key>
 	<array>
