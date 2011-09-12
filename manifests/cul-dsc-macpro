@@ -14,10 +14,8 @@
 	  <string>Mathworks</string>
 	  <string>Mekentosj</string>
 	  <string>mgds</string>
-	  <string>Mozilla</string>
 	  <string>MSLab</string>
 	  <string>R_Project</string>
-	  <string>Skype</string>
 	  <string>Tug</string>
 	  <string>Wolfram</string>
         </array>
@@ -45,10 +43,10 @@
 	  <string>Logic_Serialization</string>
 	  <string>ProApps_Registration</string>
 	  <string>R</string>
-
-
-          <string>Thunderbird</string>
-          <string>skype</string>
         </array>
+	<key>managed_uninstalls</key>
+	<array>
+	  <string>Apple Mail</string>
+	</array>
 </dict>
 </plist>
