@@ -164,9 +164,6 @@
 	<true/>
 	<key>version</key>
 	<string>12.0.2</string>
-	<key>requires</key>
-	<array>
-	  <string>MestReNovaLITE</string>
-	</array>
+
 </dict>
 </plist>
