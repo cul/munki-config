@@ -5,6 +5,7 @@
         <key>catalogs</key>
         <array>
 		<string>Apple</string>
+		<string>Adobe</string>
 		<string>common</string>
 		<string>cul</string>
 		<string>Google</string>
