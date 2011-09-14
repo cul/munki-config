@@ -41,8 +41,6 @@
 	  <string>EndnoteX4</string>
 	  
 	  <string>keyserver</string>
-	  <string>CUL-ard-client-3.4.0.0</string>
-	  <string>cul-altiris</string>
         </array>
 </dict>
 </plist>
