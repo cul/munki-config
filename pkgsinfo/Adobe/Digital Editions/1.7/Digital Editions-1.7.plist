@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>Adobe</string>
+	</array>
+	<key>description</key>
+	<string>Adobe Digital Editions for reading ebooks</string>
+	<key>display_name</key>
+	<string>Adobe Digital Editions</string>
+	<key>installed_size</key>
+	<integer>18696</integer>
+	<key>installer_item_hash</key>
+	<string>af03a93876fef6a8a7ab6ec5d3d09be3b6662e4cef210a1b926dc07cf75720bc</string>
+	<key>installer_item_location</key>
+	<string>Adobe/Digital Editions/1.7/digitaleditions_x86.dmg</string>
+	<key>installer_item_size</key>
+	<integer>8911</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Digital Editions</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>digitaleditions_x86.pkg</string>
+			<key>installed_size</key>
+			<integer>18696</integer>
+			<key>packageid</key>
+			<string>com.adobe.DigitalEditions.pkg</string>
+			<key>version</key>
+			<string>1.7</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.7</string>
+</dict>
+</plist>
