@@ -9,6 +9,7 @@
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
+		<string>Apple</string>
 	</array>
 	<key>description</key>
 	<string></string>
