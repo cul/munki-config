@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>cul</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>ComposersForumServiceFiles</string>
+	<key>installed_size</key>
+	<integer>23240308</integer>
+	<key>installer_item_hash</key>
+	<string>2198e3d65fa771adee0ff8973e7f7a8b4a78afc5fe073013cb451693eb666771</string>
+	<key>installer_item_location</key>
+	<string>cul/ComposerForumServiceFiles/ComposterForumServiceFiles.dmg</string>
+	<key>installer_item_size</key>
+	<integer>18849820</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>ComposerForumServiceFiles</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>ComposterForumServiceFiles.pkg</string>
+			<key>installed_size</key>
+			<integer>23240308</integer>
+			<key>packageid</key>
+			<string>edu.columbia.ComposersForumServiceFiles.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>
