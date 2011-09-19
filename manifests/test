@@ -4,33 +4,14 @@
 <dict>
         <key>catalogs</key>
         <array>
-	  <string>Apple</string>
-	  <string>Audacity</string>
 	  <string>cul</string>
-	  <string>common</string>
-	  <string>Mozilla</string>
-	  <string>testing</string>
-	  <string>MSLab</string>
-	  <string>Sassafras</string>
-	  <string>FileMaker</string>
         </array>
         <key>managed_installs</key>
         <array>
-	  <string>Firefox4</string>
-	  <string>libx</string>
-	  <string>MunkiScripts</string>
-	  <string>munkitools</string>
-	  <string>AudioSculpt</string>
-	  <string>Audacity</string>
-	  <string>OpenMusic</string>
-	  <string>Soundflower</string>
-	  <string>keyserver</string>
-	  <string>Max</string>
-	  <string>FileMakerPro</string>
+	  <string>ComposerForumServiceFiles</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
-	  <string>Apple Mail</string>
         </array>
 	<key>managed_updates</key>
 	<array>
