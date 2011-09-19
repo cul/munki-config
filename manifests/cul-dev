@@ -26,6 +26,7 @@
           <string>VMWare</string>
           <string>cul-vmware-license</string>
 	  <string>XcodeTools</string>
+	  <string>Xcode4</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
