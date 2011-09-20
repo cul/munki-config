@@ -5,10 +5,12 @@
         <key>catalogs</key>
         <array>
 	  <string>cul</string>
+	  <string>testing</string>
         </array>
         <key>managed_installs</key>
         <array>
 	  <string>ComposerForumServiceFiles</string>
+	  <string>Silverfast</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
