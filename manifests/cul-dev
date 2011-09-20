@@ -10,6 +10,7 @@
 	  <string>cul</string>
 	  <string>Microsoft</string>
 	  <string>Apple</string>
+	  <string>Dropbox</string>
         </array>
 	<key>included_manifests</key>
         <array>
