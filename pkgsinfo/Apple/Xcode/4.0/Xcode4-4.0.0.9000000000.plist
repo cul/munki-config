@@ -555,8 +555,8 @@
 			<string>1.0.0.9000000000.1.1249367152</string>
 		</dict>
 	</array>
-	<key>uninstall_method</key>
-	<string>removepackages</string>
+        <key>uninstall_method</key>
+        <string>/Developer/Library/uninstall-devtools</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
