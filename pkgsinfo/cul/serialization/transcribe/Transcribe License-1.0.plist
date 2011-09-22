@@ -7,6 +7,7 @@
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
+		<string>cul</string>
 	</array>
 	<key>description</key>
 	<string></string>
@@ -64,10 +65,6 @@ then
 	  cp "$templatedir/xisn"* $folder/Library/Preferences/
 fi
 done
-</string>
-	<key>update_for</key>
-	<array>
-	  <string>Transcribe!</string>
-	</array>
+	</string>
 </dict>
 </plist>
