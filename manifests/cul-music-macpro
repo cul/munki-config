@@ -17,6 +17,7 @@
 	  <string>IRCAM</string>
 	  <string>Grame</string>
 	  <string>letz</string>
+	  <string>klingbeil</string>
         </array>
 	<key>included_manifests</key>
         <array>
@@ -29,14 +30,16 @@
 	  <string>Ableton Live</string>
 	  <string>Amadeus Pro</string>
 	  <string>AudioSculpt</string>
+	  <string>ComposerForumServiceFiles</string>
 	  <string>Finale2010</string>
 	  <string>MacGAMUT</string>
 	  <string>Max</string>
 	  <string>MIDI Monitor</string>
 	  <string>PhotoScore Ultimate</string>
+	  <string>SPEAR</string>
 	  <string>Soundflower</string>
 	  <string>SoundSource</string>
-	  <string>Transcribe!</string>
+	  <string>Transcribe</string>
 	  <string>Music_Logic_Serialization</string>
 	  <string>OpenMusic</string>
         </array>

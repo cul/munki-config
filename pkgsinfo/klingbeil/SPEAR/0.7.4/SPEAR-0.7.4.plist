@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>klingbeil</string>
+	</array>
+	<key>description</key>
+	<string>Sinusoidal Partial Editing Analysis and Resynthesis </string>
+	<key>display_name</key>
+	<string>SPEAR</string>
+	<key>installer_item_hash</key>
+	<string>b660acd62288779975b92b6b0f082508298ee70613ae662ffc215c06a5c80229</string>
+	<key>installer_item_location</key>
+	<string>klingbeil/SPEAR/0.7.4/SPEAR_latest.dmg</string>
+	<key>installer_item_size</key>
+	<integer>4364</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.klingbeil.spear</string>
+			<key>CFBundleName</key>
+			<string>SPEAR</string>
+			<key>CFBundleShortVersionString</key>
+			<string>0.7.4</string>
+			<key>path</key>
+			<string>/Applications/SPEAR.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>SPEAR.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>SPEAR</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>0.7.4</string>
+	<key>postinstall_script</key>
+	<string>#!/bin/bash
+	  SPEAR="/Library/Preferences/SPEAR Preferences"
+	  echo "spear_license_accept_version=0.7.4" &gt; "$SPEAR"
+	</string>
+</dict>
+</plist>
