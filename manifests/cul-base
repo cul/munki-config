@@ -33,7 +33,8 @@
 	
 	  <string>Firefox4</string>
 	  <string>libx</string>
-
+	  
+	  <string>Adobe Flash Player</string>
 	  <string>Chrome</string>
 	  <string>cul-ChromeProfile</string>
 	  <string>RealPlayer</string>
