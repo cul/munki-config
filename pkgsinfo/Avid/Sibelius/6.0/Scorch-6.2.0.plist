@@ -25,6 +25,17 @@
 	<string>10.4.0</string>
 	<key>name</key>
 	<string>Scorch</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>CFBundleShortVersionString</key>
+	    <string>6.2.0</string>
+	    <key>path</key>
+	    <string>/Library/Internet Plug-Ins/Scorch.plugin</string>
+	    <key>type</key>
+	    <string>bundle</string>
+	    </dict>
+	  </array>
 	<key>receipts</key>
 	<array>
 		<dict>
