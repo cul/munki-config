@@ -154,7 +154,6 @@
 	<key>requires</key>
 	<array>
 		<string>Sibelius6SerialValidation</string>
-		<string>SibeliusLicense</string>
 	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>

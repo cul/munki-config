@@ -64,7 +64,7 @@
 	<true/>
 	<key>version</key>
 	<string>1.0</string>
-	<key>requires</key>
+	<key>update_for</key>
 	<array>
 	  <string>Sibelius</string>
 	</array>
