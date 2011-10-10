@@ -8,6 +8,7 @@
 	  <string>Skype</string>
 	  <string>Dropbox</string>
 	  <string>Microsoft</string>
+	  <string>SyncRO</string>
         </array>
 	<key>included_manifests</key>
         <array>
@@ -25,6 +26,7 @@
 	<key>optional_installs</key>
 	<array>
 	  <string>Dropbox</string>
+	  <string>Oxygen</string>
 	</array>
 
 </dict>
