@@ -6,11 +6,12 @@
         <array>
 	  <string>cul</string>
 	  <string>testing</string>
+	  <string>Mozilla</string>
         </array>
         <key>managed_installs</key>
         <array>
-	  <string>ComposerForumServiceFiles</string>
 	  <string>Silverfast</string>
+	  <string>Firefox4</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
