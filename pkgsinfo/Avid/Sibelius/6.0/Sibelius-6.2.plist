@@ -16,11 +16,11 @@
 	<key>installed_size</key>
 	<integer>885852</integer>
 	<key>installer_item_hash</key>
-	<string>43eeeb5adf285971faa8c2a881ac12e3fab8a58d3b4070086ee3e09c56443019</string>
+	<string>c86f5f706c08822fe7500be218196766a11644301443aa6ac5a47bda6b999c77</string>
 	<key>installer_item_location</key>
 	<string>Avid/Sibelius/6.0/Install Sibelius 6-6.2.dmg</string>
 	<key>installer_item_size</key>
-	<integer>572003</integer>
+	<integer>571875</integer>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
@@ -39,7 +39,7 @@
 	    <key>type</key>
 	    <string>application</string>
 	    </dict>
-	</array>
+	  </array>
 	<key>receipts</key>
 	<array>
 		<dict>
@@ -150,10 +150,6 @@
 			<key>version</key>
 			<string>6.2</string>
 		</dict>
-	</array>
-	<key>requires</key>
-	<array>
-		<string>Sibelius6SerialValidation</string>
 	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>

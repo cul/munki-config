@@ -16,11 +16,11 @@
 	<key>installed_size</key>
 	<integer>288940</integer>
 	<key>installer_item_hash</key>
-	<string>e270d6f6fdf9e178624ef7ecef87f0cde740c9805388a25004cec1d1aff4b624</string>
+	<string>140cc3835839c27f5de7bd2068a8689bfa23c499b716b9a48bab3eb1b5ea2acb</string>
 	<key>installer_item_location</key>
 	<string>Avid/Sibelius/6.0/Install AudioScore Lite-6.5.0.dmg</string>
 	<key>installer_item_size</key>
-	<integer>31998</integer>
+	<integer>31740</integer>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>

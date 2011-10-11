@@ -16,11 +16,11 @@
 	<key>installed_size</key>
 	<integer>40908</integer>
 	<key>installer_item_hash</key>
-	<string>d0934aa15e7093ac931255bf3a28a753ea7b6f7c2a5eb8b3c7444afa7a3d58db</string>
+	<string>462f61d3470b319d52a9703e577afb71b5854d9d3970fee662013202554b37f9</string>
 	<key>installer_item_location</key>
 	<string>Avid/Sibelius/6.0/Install PhotoScore Lite.dmg</string>
 	<key>installer_item_size</key>
-	<integer>15863</integer>
+	<integer>15866</integer>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>

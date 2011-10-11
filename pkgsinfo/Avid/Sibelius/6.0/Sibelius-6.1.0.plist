@@ -59,9 +59,5 @@
 	<true/>
 	<key>version</key>
 	<string>6.1.0</string>
-	<key>requires</key>
-	<array>
-	  <string>Sibelius6SerialValidation</string>
-	</array>
 </dict>
 </plist>

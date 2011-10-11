@@ -7,12 +7,13 @@
     <string>Avid</string>
     <string>cul</string>
   </array>
-  <key>managed_installs</key>
+  <key>managed_uninstalls</key>
   <array>
     <string>AudioScore Lite</string>
     <string>ReWire</string>
     <string>Sibelius Sounds Essentials</string>
-    <string>Sibelius-6.2</string>
+    <string>Sibelius</string>
+    <string>SibeliusLicense</string>
   </array>
 </dict>
 </plist>

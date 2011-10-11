@@ -64,10 +64,6 @@
 	<true/>
 	<key>version</key>
 	<string>1.0</string>
-	<key>update_for</key>
-	<array>
-	  <string>Sibelius</string>
-	</array>
 	<key>postinstall_script</key>
 	<string>#!/bin/bash
 	  rm -rf "/Sibelius 6.app"
