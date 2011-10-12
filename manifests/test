@@ -7,11 +7,13 @@
 	  <string>cul</string>
 	  <string>testing</string>
 	  <string>Mozilla</string>
+	  <string>MakeMusic</string>
         </array>
         <key>managed_installs</key>
         <array>
 	  <string>Silverfast</string>
 	  <string>Firefox4</string>
+	  <string>EpsonScanner</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
