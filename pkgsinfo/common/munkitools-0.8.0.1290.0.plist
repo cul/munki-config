@@ -70,7 +70,7 @@
 		</dict>
 	</array>
 	<key>unattended_install</key>
-	<true/>
+	<false/>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
