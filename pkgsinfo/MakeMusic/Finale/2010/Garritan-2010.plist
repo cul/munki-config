@@ -16,17 +16,23 @@
 	<key>installed_size</key>
 	<integer>2382708</integer>
 	<key>installer_item_hash</key>
-	<string>47a24e9fc9b6398b9d02d3e14e84005730954dc084a422cddd55e180861bbca6</string>
+	<string>078c240307cfb25157f518ced6905c2c583e2df9979a9412071f17a354ebc982</string>
 	<key>installer_item_location</key>
-	<string>MakeMusic/Finale/2010/Garritan_F2010.dmg</string>
+	<string>MakeMusic/Finale/2010/Garritan Instruments for Finale 2010.dmg</string>
 	<key>installer_item_size</key>
-	<integer>8260</integer>
+	<integer>880261</integer>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
 	<string>Garritan</string>
 	<key>installs</key>
 	<array>
+	  <dict>
+	    <key>path</key>
+	    <string>/Applications/Garritan Instruments for Finale/Samples</string>
+	    <key>type</key>
+	    <string>file</string>
+	  </dict>
 	  <dict>
 	    <key>CFBundleIdentifier</key>
 	    <string>com.Garritan.InstrumentsFinale</string>
@@ -38,8 +44,8 @@
 	    <string>/Applications/Garritan Instruments for Finale/Instruments for Finale.app</string>
 	    <key>type</key>
 	    <string>application</string>
-	    </dict>
-	  </array>
+	  </dict>
+	</array>
 	<key>receipts</key>
 	<array>
 		<dict>
@@ -87,11 +93,11 @@
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
-	<key>version</key>
-	<string>2010</string>
 	<key>update_for</key>
 	<array>
-	  <string>Finale2010</string>
+		<string>Finale2010</string>
 	</array>
+	<key>version</key>
+	<string>2010</string>
 </dict>
 </plist>
