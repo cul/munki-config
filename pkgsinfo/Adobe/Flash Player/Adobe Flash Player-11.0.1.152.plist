@@ -41,6 +41,8 @@
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
+	<key>unattended_install</key>
+        <true/>
 	<key>version</key>
 	<string>11.0.1.152</string>
 	<key>postinstall_script</key>
