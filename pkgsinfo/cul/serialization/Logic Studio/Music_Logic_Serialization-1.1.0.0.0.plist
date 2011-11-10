@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>cul</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>Logic_Serialization</string>
+	<key>installed_size</key>
+	<integer>24588</integer>
+	<key>installer_item_hash</key>
+	<string>3bb804132f42214814a69b95c8441d6400fb006f9370f0dafa14d0aeb5e040ce</string>
+	<key>installer_item_location</key>
+	<string>cul/serialization/Logic Studio/Logic_Serialization_Music.dmg</string>
+	<key>installer_item_size</key>
+	<integer>7960</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Music_Logic_Serialization</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>md5checksum</key>
+	    <string>d5267c114fe70e96184f62e5856ea962</string>
+	    <key>path</key>
+	    <string>/Library/Application Support/ProApps/Logic Studio System ID</string>
+	    <key>type</key>
+	    <string>file</string>
+	  </dict>
+	  <dict>
+	    <key>md5checksum</key>
+	    <string>42368c334b4046343f0f6a414ca5b8a2</string>
+	    <key>path</key>
+	    <string>/Library/Application Support/ProApps/ProAppsSystemID</string>
+	    <key>type</key>
+	    <string>file</string>
+	  </dict>
+	</array>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Logic_Serialization_Music.pkg</string>
+			<key>installed_size</key>
+			<integer>24588</integer>
+			<key>packageid</key>
+			<string>edu.columbia.logicserialization.ProApps_MUSIC.pkg</string>
+			<key>version</key>
+			<string>1.1.0.0.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.1.0.0.0</string>
+</dict>
+</plist>

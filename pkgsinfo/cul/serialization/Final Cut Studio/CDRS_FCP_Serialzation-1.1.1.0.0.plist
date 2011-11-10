@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>cul</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>License pkg for Final Cut Studio (CDRS)</string>
+	<key>installed_size</key>
+	<integer>8</integer>
+	<key>installer_item_hash</key>
+	<string>9bc0f966d8ff3aeffe76db2e9ace7ff1ceae824eab1a687d59d3987805adbecf</string>
+	<key>installer_item_location</key>
+	<string>cul/serialization/Final Cut Studio/CDRS_FCP_Serialization.dmg</string>
+	<key>installer_item_size</key>
+	<integer>37</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>CDRS_FCP_Serialzation</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>CDRS_FCP_Serialization.pkg</string>
+			<key>installed_size</key>
+			<integer>8</integer>
+			<key>packageid</key>
+			<string>edu.columbia.cdrsfcpserialization.ProApps.pkg</string>
+			<key>version</key>
+			<string>1.1.1.0.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.1.1.0.0</string>
+</dict>
+</plist>
