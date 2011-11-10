@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>RipDifferent</string>
+	</array>
+	<key>description</key>
+	<string>MacTheRipper is a DVD ripper (extractor). </string>
+	<key>display_name</key>
+	<string>MacTheRipper</string>
+	<key>installer_item_hash</key>
+	<string>c2595052645b936a19bdc6a24ad8ec3d42f55284bc7546cb7f640214d60241e1</string>
+	<key>installer_item_location</key>
+	<string>RipDifferent/MacTheRipper/2.6.6/mactheripper266.dmg</string>
+	<key>installer_item_size</key>
+	<integer>2612</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.Geezerbuttz.mtr</string>
+			<key>CFBundleShortVersionString</key>
+			<string>2.6.6</string>
+			<key>path</key>
+			<string>/Applications/MacTheRipper.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>MacTheRipper.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>MacTheRipper</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2.6.6</string>
+</dict>
+</plist>
