@@ -10,6 +10,8 @@
 	  <string>Skype</string>
 	  <string>cul</string>
 	  <string>Microsoft</string>
+	  <string>RipDifferent</string>
+	  <string>Roxio</string>
         </array>
 	<key>included_manifests</key>
         <array>
@@ -24,6 +26,9 @@
 	  <string>HandBrake-0.9.5</string>
 	  <string>cul-uni_login_files</string>
 	  <string>ProApps_Registration</string>
+	  <string>MacTheRipper</string>
+	  <string>Toast</string>
+	  <string>ToastLicense</string>
         </array>
 	<key>managed_uninstalls</key>
 	<array>
