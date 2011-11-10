@@ -21,7 +21,7 @@
 	<key>installer_item_size</key>
 	<integer>3051649</integer>
 	<key>minimum_os_version</key>
-	<string>10.4.0</string>
+	<string>10.6.0</string>
 	<key>name</key>
 	<string>iLife</string>
 	<key>package_path</key>
