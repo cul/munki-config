@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>FetchSoftworks</string>
+	</array>
+	<key>installer_item_hash</key>
+	<string>3c5f1058f75b0b05c5900d328e50b345945ab8e40603975b7d753850419d861d</string>
+	<key>installer_item_location</key>
+	<string>FetchSoftworks/5.7/Fetch_5.7.dmg</string>
+	<key>installer_item_size</key>
+	<integer>11524</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.fetchsoftworks.Fetch</string>
+			<key>CFBundleName</key>
+			<string>Fetch</string>
+			<key>CFBundleShortVersionString</key>
+			<string>5.7</string>
+			<key>minosversion</key>
+			<string>10.4.0</string>
+			<key>path</key>
+			<string>/Applications/Fetch.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Fetch.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Fetch</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>5.7</string>
+</dict>
+</plist>

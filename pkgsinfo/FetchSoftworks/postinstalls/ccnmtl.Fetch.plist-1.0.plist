@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>FetchSoftworks</string>
+	</array>
+	<key>description</key>
+	<string></string>
+	<key>display_name</key>
+	<string>com.fetchsoftworks.Fetch.plist</string>
+	<key>installed_size</key>
+	<integer>8</integer>
+	<key>installer_item_hash</key>
+	<string>5beb08c6ec4c1a2bf8a54f0db4d933092ee50e566b30c958617a6cb7a046b0b7</string>
+	<key>installer_item_location</key>
+	<string>FetchSoftworks/postinstalls/ccnmtl.Fetch.plist.pkg</string>
+	<key>installer_item_size</key>
+	<integer>5</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>ccnmtl.Fetch.plist</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>8</integer>
+			<key>packageid</key>
+			<string>ccnmtl.fetch.plist.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>

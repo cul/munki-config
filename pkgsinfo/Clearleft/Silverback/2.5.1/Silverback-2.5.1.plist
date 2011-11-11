@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>Clearleft</string>
+	</array>
+	<key>display_name</key>
+	<string>Silverback</string>
+	<key>installer_item_hash</key>
+	<string>e27748d93abbacfc575166072e57a7f9a5bc61942ea9c2acda643c7b1ad75089</string>
+	<key>installer_item_location</key>
+	<string>Clearleft/Silverback/2.5.1/Silverback.dmg</string>
+	<key>installer_item_size</key>
+	<integer>4789</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.clearleft.Silverback</string>
+			<key>CFBundleName</key>
+			<string>Silverback</string>
+			<key>CFBundleShortVersionString</key>
+			<string>2.5.1</string>
+			<key>path</key>
+			<string>/Applications/Silverback.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Silverback.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Silverback</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2.5.1</string>
+</dict>
+</plist>
