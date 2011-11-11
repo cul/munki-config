@@ -42,6 +42,7 @@
 	  <string>Transcribe</string>
 	  <string>Music_Logic_Serialization</string>
 	  <string>OpenMusic</string>
+	  <string>SibeliusLicense</string>
         </array>
 	<key>managed_uninstalls</key>
 	<array>

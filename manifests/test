@@ -14,6 +14,7 @@
 	  <string>Silverfast</string>
 	  <string>Firefox4</string>
 	  <string>EpsonScanner</string>
+	  <string>Toast</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

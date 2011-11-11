@@ -12,6 +12,7 @@
 	  <string>MSLab</string>
 	  <string>Apple</string>
 	  <string>Lame</string>
+	  <string>Solero</string>
         </array>
 	<key>included_manifests</key>
         <array>
@@ -25,6 +26,7 @@
 	  <string>Scorch</string>
 	  <string>Office2011Lab</string>
 	  <string>Music Printers</string>
+	  <string>FreehandViewer</string>
         </array>
 	<key>managed_uninstalls</key>
 	<array>
