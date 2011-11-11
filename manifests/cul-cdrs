@@ -15,6 +15,8 @@
           <string>David_Kocher</string>
 	  <string>Dropbox</string>
 	  <string>Microsoft</string>
+	  <string>Twitter</string>
+	  <string>Clearleft</string>
         </array>
 	<key>included_manifests</key>
         <array>
@@ -24,16 +26,20 @@
         <array>
 	  <string>Office2011</string>
 	  <string>Thunderbird</string>
-	  <string>skype-5.1.0.922</string>
-	  <string>TextWrangler</string>
-          <string>Cyberduck</string>
-          <string>OmniGrafflePro</string>
-          <string>Oxygen</string>
-	  <string>Google Earth</string>
+	  <string>skype</string>
         </array>
 	<key>optional_installs</key>
 	<array>
 	  <string>Dropbox</string>
+          <string>TextWrangler</string>
+          <string>Cyberduck</string>
+          <string>OmniGrafflePro</string>
+	  <string>OmniGraffleProLicense</string>
+          <string>Oxygen</string>
+          <string>Google Earth</string>
+	  <string>Silverback</string>
+	  <string>TweetDeck</string>
+	  <string>CDRS_FCP_Serialzation</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

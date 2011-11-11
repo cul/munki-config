@@ -8,16 +8,35 @@
 	  <string>Skype</string>
 	  <string>Vmware</string>
 	  <string>cul</string>
+	  <string>David_Kocher</string>
 	  <string>Microsoft</string>
 	  <string>Apple</string>
 	  <string>Dropbox</string>
+          <string>Adobe</string>
+          <string>common</string>
+          <string>Google</string>
+          <string>RealPlayer</string>
+          <string>Sassafras</string>
+          <string>Symantec</string>
+          <string>Telestream</string>
+          <string>Thomson_Reuters</string>
+          <string>umich</string>
+          <string>VideoLAN</string>
         </array>
-	<key>included_manifests</key>
-        <array>
-	  <string>cul-base</string>
-	</array>
         <key>managed_installs</key>
         <array>
+          <string>MunkiScripts</string>
+          <string>munkitools</string>
+          <string>libx</string>
+
+          <string>Adobe Flash Player</string>
+          <string>Chrome</string>
+          <string>cul-ChromeProfile</string>
+          <string>RealPlayer</string>
+          <string>VLC_media_player</string>
+          <string>EndnoteX4</string>
+
+          <string>keyserver</string>
 	  <string>Office2011</string>
 	  <string>Thunderbird</string>
 	  <string>skype</string>
@@ -28,6 +47,11 @@
           <string>cul-vmware-license</string>
 	  <string>XcodeTools</string>
 	  <string>Dropbox</string>
+	  <string>Firefox4</string>
+	  <string>Firefox5</string>
+	  <string>Firefox6</string>
+	  <string>Fugu</string>
+	  <string>Cyberduck</string>
 	</array>
 </dict>
 </plist>

@@ -17,6 +17,7 @@
 	  <string>Tug</string>
 	  <string>MSLab</string>
 	  <string>Lame</string>
+	  <string>Solero</string>
         </array>
 	<key>included_manifests</key>
         <array>
@@ -42,6 +43,7 @@
           <string>Google SketchUp 8.0 Installer</string>
 	  <string>Office2011Lab</string>
 	  <string>FileMakerPro</string>
+	  <string>FreehandViewer</string>
         </array>
 	<key>managed_uninstalls</key>
 	<array>
