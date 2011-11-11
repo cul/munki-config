@@ -5,6 +5,7 @@
      <key>catalogs</key>
         <array>
         <string>all</string>
+        <string>Apple</string>
         </array>
 	<key>included_manifests</key>
         <array>
@@ -12,6 +13,7 @@
         </array>
     <key>managed_installs</key>
         <array>
+        <string>iLife</string>
         </array>
 	<key>managed_uninstalls</key>
 	<array>
