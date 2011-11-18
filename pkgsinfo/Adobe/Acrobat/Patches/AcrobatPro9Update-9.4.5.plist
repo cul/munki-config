@@ -66,8 +66,8 @@ fi
 	<key>postinstall_script</key>
 	<string>#!/bin/bash
 /usr/bin/logger "Munki: Running AcrobatPro9Update-9.4.6 postinstall_script..."
-sed -i .bak 's/\&lt;string\&gt;AcroEFGPro90SelfHeal\.xml\&lt;\/string\&gt;//g' /Applications/Adobe\ Acrobat\ 9\ Pro/Adobe\ Acrobat\ Pro.app/Contents/MacOS/SHInit.xml
-sed -i .bak 's/\&lt;string\&gt;AcroEFGDist90SelfHeal\.xml\&lt;\/string\&gt;//g' /Applications/Adobe\ Acrobat\ 9\ Pro/Acrobat\ Distiller.app/Contents/MacOS/SHInit.xml
+sed -i .bak 's/\&lt;string\&gt;AcroENUPro90SelfHeal\.xml\&lt;\/string\&gt;//g' /Applications/Adobe\ Acrobat\ 9\ Pro/Adobe\ Acrobat\ Pro.app/Contents/MacOS/SHInit.xml
+sed -i .bak 's/\&lt;string\&gt;AcroENUDist90SelfHeal\.xml\&lt;\/string\&gt;//g' /Applications/Adobe\ Acrobat\ 9\ Pro/Acrobat\ Distiller.app/Contents/MacOS/SHInit.xml
 	</string>
 </dict>
 </plist>
