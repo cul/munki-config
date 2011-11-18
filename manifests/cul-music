@@ -19,6 +19,7 @@
 	  <string>cul</string>
 	  <string>umich</string>
 	  <string>VideoLAN</string>
+	  <string>Solero</string>
         </array>
 	<key>included_manifests</key>
         <array>
@@ -44,6 +45,7 @@
 		<string>CUL-ard-client-3.4.0.0</string>
 		<string>cul-altiris</string>
 		<string>Scorch</string>
+		<string>FreehandViewer</string>
         </array>
 	<key>managed_uninstalls</key>
 	<array>
