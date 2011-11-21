@@ -41,7 +41,7 @@
 	  <string>Fugu-1.2.0</string>
 	  <string>VLC_media_player</string>
 	  <string>EndnoteX4</string>
-	  
+	  <string>SymantecEndpointProtection</string>
 	  <string>keyserver</string>
         </array>
 </dict>

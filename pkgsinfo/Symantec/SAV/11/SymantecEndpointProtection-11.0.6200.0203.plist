@@ -8,6 +8,7 @@
 	<false/>
 	<key>catalogs</key>
 	<array>
+		<string>testing</string>
 		<string>Symantec</string>
 	</array>
 	<key>description</key>
@@ -17,15 +18,54 @@
 	<key>installed_size</key>
 	<integer>190231</integer>
 	<key>installer_item_hash</key>
-	<string>e66f4fe5ef33472a194e76d024d94e96b95cb3be3dc66431f68022021cbeaad6</string>
+	<string>77121eb693a8f1a2a551e4422aa8c7cf365d9e5c001801bf3ae8fc6c844cd9be</string>
 	<key>installer_item_location</key>
-	<string>Symantec/SAV/11/SymantecEndpointProtection.dmg</string>
+	<string>Symantec/SAV/11/Symantec Endpoint Protection.dmg</string>
 	<key>installer_item_size</key>
-	<integer>107364</integer>
+	<integer>107074</integer>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
 	<string>SymantecEndpointProtection</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.Symantec.NAVX</string>
+	    <key>CFBundleName</key>
+	    <string>Symantec Endpoint Protection</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>11.0.6200</string>
+	    <key>path</key>
+	    <string>/Applications/Symantec Solutions/Symantec Endpoint Protection.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	    </dict>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.Symantec.LiveUpdate</string>
+	    <key>CFBundleName</key>
+	    <string>LiveUpdate</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>5.1.3</string>
+	    <key>path</key>
+	    <string>/Applications/Symantec Solutions/LiveUpdate.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	    </dict>
+	  <dict>
+	    <key>CFBundleIdentifier</key>
+	    <string>com.Symantec.Scheduler</string>
+	    <key>CFBundleName</key>
+	    <string>Symantec Scheduler</string>
+	    <key>CFBundleShortVersionString</key>
+	    <string>4.0.3</string>
+	    <key>path</key>
+	    <string>/Applications/Symantec Solutions/Symantec Scheduler.app</string>
+	    <key>type</key>
+	    <string>application</string>
+	    </dict>
+	  </array>
 	<key>receipts</key>
 	<array>
 		<dict>
