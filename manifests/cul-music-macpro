@@ -18,6 +18,7 @@
 	  <string>Grame</string>
 	  <string>letz</string>
 	  <string>klingbeil</string>
+	  <string>testing</string>
         </array>
 	<key>included_manifests</key>
         <array>
@@ -44,8 +45,9 @@
 	  <string>OpenMusic</string>
 	  <string>SibeliusLicense</string>
         </array>
-	<key>managed_uninstalls</key>
+	<key>optional_installs</key>
 	<array>
+	  <string>EpsonScanner</string>
 	</array>
 </dict>
 </plist>
