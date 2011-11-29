@@ -27,6 +27,7 @@
 	  <string>Office2011</string>
 	  <string>Thunderbird</string>
 	  <string>skype</string>
+	  <string>cdrs-printers</string>
         </array>
 	<key>optional_installs</key>
 	<array>
