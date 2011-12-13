@@ -4,44 +4,30 @@
 <dict>
         <key>catalogs</key>
         <array>
-		<string>Apple</string>
-		<string>common</string>
-		<string>cul</string>
-		<string>Google</string>
-		<string>Microsoft</string>
-		<string>Mozilla</string>
-		<string>RealPlayerSP</string>
-		<string>Skype</string>
-		<string>Thomson_Reuters</string>
-		<string>umich</string>
-		<string>VideoLAN</string>
+	  <string>Mozilla</string>
+	  <string>Skype</string>
+	  <string>Dropbox</string>
+	  <string>Microsoft</string>
+	  <string>SyncRO</string>
         </array>
 	<key>included_manifests</key>
         <array>
-	  <string>Acrobat</string>
-	  <string>CS5</string>
-	  <string>iLife11</string>
-	  <string>Office2011</string>
+	  <string>cul-base</string>
 	</array>
         <key>managed_installs</key>
         <array>
-	  <string>Rosetta</string>
-	  <string>MunkiScripts</string>
-	  <string>munkitools</string>
-	  <string>cul-office-postinstall</string>
-	  <string>Firefox4</string>
-		
-	  <string>Chrome</string>
-	  <string>RealPlayerSP</string>
-	  <string>Fugu-1.2.0</string>
-	  <string>VLC_media_player</string>
-	  <string>EndnoteX4</string>
-	  <string>skype</string>
 	  <string>Thunderbird</string>
-
-	  <string>cul-altiris</string>
-	  <string>cul-office-postinstall</string>
+	  <string>skype</string>
+	  <string>Office2011</string>
         </array>
+	<key>managed_uninstalls</key>
+	<array>
+	</array>
+	<key>optional_installs</key>
+	<array>
+	  <string>Dropbox</string>
+	  <string>Oxygen</string>
+	</array>
 
 </dict>
 </plist>

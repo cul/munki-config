@@ -14,6 +14,7 @@
 		<string>RealPlayer</string>
 		<string>Sassafras</string>
 		<string>Symantec</string>
+		<string>squared5</string>
 		<string>Telestream</string>
 		<string>Thomson_Reuters</string>
 		<string>umich</string>
@@ -40,6 +41,7 @@
 	  <string>RealPlayer</string>
 	  <string>Fugu-1.2.0</string>
 	  <string>VLC_media_player</string>
+	  <string>MPEG Streamclip</string>
 	  <string>EndnoteX4</string>
 	  <string>SymantecEndpointProtection</string>
 	  <string>keyserver</string>

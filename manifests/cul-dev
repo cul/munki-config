@@ -13,7 +13,7 @@
 	  <string>Apple</string>
 	  <string>Dropbox</string>
           <string>Adobe</string>
-          <string>common</string>
+	  <string>common</string>
           <string>Google</string>
           <string>RealPlayer</string>
           <string>Sassafras</string>
@@ -22,12 +22,21 @@
           <string>Thomson_Reuters</string>
           <string>umich</string>
           <string>VideoLAN</string>
+	  <string>Symantec</string>
+	  <string>squared5</string>
+	  <string>testing</string>
+        </array>
+	<key>included_manifests</key>
+        <array>
+          <string>Acrobat</string>
+          <string>CS5</string>
+          <string>iLife11</string>
         </array>
         <key>managed_installs</key>
         <array>
-          <string>MunkiScripts</string>
           <string>munkitools</string>
           <string>libx</string>
+	  <string>MunkiScripts</string>
 
           <string>Adobe Flash Player</string>
           <string>Chrome</string>
@@ -40,6 +49,7 @@
 	  <string>Office2011</string>
 	  <string>Thunderbird</string>
 	  <string>skype</string>
+	  <string>MPEG Streamclip</string>
         </array>
 	<key>optional_installs</key>
 	<array>
@@ -52,6 +62,7 @@
 	  <string>Firefox6</string>
 	  <string>Fugu</string>
 	  <string>Cyberduck</string>
+	  <string>SymantecEndpointProtection</string>
 	</array>
 </dict>
 </plist>
