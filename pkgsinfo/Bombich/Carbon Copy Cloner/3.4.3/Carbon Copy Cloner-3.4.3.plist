@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>bombich</string>
+	</array>
+	<key>description</key>
+	<string>Backup software</string>
+	<key>display_name</key>
+	<string>Carbon Copy Cloner</string>
+	<key>installer_item_hash</key>
+	<string>eccc15d6f6c1b4e1a4a7965bc2977d582d6a4fa7d0cac3ca7b996c33681ac533</string>
+	<key>installer_item_location</key>
+	<string>Bombich/Carbon Copy Cloner/3.4.3/Carbon Copy Cloner.dmg</string>
+	<key>installer_item_size</key>
+	<integer>5860</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.bombich.ccc</string>
+			<key>CFBundleName</key>
+			<string>Carbon Copy Cloner</string>
+			<key>CFBundleShortVersionString</key>
+			<string>3.4.3</string>
+			<key>path</key>
+			<string>/Applications/Carbon Copy Cloner.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Carbon Copy Cloner.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Carbon Copy Cloner</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>3.4.3</string>
+</dict>
+</plist>

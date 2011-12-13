@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>VideoMonkey</string>
+	</array>
+	<key>display_name</key>
+	<string>VideoMonkey</string>
+	<key>installer_item_hash</key>
+	<string>f2167d4e3ab78eb941cce1681014b5fa67ffc53609af5a102a3a244a1c95f817</string>
+	<key>installer_item_location</key>
+	<string>VideoMonkey/0.8/VideoMonkey.dmg</string>
+	<key>installer_item_size</key>
+	<integer>9854</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.VideoMonkey.VideoMonkey</string>
+			<key>CFBundleName</key>
+			<string>VideoMonkey</string>
+			<key>CFBundleShortVersionString</key>
+			<string>0.8</string>
+			<key>path</key>
+			<string>/Applications/VideoMonkey.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>VideoMonkey.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>VideoMonkey</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>0.8</string>
+</dict>
+</plist>

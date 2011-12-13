@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Perkin_Elmer</string>
+	</array>
+	<key>description</key>
+	<string>Infrared Spectroscopy Tutorial and Reference</string>
+	<key>display_name</key>
+	<string>IRTUTOR</string>
+	<key>installed_size</key>
+	<integer>9920</integer>
+	<key>installer_item_hash</key>
+	<string>208920157f9591b30b55b18fd7f8d5aff716aad383133e30dec3dfba5775bf2e</string>
+	<key>installer_item_location</key>
+	<string>Perklin_Elmer/IRTUTOR/1.0/IRTUTOR.dmg</string>
+	<key>installer_item_size</key>
+	<integer>6064</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>IRTUTOR</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>md5checksum</key>
+	    <string>ee736e25b6b005d3d97cf6a28376e4c8</string>
+	    <key>path</key>
+	    <string>/Applications/IRTUTOR/IRTUTOR.osx</string>
+	    <key>type</key>
+	    <string>file</string>
+	    </dict>
+	  </array>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>IRTUTOR.pkg</string>
+			<key>installed_size</key>
+			<integer>9920</integer>
+			<key>packageid</key>
+			<string>edu.columbia.IRTUTOR.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>

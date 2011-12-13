@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>ShinyFrog</string>
+	</array>
+	<key>description</key>
+	<string>Img2icns is an application to create icons from images or images from icons, keeping them organized for future use.</string>
+	<key>display_name</key>
+	<string>Img2icns</string>
+	<key>installer_item_hash</key>
+	<string>9cef66e76574e21f4a3e9c6a1448c97e643dd2b7102ca8de6a9dc5e993d31299</string>
+	<key>installer_item_location</key>
+	<string>ShinyFrog/Img2icns/1.2.2/Img2icns.dmg</string>
+	<key>installer_item_size</key>
+	<integer>4968</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>net.shinyfrog.img2icns</string>
+			<key>CFBundleName</key>
+			<string>Img2icns</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.2.2</string>
+			<key>path</key>
+			<string>/Applications/Img2icns.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Img2icns.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Img2icns</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.2.2</string>
+</dict>
+</plist>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>ffmpegX</string>
+	</array>
+	<key>description</key>
+	<string>video and audio encoder for OSX</string>
+	<key>display_name</key>
+	<string>ffmpegX</string>
+	<key>installer_item_hash</key>
+	<string>356c7866283b6e99507ee76aa4be0aab7978cea3652b076797ba296c05a574b5</string>
+	<key>installer_item_location</key>
+	<string>ffmpegX/0.0.9x/ffmpegX.dmg</string>
+	<key>installer_item_size</key>
+	<integer>32676</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.mac.homepage.major4.ffmpegX</string>
+			<key>CFBundleName</key>
+			<string>ffmpegX</string>
+			<key>CFBundleShortVersionString</key>
+			<string>0.0.9x</string>
+			<key>path</key>
+			<string>/Applications/ffmpegX.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>ffmpegX.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>ffmpegX</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>0.0.9x</string>
+</dict>
+</plist>

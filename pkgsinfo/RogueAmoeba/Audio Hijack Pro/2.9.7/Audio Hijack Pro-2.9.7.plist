@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>RogueAmoeba</string>
+	</array>
+	<key>description</key>
+	<string>Record from applications like iTunes, Skype or DVD Player. </string>
+	<key>display_name</key>
+	<string>Audio Hijack Pro</string>
+	<key>installer_item_hash</key>
+	<string>a706862f0455a22d072255cf595bd3d3f16eacf304f7cdb58410fb1620203086</string>
+	<key>installer_item_location</key>
+	<string>RogueAmoeba/Audio Hijack Pro/2.9.7/Audio Hijack Pro.dmg</string>
+	<key>installer_item_size</key>
+	<integer>7432</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.rogueamoeba.AudioHijackPro2</string>
+			<key>CFBundleName</key>
+			<string>Audio Hijack Pro</string>
+			<key>CFBundleShortVersionString</key>
+			<string>2.9.7</string>
+			<key>minosversion</key>
+			<string>10.5.0</string>
+			<key>path</key>
+			<string>/Applications/Audio Hijack Pro.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Audio Hijack Pro.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Audio Hijack Pro</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2.9.7</string>
+</dict>
+</plist>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Emicsoft</string>
+	</array>
+	<key>description</key>
+	<string>Emicsoft MTS Converter for Mac</string>
+	<key>display_name</key>
+	<string>Emicsoft MTS Converter for Mac</string>
+	<key>installer_item_hash</key>
+	<string>4f60043a7cf49d99bd6c0f6478534b7a5703d9cf484c79291ad57e865d26ccb7</string>
+	<key>installer_item_location</key>
+	<string>Emicsoft/Emicsoft MTS Converter for Maac/1.0/Emicsoft MTS Converter for Mac.dmg</string>
+	<key>installer_item_size</key>
+	<integer>10516</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.emicsoft.Emicsoft_MTS_Converter_for_Mac</string>
+			<key>CFBundleName</key>
+			<string>Emicsoft MTS Converter for Mac</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.0</string>
+			<key>path</key>
+			<string>/Applications/Emicsoft MTS Converter for Mac.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Emicsoft MTS Converter for Mac.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Emicsoft MTS Converter for Mac</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>

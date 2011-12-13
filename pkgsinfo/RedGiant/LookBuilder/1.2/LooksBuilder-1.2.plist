@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>RedGiant</string>
+	</array>
+	<key>display_name</key>
+	<string>LooksBuilder</string>
+	<key>installer_item_hash</key>
+	<string>1952785b6e91557254dea6580122a54b63bf18dc05b00286cd59cdc889188446</string>
+	<key>installer_item_location</key>
+	<string>RedGiant/LookBuilder/1.2/LooksBuilder.dmg</string>
+	<key>installer_item_size</key>
+	<integer>3235</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.RedGiantSoftware.LooksBuilder</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.2</string>
+			<key>path</key>
+			<string>/Applications/LooksBuilder.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>LooksBuilder.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>LooksBuilder</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.2</string>
+</dict>
+</plist>

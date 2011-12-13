@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Techspansion</string>
+	</array>
+	<key>description</key>
+	<string>Video Converter for Mac OSX</string>
+	<key>display_name</key>
+	<string>VisualHub</string>
+	<key>installer_item_hash</key>
+	<string>b40d5dd6426473aec7e90ce774554b4e12fd16e1356aa7bf69514c6e73575848</string>
+	<key>installer_item_location</key>
+	<string>Techspansion/VisualHub/1.34.1/VisualHub.dmg</string>
+	<key>installer_item_size</key>
+	<integer>3935</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.techspansion.visualhub</string>
+			<key>CFBundleName</key>
+			<string>VisualHub</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.34.1</string>
+			<key>path</key>
+			<string>/Applications/VisualHub.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>VisualHub.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>VisualHub</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.34.1</string>
+</dict>
+</plist>

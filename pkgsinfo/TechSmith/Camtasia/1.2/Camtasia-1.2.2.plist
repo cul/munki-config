@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>TechSmith</string>
+	</array>
+	<key>description</key>
+	<string>Screen capture and recording program</string>
+	<key>display_name</key>
+	<string>Camtasia</string>
+	<key>installer_item_hash</key>
+	<string>96a524708421f8619002f403ad8ca5f07b37622c14cf9f14c09002a27c66ea7a</string>
+	<key>installer_item_location</key>
+	<string>TechSmith/Camtasia/1.2/Camtasia.dmg</string>
+	<key>installer_item_size</key>
+	<integer>29417</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.techsmith.camtasia</string>
+			<key>CFBundleName</key>
+			<string>Camtasia</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.2.2</string>
+			<key>minosversion</key>
+			<string>10.5</string>
+			<key>path</key>
+			<string>/Applications/Camtasia.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Camtasia.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Camtasia</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.2.2</string>
+</dict>
+</plist>

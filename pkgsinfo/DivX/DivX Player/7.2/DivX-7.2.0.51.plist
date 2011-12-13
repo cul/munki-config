@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>divx</string>
+	</array>
+	<key>description</key>
+	<string>DivX for Mac</string>
+	<key>display_name</key>
+	<string>DivX for Mac</string>
+	<key>installed_size</key>
+	<integer>114132</integer>
+	<key>installer_item_hash</key>
+	<string>b38277fae4a70f445cd5c6655e8d53e57c5832a27e40e7d1d6ed51fb4065067b</string>
+	<key>installer_item_location</key>
+	<string>DivX/DivX Player/7.2/DivX for Mac.dmg</string>
+	<key>installer_item_size</key>
+	<integer>39018</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>DivX</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>DivX for Mac.pkg</string>
+			<key>installed_size</key>
+			<integer>114132</integer>
+			<key>name</key>
+			<string>DivX for Mac 8.0</string>
+			<key>packageid</key>
+			<string>com.divx.divx6formacinstaller</string>
+			<key>version</key>
+			<string>7.2.0.51</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>7.2.0.51</string>
+</dict>
+</plist>
