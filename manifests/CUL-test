@@ -8,13 +8,15 @@
 	  <string>testing</string>
 	  <string>Mozilla</string>
 	  <string>MakeMusic</string>
+	  <string>Google</string>
         </array>
         <key>managed_installs</key>
         <array>
-	  <string>Silverfast</string>
+<!--	  <string>Silverfast</string>
 	  <string>Firefox4</string>
-	  <string>EpsonScanner</string>
-	  <string>Toast</string>
+	  <string>EpsonScanner</string> 
+	  <string>Toast</string> -->
+<string>Chrome</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

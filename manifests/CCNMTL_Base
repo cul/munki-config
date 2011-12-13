@@ -30,7 +30,7 @@
         <key>managed_installs</key>
         <array>
         <string>Rosetta</string>
-       	<string>MunkiScripts</string>
+       	<string>MunkiScripts-1.8.2</string>
 	  	<string>munkitools</string>
 		<string>perian-1.2.3</string>
 		<string>VLC_media_player-1.1.11</string>
