@@ -20,6 +20,8 @@
 	  <string>Skype</string>
 	  <string>Tug</string>
 	  <string>Wolfram</string>
+	  <string>Perkin_Elmer</string>
+	  <string>TechSmith</string>
         </array>
 	<key>included_manifests</key>
         <array>
@@ -45,7 +47,8 @@
 	  <string>Logic_Serialization</string>
 	  <string>ProApps_Registration</string>
 	  <string>R</string>
-
+	  <string>IRTUTOR</string>
+	  <string>Camtasia</string>
 
           <string>Thunderbird</string>
           <string>skype</string>

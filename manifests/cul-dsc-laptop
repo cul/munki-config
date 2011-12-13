@@ -20,6 +20,7 @@
 	  <string>Skype</string>
 	  <string>Tug</string>
 	  <string>Wolfram</string>
+	  <string>Perkin_Elmer</string>
         </array>
 	<key>included_manifests</key>
         <array>
@@ -41,6 +42,7 @@
 	  <string>Office2011</string>
 	  <string>Papers</string>
 	  <string>R</string>
+	  <string>IRTUTOR</string>
 
 
           <string>Thunderbird</string>
