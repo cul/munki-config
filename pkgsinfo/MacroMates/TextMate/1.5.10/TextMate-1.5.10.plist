@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>MacroMates</string>
+	</array>
+	<key>description</key>
+	<string>TextMate is a general-purpose GUI text editor for Mac OS X created by Allan Odgaard. Popular with programmers,[1] some notable features include declarative customizations, tabs for open documents, recordable macros, folding sections and snippets, shell integration, and an extensible bundle system.</string>
+	<key>display_name</key>
+	<string>TextMate</string>
+	<key>installer_item_hash</key>
+	<string>fcf87414afb9df42b1558dd5508d6d108bbe7fa6c9e1f3461a3f378c413cc566</string>
+	<key>installer_item_location</key>
+	<string>MacroMates/TextMate/1.5.10/TextMate.dmg</string>
+	<key>installer_item_size</key>
+	<integer>12304</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.macromates.textmate</string>
+			<key>CFBundleName</key>
+			<string>TextMate</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.5.10</string>
+			<key>minosversion</key>
+			<string>10.4.2</string>
+			<key>path</key>
+			<string>/Applications/TextMate.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>TextMate.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>TextMate</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.5.10</string>
+</dict>
+</plist>

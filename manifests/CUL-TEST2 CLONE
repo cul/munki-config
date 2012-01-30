@@ -4,19 +4,15 @@
 <dict>
 	<key>catalogs</key>
 	<array>
-		<string>cul</string>
+		<string>Clearleft</string>
+		<string>charismac</string>
+		<string>Celtx</string>
+		<string>CambridgeSoft</string>
 	</array>
 	<key>included_manifests</key>
-	<array>
-		<string>ccnmtl-test</string>
-		<string>cul-dev</string>
-	</array>
+	<array/>
 	<key>managed_installs</key>
-	<array>
-		<string>cdrs-printers</string>
-		<string>libx-2.3</string>
-		<string>ToastLicense</string>
-	</array>
+	<array/>
 	<key>managed_uninstalls</key>
 	<array/>
 </dict>

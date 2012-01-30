@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>FileMaker</string>
+	</array>
+	<key>description</key>
+	<string>FileMaker 6</string>
+	<key>display_name</key>
+	<string>FileMaker 6</string>
+	<key>installed_size</key>
+	<integer>55764</integer>
+	<key>installer_item_hash</key>
+	<string>c4b36d90d05859b06226cb83d63cd029021385524bb07f982b56fd2071cbbe98</string>
+	<key>installer_item_location</key>
+	<string>FileMaker/FileMaker/6.0/FileMaker6.dmg</string>
+	<key>installer_item_size</key>
+	<integer>19994</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>FileMaker</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>FileMaker6.pkg</string>
+			<key>installed_size</key>
+			<integer>55764</integer>
+			<key>packageid</key>
+			<string>edu.columbia.filemaker.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>

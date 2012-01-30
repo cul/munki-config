@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>blocking_applications</key>
+	<array>
+		<string>Firefox</string>
+	</array>
+	<key>catalogs</key>
+	<array>
+		<string>cul</string>
+	</array>
+	<key>description</key>
+	<string>LibX for CUL</string>
+	<key>display_name</key>
+	<string>LibX</string>
+	<key>installed_size</key>
+	<integer>212</integer>
+	<key>installer_item_hash</key>
+	<string>0501a268388631fd4fd71a30b811c76a15a7397c5e11ce074e7763fb09c02844</string>
+	<key>installer_item_location</key>
+	<string>cul/libx/2.2/cul-libx-v2.3.dmg</string>
+	<key>installer_item_size</key>
+	<integer>209</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>libx</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>cul-libx-v2.3.pkg</string>
+			<key>installed_size</key>
+			<integer>212</integer>
+			<key>packageid</key>
+			<string>edu.columbia.cul-libx.pkg</string>
+			<key>version</key>
+			<string>2.3</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>update_for</key>
+	<array>
+		<string>libx</string>
+	</array>
+	<key>version</key>
+	<string>2.3</string>
+</dict>
+</plist>

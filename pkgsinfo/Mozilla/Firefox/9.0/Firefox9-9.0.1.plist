@@ -6,29 +6,31 @@
 	<false/>
 	<key>catalogs</key>
 	<array>
-		<string>Mathworks</string>
+		<string>Mozilla</string>
 	</array>
 	<key>display_name</key>
-	<string>Matlab 2008b</string>
+	<string>Firefox</string>
 	<key>installer_item_hash</key>
-	<string>576d976b7d6ee0e94a2286abfec95e3a11e21f132733286fe6294b4b1f0ab98e</string>
+	<string>674552139d7fc787d30dd717d3f6bf30b3773731865e9b402e26307d0d6759bd</string>
 	<key>installer_item_location</key>
-	<string>MathWorks/Matlab/MATLAB_R2008b.dmg</string>
+	<string>Mozilla/Firefox/9.0/Firefox 9.0.1.dmg</string>
 	<key>installer_item_size</key>
-	<integer>1065515</integer>
+	<integer>31559</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.mathworks.StartMATLAB</string>
+			<string>org.mozilla.firefox</string>
 			<key>CFBundleName</key>
-			<string>StartMATLAB</string>
+			<string>Firefox</string>
 			<key>CFBundleShortVersionString</key>
-			<string>1.1</string>
+			<string>9.0.1</string>
+			<key>minosversion</key>
+			<string>10.5</string>
 			<key>path</key>
-			<string>/Applications/MATLAB_R2008b.app</string>
+			<string>/Applications/Firefox.app</string>
 			<key>type</key>
 			<string>application</string>
 		</dict>
@@ -39,18 +41,18 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>MATLAB_R2008b.app</string>
+			<string>Firefox.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
-	<string>Matlab</string>
+	<string>Firefox9</string>
 	<key>uninstall_method</key>
 	<string>remove_copied_items</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>7.7.0.471</string>
+	<string>9.0.1</string>
 </dict>
 </plist>

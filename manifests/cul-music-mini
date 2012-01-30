@@ -1,36 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-        <key>catalogs</key>
-        <array>
-	  <string>Audacity</string>
-	  <string>cul</string>
-	  <string>Cycling74</string>
-	  <string>RogueAmoeba</string>
-	  <string>Avid</string>
-	  <string>MSLab</string>
-	  <string>Apple</string>
-	  <string>Lame</string>
-	  <string>Solero</string>
-        </array>
-	<key>included_manifests</key>
-        <array>
-	  <string>cul-base</string>
-	</array>
-        <key>managed_installs</key>
-        <array>
-	  <string>Audacity</string>
-	  <string>Soundflower</string>
-	  <string>SoundSource</string>
-	  <string>Scorch</string>
-	  <string>Office2011Lab</string>
-	  <string>Music Printers</string>
-	  <string>FreehandViewer</string>
-        </array>
-	<key>managed_uninstalls</key>
-	<array>
-	  <string>Apple Mail</string>
-	</array>
-</dict>
+	<dict>
+		<key>catalogs</key>
+		<array>
+			<string>Audacity</string>
+			<string>cul</string>
+			<string>Cycling74</string>
+			<string>RogueAmoeba</string>
+			<string>Telestream</string>
+			<string>Avid</string>
+			<string>MSLab</string>
+			<string>Apple</string>
+			<string>Lame</string>
+			<string>Solero</string>
+			<string>Apple</string>
+		</array>
+		<key>included_manifests</key>
+		<array>
+			<string>cul-base</string>
+		</array>
+		<key>managed_installs</key>
+		<array>
+			<string>Audacity</string>
+			<string>Soundflower</string>
+			<string>SoundSource</string>
+			<string>Scorch</string>
+			<string>Office2011Lab</string>
+			<string>Music Printers</string>
+			<string>FreehandViewer</string>
+			<string>QuickTimePlayer</string>
+			<string>cul-Flip</string>
+		</array>
+		<key>managed_uninstalls</key>
+		<array>
+			<string>Apple Mail</string>
+		</array>
+	</dict>
 </plist>

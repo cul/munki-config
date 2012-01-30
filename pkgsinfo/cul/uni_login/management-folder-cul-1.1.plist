@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>cul</string>
+	</array>
+	<key>description</key>
+	<string>Installs the login hooks used for uni login </string>
+	<key>display_name</key>
+	<string>management-folder-cul</string>
+	<key>installed_size</key>
+	<integer>52</integer>
+	<key>installer_item_hash</key>
+	<string>5c6985c2dea2ec907822c8306340375c8265799323df0f84acc3fe3d3a217e5a</string>
+	<key>installer_item_location</key>
+	<string>cul/uni_login/management-folder-cul-1.1.dmg</string>
+	<key>installer_item_size</key>
+	<integer>42</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>management-folder-cul</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>management-folder-cul.pkg</string>
+			<key>installed_size</key>
+			<integer>52</integer>
+			<key>packageid</key>
+			<string>edu.columbia.managementfoldercul.Management.pkg</string>
+			<key>version</key>
+			<string>1.1</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.1</string>
+</dict>
+</plist>

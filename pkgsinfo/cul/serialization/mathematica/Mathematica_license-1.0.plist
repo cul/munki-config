@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>cul</string>
+	</array>
+	<key>description</key>
+	<string>Serializes Mathematica for lab machines</string>
+	<key>display_name</key>
+	<string>Mathematica_license</string>
+	<key>installed_size</key>
+	<integer>4</integer>
+	<key>installer_item_hash</key>
+	<string>5b301651e0e4ed452041586aa33f5206f441298fb6054f687573aa9dcc7cb230</string>
+	<key>installer_item_location</key>
+	<string>cul/serialization/mathematica/Mathematica_license.dmg</string>
+	<key>installer_item_size</key>
+	<integer>16</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Mathematica_license</string>
+	<key>installs</key>
+	<array>
+	  <dict>
+	    <key>md5checksum</key>
+	    <string>ed8d4f7d99031777f1a66142b26292c9</string>
+	    <key>path</key>
+	    <string>/Applications/Mathematica.app/Configuration/Licensing/mathpass</string>
+	    <key>type</key>
+	    <string>file</string>
+	    </dict>
+	  </array>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Mathematica_license.pkg</string>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>edu.columbia.mathematicalicense.mathpass.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+	<key>update_for</key>
+	<array>
+		<string>Mathematica</string>
+	</array>
+</dict>
+</plist>

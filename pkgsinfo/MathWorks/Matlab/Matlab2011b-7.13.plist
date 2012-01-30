@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Mathworks</string>
+	</array>
+	<key>display_name</key>
+	<string>Matlab R2011b</string>
+	<key>installer_item_hash</key>
+	<string>163b196f012adffc30795cde31974b0caf40270d0a7a2f975f585a57ae9415e2</string>
+	<key>installer_item_location</key>
+	<string>Mathworks/Matlab/MATLAB_R2011b.dmg</string>
+	<key>installer_item_size</key>
+	<integer>1863533</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.mathworks.matlab</string>
+			<key>CFBundleShortVersionString</key>
+			<string>7.13</string>
+			<key>minosversion</key>
+			<string>10.6.4</string>
+			<key>path</key>
+			<string>/Applications/MATLAB_R2011b.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>MATLAB_R2011b.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Matlab2011b</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>7.13</string>
+</dict>
+</plist>

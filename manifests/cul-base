@@ -11,9 +11,8 @@
 		<string>Google</string>
 		<string>Microsoft</string>
 		<string>Mozilla</string>
-		<string>RealPlayer</string>
+		<string>Realplayer</string>
 		<string>Sassafras</string>
-		<string>Symantec</string>
 		<string>squared5</string>
 		<string>Telestream</string>
 		<string>Thomson_Reuters</string>
@@ -43,7 +42,6 @@
 	  <string>VLC_media_player</string>
 	  <string>MPEG Streamclip</string>
 	  <string>EndnoteX4</string>
-	  <string>SymantecEndpointProtection</string>
 	  <string>keyserver</string>
         </array>
 </dict>

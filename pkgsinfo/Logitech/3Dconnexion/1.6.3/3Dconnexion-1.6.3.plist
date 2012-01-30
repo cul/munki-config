@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RestartAction</key>
+	<string>RecommendRestart</string>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>logitech</string>
+	</array>
+	<key>description</key>
+	<string>3Dconnexion driver and plugins</string>
+	<key>display_name</key>
+	<string>3Dconnexion Software</string>
+	<key>installed_size</key>
+	<integer>36360</integer>
+	<key>installer_item_hash</key>
+	<string>a57ef457c1040ff9d4e33b90118e48cc8096b75f85347b5709bcd38749f8b322</string>
+	<key>installer_item_location</key>
+	<string>Logitech/3Dconnexion/1.6.3/Install 3Dconnexion software.dmg</string>
+	<key>installer_item_size</key>
+	<integer>21993</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>3Dconnexion</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>Install 3Dconnexion driver.pkg</string>
+			<key>installed_size</key>
+			<integer>29268</integer>
+			<key>packageid</key>
+			<string>com.3dconnexion.driver.installer</string>
+			<key>version</key>
+			<string>1.6.3</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Install 3Dconnexion plug-ins.pkg</string>
+			<key>installed_size</key>
+			<integer>7092</integer>
+			<key>packageid</key>
+			<string>com.3dconnexion.plugins.installer</string>
+			<key>version</key>
+			<string>1.6.3</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.6.3</string>
+</dict>
+</plist>

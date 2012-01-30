@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>cul</string>
+	</array>
+	<key>description</key>
+	<string>Installs the login hooks used for uni login </string>
+	<key>display_name</key>
+	<string>management-folder-cul</string>
+	<key>installed_size</key>
+	<integer>52</integer>
+	<key>installer_item_hash</key>
+	<string>d757721067e577ff8438fdbdb2eccb5e9e8f8bf0dffdd20c56cfd7e10d8092c3</string>
+	<key>installer_item_location</key>
+	<string>cul/uni_login/management-folder-cul.dmg</string>
+	<key>installer_item_size</key>
+	<integer>42</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>management-folder-cul</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>management-folder-cul.pkg</string>
+			<key>installed_size</key>
+			<integer>52</integer>
+			<key>packageid</key>
+			<string>edu.columbia.managementfoldercul.Management.pkg</string>
+			<key>version</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>md5checksum</key>
+			<string>38a2a15e17ce0369a344443d411c50d4</string>
+			<key>path</key>
+			<string>/Library/Management/bin/login.hook.sh</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+		<dict>
+			<key>md5checksum</key>
+			<string>9554b00d9cc83151a4fbcf47a83272b0</string>
+			<key>path</key>
+			<string>/Library/Management/bin/logout.hook.sh</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>

@@ -65,7 +65,6 @@
 	<string>6.0</string>
 	<key>postinstall_script</key>
 	<string>#!/bin/bash
-d="/usr/bin/defaults write"
 mv "/Google Earth Web Plug-in.plugin" "/Library/Internet Plug-ins/"
 exit 0</string>
 </dict>

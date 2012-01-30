@@ -30,12 +30,12 @@
 		<key>managed_installs</key>
 		<array>
 			<string>munkitools</string>
-			<string>MunkiScripts</string>
 			<string>keyserver</string>
+			<string>Acrobat</string>
+			<string>Office2011</string>
 		</array>
 		<key>optional_installs</key>
 		<array>
-			<string>Acrobat</string>
 			<string>libx</string>
 			<string>Office2011</string>
 			<string>Thunderbird</string>
@@ -56,7 +56,6 @@
 			<string>Firefox6</string>
 			<string>Fugu</string>
 			<string>Cyberduck</string>
-			<string>SymantecEndpointProtection</string>
 			<string>TextMate</string>
 		</array>
 	</dict>

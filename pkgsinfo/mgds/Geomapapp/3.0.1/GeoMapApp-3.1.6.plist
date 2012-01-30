@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>mgds</string>
+	</array>
+	<key>description</key>
+	<string>GeoMapApp is an earth science exploration and visualization application that is continually being expanded as part of the Marine Geoscience Data System (MGDS) at the Lamont-Doherty Earth Observatory of Columbia University</string>
+	<key>display_name</key>
+	<string>GeoMapApp</string>
+	<key>installer_item_hash</key>
+	<string>5c04ec7e68013b08a91e72a145bbc946379fcb70f2e88ac612cb1248d69184c4</string>
+	<key>installer_item_location</key>
+	<string>mgds/Geomapapp/3.0.1/GeoMapApp-3.1.6.dmg</string>
+	<key>installer_item_size</key>
+	<integer>8499</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>GeoMapApp</string>
+			<key>CFBundleName</key>
+			<string>GeoMapApp</string>
+			<key>CFBundleShortVersionString</key>
+			<string>3.0.0</string>
+			<key>path</key>
+			<string>/Applications/GeoMapApp.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>GeoMapApp.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>GeoMapApp</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>3.1.6</string>
+</dict>
+</plist>

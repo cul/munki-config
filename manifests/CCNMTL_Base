@@ -11,7 +11,7 @@
 		<string>ccnmtl</string>
 		<string>FetchSoftworks</string>
 		<string>Mozilla</string>
-		<string>RealPlayer</string>
+		<string>Realplayer</string>
 		<string>Skype</string>
 		<string>Telestream</string>
 		<string>Perian</string>
@@ -47,13 +47,13 @@
 		<string>RealPlayer</string>
 		<string>skype-5.3.0.1074</string>
 		<string>perian-1.2.3</string>
-		<string>Firefox7-7.0.1</string>
+		<string>Firefox9-9.0.1</string>
 		<string>cul-Flip-2.3.6.5</string>
 		<string>OmniGraffleProLicense</string>
 		<string>Adobe Flash Player-11.0.1.152</string>
 		<string>Fetch-5.7</string>
 		<string>ccnmtl.Fetch.plist-1.0</string>
-		
+	     <string>iLife</string>	
         </array>
 	<key>managed_uninstalls</key>
 	<array>
