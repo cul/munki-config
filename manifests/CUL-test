@@ -5,17 +5,15 @@
 	<key>catalogs</key>
 	<array>
 		<string>cul</string>
+		<string>Microsoft</string>
 	</array>
 	<key>included_manifests</key>
-	<array>
-		<string>ccnmtl-test</string>
-		<string>cul-dev</string>
-	</array>
+	<array/>
 	<key>managed_installs</key>
 	<array>
-		<string>cdrs-printers</string>
-		<string>libx-2.3</string>
-		<string>ToastLicense</string>
+		<string>Office2011</string>
+		<string>Music Printers</string>
+		<string>Office2008</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array/>
