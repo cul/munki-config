@@ -11,7 +11,7 @@
 	<key>description</key>
 	<string></string>
 	<key>display_name</key>
-	<string>Office 2011 14.1.4 Update</string>
+	<string>Office 2011 14.1.4 Update for Labs</string>
 	<key>installed_size</key>
 	<integer>369048</integer>
 	<key>installer_item_hash</key>
@@ -23,7 +23,7 @@
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
-	<string>Office2011Update</string>
+	<string>Office2011UpdateLab</string>
 	<key>installs</key>
         <array>
           <dict>
