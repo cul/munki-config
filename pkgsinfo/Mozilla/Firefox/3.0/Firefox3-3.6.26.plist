@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Mozilla</string>
+	</array>
+	<key>description</key>
+	<string>Firefox 3 for CUL staff</string>
+	<key>display_name</key>
+	<string>Firefox 3</string>
+	<key>installer_item_hash</key>
+	<string>70ca2b0626854107c1aefc5a5470463b7430b07b21333eb72dafc480f0e20b4b</string>
+	<key>installer_item_location</key>
+	<string>Mozilla/Firefox/3.0/Firefox 3.6.26.dmg</string>
+	<key>installer_item_size</key>
+	<integer>19219</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.mozilla.firefox</string>
+			<key>CFBundleName</key>
+			<string>Firefox</string>
+			<key>CFBundleShortVersionString</key>
+			<string>3.6.26</string>
+			<key>path</key>
+			<string>/Applications/Firefox.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+		<dict>
+			<key>md5checksum</key>
+			<string>6535c15ffcd8eb6cf12c26f157e29bb2</string>
+			<key>path</key>
+			<string>/Applications/Firefox.app/Contents/MacOS/firefox-bin</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Firefox.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Firefox3</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>3.6.26</string>
+		<key>postinstall_script</key>
+		<string>#!/bin/bash
+	localsettings="/Applications/Firefox.app/Contents/MacOS/defaults/pref/local-settings.js"
+	touch -f $localsettings
+	echo "// MyOrganization additions
+	pref('general.config.obscure_value', 0);
+	pref('general.config.filename', 'firefox_CUL.cfg');" &gt; $localsettings
+
+	firefox_cul="/Applications/Firefox.app/Contents/MacOS/firefox_CUL.cfg"
+	touch -f $firefox_cul
+	echo "// 
+	// This file sets some default prefs for use at Columbia Libraries
+	// and locks down some other prefs.
+	// application updates
+	//
+	lockPref('app.update.enabled', false);
+	lockPref('app.update.autoUpdateEnabled', false);
+	lockPref('extensions.update.autoUpdate', false);
+	lockPref('extensions.update.enabled', false);
+	lockPref('browser.search.update', false);
+	lockPref('browser.startup.homepage_override.mstone','ignore');
+	// Password Manager
+	pref('signon.rememberSignons', false);
+	// Default browser check
+	pref('browser.shell.checkDefaultBrowser', false);
+	// Home page
+	pref('browser.startup.homepage','http://library.columbia.edu');
+	pref('browser.startup.homepage_reset','http://library.columbia.edu');" &gt; $firefox_cul
+
+	override="/Applications/Firefox.app/Contents/MacOS/override.ini"
+	touch -f $override
+	echo "[XRE]
+	EnableProfileMigrator=false" &gt; $override
+
+	exit 0</string>
+</dict>
+</plist>
