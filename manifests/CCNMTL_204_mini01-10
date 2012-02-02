@@ -11,7 +11,9 @@
 		<string>CCNMTL_Base</string>
 	</array>
 	<key>managed_installs</key>
-	<array/>
+	<array>
+		<string>iLife</string>
+	</array>
 	<key>managed_uninstalls</key>
 	<array/>
 </dict>
