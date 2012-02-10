@@ -185,6 +185,8 @@
 	<key>version</key>
 	<string>11.0.4</string>
         <key>update_for</key>
+        <array>
         <string>CreativeSuite5DesignPremium</string>
+        </array>
 </dict>
 </plist>

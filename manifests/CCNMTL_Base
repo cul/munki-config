@@ -30,23 +30,14 @@
         <key>managed_installs</key>
         <array>
         <string>Rosetta</string>
-       	<string>MunkiScripts-1.8.2</string>
+       	<string>MunkiScripts</string>
 	  	<string>munkitools</string>
 		<string>perian-1.2.3</string>
 		<string>VLC_media_player-1.1.11</string>
-		
-		<!--
-		<string>Firefox5-5.0.1</string>
-		<string>boxee-0.9.23.15885</string>
-		<string>Firefox6-6.0.2</string>
-		<string></string>
-		-->
-		
 		<string>BBEdit_9.6.3</string>
 		<string>BBEdit 9 Reg-9.0</string>
 		<string>RealPlayer</string>
 		<string>skype-5.3.0.1074</string>
-		<string>perian-1.2.3</string>
 		<string>Firefox9-9.0.1</string>
 		<string>cul-Flip-2.3.6.5</string>
 		<string>OmniGraffleProLicense</string>

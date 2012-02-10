@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>Solero</string>
+		<string>Apple</string>
+		<string>MSLab</string>
+		<string>Telestream</string>
+		<string>cul</string>
+	</array>
+	<key>included_manifests</key>
+	<array>
+		<string>cul-base</string>
+	</array>
+	<key>managed_installs</key>
+	<array>
+		<string>Office2011Lab</string>
+		<string>FreehandViewer</string>
+		<string>QuickTimePlayer</string>
+		<string>cul-Flip</string>
+		<string>Accordance</string>
+	</array>
+	<key>managed_uninstalls</key>
+	<array>
+		<string>Apple Mail</string>
+	</array>
+</dict>
+</plist>

@@ -13,7 +13,7 @@
         </array>
         <key>managed_installs</key>
         <array>
-		<string>Education Software Installer</string>
+		<!-- <string>Education Software Installer</string> -->
         </array>
 	<key>managed_uninstalls</key>
 	<array>

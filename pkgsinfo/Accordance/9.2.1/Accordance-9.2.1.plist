@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>Accordance bible software</string>
+	<key>display_name</key>
+	<string>Accordance bible software</string>
+	<key>installer_item_hash</key>
+	<string>9599319ecc31e28a44f54dddbb9a01bf1491e48a8a05427f98a01a82d1346327</string>
+	<key>installer_item_location</key>
+	<string>Accordance/9.2.1/Accordance.dmg</string>
+	<key>installer_item_size</key>
+	<integer>13980</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.OakTree.Accordance</string>
+			<key>CFBundleName</key>
+			<string>Accordance</string>
+			<key>CFBundleShortVersionString</key>
+			<string>9.2.1</string>
+			<key>path</key>
+			<string>/Applications/Accordance.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Accordance.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Accordance</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>9.2.1</string>
+</dict>
+</plist>

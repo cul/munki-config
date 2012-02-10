@@ -56,9 +56,11 @@
 	<string>4.0.4</string>
 	<key>requires</key>
 	<array>
-	  <string>AdobeBridgeCS5-4.0.3</string>
+	  <string>CreativeSuite5DesignPremium</string>
 	</array>
-        <key>update_for</key>
+     <key>update_for</key>
+     <array>
         <string>CreativeSuite5DesignPremium</string>
+        </array>
 </dict>
 </plist>

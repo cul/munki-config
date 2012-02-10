@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Description</key>
+	<string>OUTDATED Installs the LITO user and gives it ARD rights </string>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
@@ -9,9 +11,9 @@
 		<string>cul</string>
 	</array>
 	<key>description</key>
-	<string>Installs the LITO user and gives it ARD rights </string>
+	<string>OUTDATED Installs the LITO user and gives it ARD rights </string>
 	<key>display_name</key>
-	<string>Remote Desktop Client Update</string>
+	<string>Remote Desktop Client Update OUTDATED</string>
 	<key>installed_size</key>
 	<integer>9532</integer>
 	<key>installer_item_hash</key>
@@ -20,39 +22,39 @@
 	<string>cul/ard/CUL-ard-client.dmg</string>
 	<key>installer_item_size</key>
 	<integer>4485</integer>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.RemoteDesktopAgent</string>
+			<key>CFBundleName</key>
+			<string>ARDAgent</string>
+			<key>CFBundleShortVersionString</key>
+			<string>3.4.0</string>
+			<key>path</key>
+			<string>/System/Library/CoreServices/RemoteManagement/ARDAgent.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
 	<string>CUL-ard-client</string>
-	<key>installs</key>
-	<array>
-	  <dict>
-	    <key>CFBundleIdentifier</key>
-	    <string>com.apple.RemoteDesktopAgent</string>
-	    <key>CFBundleName</key>
-	    <string>ARDAgent</string>
-	    <key>CFBundleShortVersionString</key>
-	    <string>3.4.0</string>
-	    <key>path</key>
-	    <string>/System/Library/CoreServices/RemoteManagement/ARDAgent.app</string>
-	    <key>type</key>
-	    <string>application</string>
-	  </dict>
-	</array>
 	<key>receipts</key>
 	<array>
-	  <dict>
-	    <key>filename</key>
-	    <string>CUL-ard-client.pkg</string>
-	    <key>installed_size</key>
-	    <integer>8474</integer>
-	    <key>name</key>
-	    <string>RemoteDesktopClient</string>
-	    <key>packageid</key>
-	    <string>edu.columbia.pkg.RemoteDesktopClient</string>
-	    <key>version</key>
-	    <string>3.4.0.0</string>
-	  </dict>
+		<dict>
+			<key>filename</key>
+			<string>CUL-ard-client.pkg</string>
+			<key>installed_size</key>
+			<integer>8474</integer>
+			<key>name</key>
+			<string>RemoteDesktopClient</string>
+			<key>packageid</key>
+			<string>edu.columbia.pkg.RemoteDesktopClient</string>
+			<key>version</key>
+			<string>3.4.0.0</string>
+		</dict>
 	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>

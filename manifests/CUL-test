@@ -1,21 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>catalogs</key>
-	<array>
-		<string>cul</string>
-		<string>Microsoft</string>
-	</array>
-	<key>included_manifests</key>
-	<array/>
-	<key>managed_installs</key>
-	<array>
-		<string>Office2011</string>
-		<string>Music Printers</string>
-		<string>Office2008</string>
-	</array>
-	<key>managed_uninstalls</key>
-	<array/>
-</dict>
+	<dict>
+		<key>catalogs</key>
+		<array>
+			<string>Mozilla</string>
+			<string>Skype</string>
+			<string>Vmware</string>
+			<string>cul</string>
+			<string>Google</string>
+			<string>Bare_Bones</string>
+			<string>Omni_Group</string>
+			<string>SyncRO</string>
+			<string>David_Kocher</string>
+			<string>Dropbox</string>
+			<string>Symantec</string>
+			<string>Microsoft</string>
+			<string>Twitter</string>
+			<string>Clearleft</string>
+			<string>TechSmith</string>
+		</array>
+		<key>included_manifests</key>
+		<array>
+			<string>cul-base</string>
+		</array>
+		<key>managed_installs</key>
+		<array>
+			<string>Office2011</string>
+			<string>Thunderbird</string>
+			<string>skype</string>
+			<string>cdrs-printers</string>
+		</array>
+		<key>optional_installs</key>
+		<array>
+			<string>Dropbox</string>
+			<string>TextWrangler</string>
+			<string>Cyberduck</string>
+			<string>OmniGrafflePro</string>
+			<string>OmniGraffleProLicense</string>
+			<string>Oxygen</string>
+			<string>Google Earth</string>
+			<string>Silverback</string>
+			<string>TweetDeck</string>
+
+			<string>Camtasia</string>
+			<string>CamtasiaLicense</string>
+		</array>
+		<key>managed_uninstalls</key>
+		<array>
+			<string>SymantecEndpointProtection</string>
+		</array>
+
+	</dict>
 </plist>

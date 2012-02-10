@@ -55,6 +55,8 @@
 	<key>version</key>
 	<string>15.0.2</string>
         <key>update_for</key>
+        <array>
         <string>CreativeSuite5DesignPremium</string>
+        </array>
 </dict>
 </plist>

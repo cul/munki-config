@@ -316,10 +316,12 @@
 	<string>7.0.4.553</string>
 	<key>requires</key>
         <array>
-          <string>AdobeInDesignCS5-7.0.3.535</string>
-          </array>
-        <key>update_for</key>
+		<string>CreativeSuite5DesignPremium</string>
+        </array>
+    <key>update_for</key>
+    <array>
         <string>CreativeSuite5DesignPremium</string>
+    </array>
 
 </dict>
 </plist>

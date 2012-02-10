@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>autoremove</key>
@@ -20,47 +20,47 @@
 	<string>cul/customization/Acrobat/9.0/AcrobatFix.dmg</string>
 	<key>installer_item_size</key>
 	<integer>82524</integer>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>md5checksum</key>
+			<string>8857a1c3d37c28f66e44d47b567341b2</string>
+			<key>path</key>
+			<string>/Library/Application Support/Adobe/Acrobat/SHExpectedMissingFileTypes.plist</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+	</array>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
 	<string>AcrobatFix</string>
-	<key>installs</key>
-	<array>
-	  <dict>
-	    <key>md5checksum</key>
-	    <string>8857a1c3d37c28f66e44d47b567341b2</string>
-	    <key>path</key>
-	    <string>/Library/Application Support/Adobe/Acrobat/SHExpectedMissingFileTypes.plist</string>
-	    <key>type</key>
-	    <string>file</string>
-	  </dict>
-	</array>
 	<key>receipts</key>
 	<array>
-	  <dict>
-	    <key>filename</key>
-	    <string>AcrobatFix.pkg</string>
-	    <key>installed_size</key>
-	    <integer>135572</integer>
-	    <key>packageid</key>
-	    <string>edu.columbia.adobefix.adobe.pkg</string>
-	    <key>version</key>
-	    <string>1.0.0</string>
-	  </dict>
+		<dict>
+			<key>filename</key>
+			<string>AcrobatFix.pkg</string>
+			<key>installed_size</key>
+			<integer>135572</integer>
+			<key>packageid</key>
+			<string>edu.columbia.adobefix.adobe.pkg</string>
+			<key>version</key>
+			<string>1.0.0</string>
+		</dict>
+	</array>
+	<key>requires</key>
+	<array>
+		<string>Acrobat</string>
 	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
-	<key>version</key>
-	<string>1.0.0</string>
 	<key>update_for</key>
 	<array>
-	  <string>Acrobat</string>
+		<string>Acrobat</string>
 	</array>
-	<key>requires</key>
-	<array>
-	  <string>Acrobat</string>
-	</array>
+	<key>version</key>
+	<string>1.0.0</string>
 </dict>
 </plist>
