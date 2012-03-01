@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>catalogs</key>
+	<array>
+		<string>common</string>
+		<string>testing</string>
+		<string>Apple</string>
+		<string>CambridgeSoft</string>
+		<string>cul</string>
+		<string>Djvu</string>
+		<string>FileMaker</string>
+		<string>Blender</string>
+		<string>Google</string>
+		<string>LizardTech</string>
+		<string>Mathworks</string>
+		<string>Mekentosj</string>
+		<string>mgds</string>
+		<string>MSLab</string>
+		<string>R_Project</string>
+		<string>Tug</string>
+		<string>Wolfram</string>
+		<string>Perkin_Elmer</string>
+		<string>logitech</string>
+		<string>MakeMusic</string>
+	</array>
+	<key>included_manifests</key>
+	<array>
+		<string>Final_Cut_Studio</string>
+		<string>LogicStudio</string>
+	</array>
+	<key>managed_installs</key>
+	<array>
+		<string>ChemBioDraw</string>
+		<string>Chrome</string>
+		<string>DjVu Browser Plugin</string>
+		<string>ExpressView</string>
+		<string>FileMakerPro</string>
+		<string>GeoMapApp-3.1.6</string>
+		<string>Google Earth</string>
+		<string>iWork</string>
+		<string>MacTeX</string>
+		<string>Mathematica</string>
+		<string>Matlab2011b</string>
+		<string>Office2011Lab</string>
+		<string>Papers</string>
+		<string>blender</string>
+		<string>Logic_Serialization</string>
+		<string>ProApps_Registration</string>
+		<string>R</string>
+		<string>IRTUTOR</string>
+		<string>3Dconnexion</string>
+		<string>MunkiR4R</string>
+		<string>management_folder_cul-1.2</string>
+	</array>
+	<key>managed_uninstalls</key>
+	<array>
+		<string>Apple Mail</string>
+	</array>
+	<key>optional_installs</key>
+	<array>
+		<string>Finale2010</string>
+		<string>MestReNovaLITE</string>
+	</array>
+</dict>
+</plist>
