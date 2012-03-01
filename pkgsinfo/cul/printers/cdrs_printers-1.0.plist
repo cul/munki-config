@@ -23,7 +23,7 @@
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
-	<string>cdrs-printers</string>
+	<string>cdrs_printers</string>
 	<key>receipts</key>
 	<array>
 		<dict>

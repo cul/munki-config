@@ -2,26 +2,27 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Description</key>
-	<string>OUTDATED Installs the LITO user and gives it ARD rights </string>
+	<key>RestartAction</key>
+	<string>None</string>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
 	<array>
 		<string>cul</string>
+		<string>testing</string>
 	</array>
 	<key>description</key>
-	<string>OUTDATED Installs the LITO user and gives it ARD rights </string>
+	<string>This package is outdated. Installs the LITO user and gives it ARD and SSH rights. Testing tiered update_plist. BLAH</string>
 	<key>display_name</key>
 	<string>Remote Desktop Client Update OUTDATED</string>
 	<key>installed_size</key>
 	<integer>9532</integer>
 	<key>installer_item_hash</key>
-	<string>5c57eefd620ddadbd2320fb4820aae30186fee2ebe362229b763797cffe13a10</string>
+	<string>9aa3188e4135ca4abaad3d832d182433f435c470be3f95bb1cf09ba70715caea</string>
 	<key>installer_item_location</key>
-	<string>cul/ard/CUL-ard-client.dmg</string>
+	<string>cul/ard/CUL-ard-client-3.4.0.1.dmg</string>
 	<key>installer_item_size</key>
-	<integer>4485</integer>
+	<integer>4486</integer>
 	<key>installs</key>
 	<array>
 		<dict>
@@ -30,7 +31,7 @@
 			<key>CFBundleName</key>
 			<string>ARDAgent</string>
 			<key>CFBundleShortVersionString</key>
-			<string>3.4.0</string>
+			<string>3.4.1</string>
 			<key>path</key>
 			<string>/System/Library/CoreServices/RemoteManagement/ARDAgent.app</string>
 			<key>type</key>
@@ -40,7 +41,7 @@
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
-	<string>CUL-ard-client</string>
+	<string>CUL_ard_client</string>
 	<key>receipts</key>
 	<array>
 		<dict>
@@ -53,14 +54,24 @@
 			<key>packageid</key>
 			<string>edu.columbia.pkg.RemoteDesktopClient</string>
 			<key>version</key>
-			<string>3.4.0.0</string>
+			<string>3.4.0.1</string>
 		</dict>
 	</array>
+	<key>requires</key>
+	<array/>
+	<key>suppress_bundle_relocation</key>
+	<false/>
+	<key>unattend_uninstall</key>
+	<false/>
+	<key>unattended_install</key>
+	<false/>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
+	<key>update_for</key>
+	<array/>
 	<key>version</key>
-	<string>3.4.0.0</string>
+	<string>3.4.0.1</string>
 </dict>
 </plist>

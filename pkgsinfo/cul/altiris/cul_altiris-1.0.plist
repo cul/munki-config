@@ -23,7 +23,7 @@
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
-	<string>cul-altiris</string>
+	<string>cul_altiris</string>
 	<key>installs</key>
 	<array>
 	  <dict>

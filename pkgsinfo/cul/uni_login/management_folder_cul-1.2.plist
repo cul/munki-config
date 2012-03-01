@@ -23,7 +23,7 @@
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
-	<string>management-folder-cul</string>
+	<string>management_folder_cul</string>
 	<key>receipts</key>
 	<array>
 		<dict>
