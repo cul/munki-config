@@ -9,51 +9,32 @@
 		<string>Adobe</string>
 	</array>
 	<key>description</key>
-	<string>Adobe Flash Player 10.3.183.10</string>
+	<string>Adobe Flash Player</string>
 	<key>display_name</key>
 	<string>Adobe Flash Player</string>
 	<key>installed_size</key>
-	<integer>6172</integer>
+	<integer>36776</integer>
 	<key>installer_item_hash</key>
-	<string>56a4e8b159d095a72e4d972763157eab72f951ec8a4ffaa451694104b2873b01</string>
+	<string>a9ecce141ec145d0834ab2ce22f3464261ae6d426bcda8788ddb7411aa1d074d</string>
 	<key>installer_item_location</key>
-	<string>Adobe/Flash Player/Adobe Flash Player.dmg</string>
+	<string>Adobe/Flash Player/10.3/Adobe Flash Player.dmg</string>
 	<key>installer_item_size</key>
-	<integer>5910</integer>
+	<integer>14035</integer>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
 	<string>Adobe Flash Player</string>
-	<key>installs</key>
-	<array>
-	  <dict>
-	    <key>CFBundleShortVersionString</key>
-	    <string>10.3.183.10</string>
-	    <key>path</key>
-	    <string>/Library/PreferencePanes/Flash Player.prefPane</string>
-	    <key>type</key>
-	    <string>bundle</string>
-	    </dict>
-	  <dict>
-	    <key>md5checksum</key>
-	    <string>2c33fbc97c70d9afe50dad2531802179</string>
-	    <key>path</key>
-	    <string>/Library/Application Support/Macromedia/mms.cfg</string>
-	    <key>type</key>
-	    <string>file</string>
-	    </dict>
-	  </array>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>Adobe Flash Player.pkg</string>
 			<key>installed_size</key>
-			<integer>6172</integer>
+			<integer>36776</integer>
 			<key>packageid</key>
 			<string>com.adobe.pkg.FlashPlayer</string>
 			<key>version</key>
-			<string>10.3.183.10</string>
+			<string>11.1.102.62</string>
 		</dict>
 	</array>
 	<key>uninstall_method</key>
@@ -61,12 +42,13 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>10.3.183.10</string>
+	<string>11.1.102.62</string>
 	<key>postinstall_script</key>
 	<string>#!/bin/bash
-ADOBEPATH="/Library/Application Support/Macromedia/mms.cfg"
-MESSAGE="AutoUpdateDisable=1"
-touch "$ADOBEPATH"
-echo "$MESSAGE" &gt; "$ADOBEPATH"</string>
+		ADOBEPATH="/Library/Application Support/Macromedia/mms.cfg"
+		MESSAGE="AutoUpdateDisable=1"
+		touch "$ADOBEPATH"
+		echo "$MESSAGE" > "$ADOBEPATH"
+	</string>
 </dict>
 </plist>

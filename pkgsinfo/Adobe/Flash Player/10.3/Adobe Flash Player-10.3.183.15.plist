@@ -9,17 +9,17 @@
 		<string>Adobe</string>
 	</array>
 	<key>description</key>
-	<string>Adobe Flash Player-11.0.1.152</string>
+	<string>Adobe Flash Player</string>
 	<key>display_name</key>
 	<string>Adobe Flash Player</string>
 	<key>installed_size</key>
-	<integer>36752</integer>
+	<integer>6176</integer>
 	<key>installer_item_hash</key>
-	<string>7ce7b618c200d8376a90f386feeda3a6c22a0885d58db3db9a563de9e44907ad</string>
+	<string>83dfe4ffdb4faeef2cd53e3985472e9404c1587abd015076db1151b64385eb27</string>
 	<key>installer_item_location</key>
-	<string>Adobe/Flash Player/Adobe Flash Player-11.0.1.152.dmg</string>
+	<string>Adobe/Flash Player/10.3/Adobe Flash Player-10.3.183.15.dmg</string>
 	<key>installer_item_size</key>
-	<integer>14245</integer>
+	<integer>5911</integer>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
@@ -28,28 +28,32 @@
 	<array>
 		<dict>
 			<key>filename</key>
-			<string>Adobe Flash Player.pkg</string>
+			<string>Adobe Flash Player-10.3.183.15.pkg</string>
 			<key>installed_size</key>
-			<integer>36752</integer>
+			<integer>6176</integer>
 			<key>packageid</key>
 			<string>com.adobe.pkg.FlashPlayer</string>
 			<key>version</key>
-			<string>11.0.1.152</string>
+			<string>10.3.183.15</string>
 		</dict>
 	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
-	<key>unattended_install</key>
-        <true/>
 	<key>version</key>
-	<string>11.0.1.152</string>
-	<key>postinstall_script</key>
-        <string>#!/bin/bash
-ADOBEPATH="/Library/Application Support/Macromedia/mms.cfg"
-MESSAGE="AutoUpdateDisable=1"
-touch "$ADOBEPATH"
-echo "$MESSAGE" &gt; "$ADOBEPATH"</string>
+	<string>10.3.183.15</string>
+
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleShortVersionString</key>
+			<string>10.3.183.15</string>
+			<key>path</key>
+			<string>/Library/Internet Plug-Ins/Flash Player.plugin</string>
+			<key>type</key>
+			<string>bundle</string>
+		</dict>
+	</array>
 </dict>
 </plist>
