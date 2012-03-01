@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>common</string>
+	</array>
+	<key>description</key>
+	<string>Installs SSL certs</string>
+	<key>display_name</key>
+	<string>munki-client-ssl</string>
+	<key>installed_size</key>
+	<integer>12</integer>
+	<key>installer_item_hash</key>
+	<string>deb99f0819dfd697b5d13f84f78eb34391a33959cc303783acfb622aec97b9df</string>
+	<key>installer_item_location</key>
+	<string>common/munki-client-ssl-2.0.dmg</string>
+	<key>installer_item_size</key>
+	<integer>22</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>munki-client-ssl</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>cacert.pkg</string>
+			<key>installed_size</key>
+			<integer>4</integer>
+			<key>packageid</key>
+			<string>edu.columbia.munkiclientssl.cacert.pkg</string>
+			<key>version</key>
+			<string>2.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>munki.pkg</string>
+			<key>installed_size</key>
+			<integer>8</integer>
+			<key>packageid</key>
+			<string>edu.columbia.munkiclientssl.munki.pkg</string>
+			<key>version</key>
+			<string>2.0</string>
+		</dict>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2.0</string>
+</dict>
+</plist>
