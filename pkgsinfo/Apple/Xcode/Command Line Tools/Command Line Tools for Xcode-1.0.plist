@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RestartAction</key>
+	<string>None</string>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Apple</string>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>Command line tools for xcode</string>
+	<key>display_name</key>
+	<string>Command Line Tools for Xcode</string>
+	<key>installed_size</key>
+	<integer>277978</integer>
+	<key>installer_item_hash</key>
+	<string>d5e3eb03e1bb962522ca69026106c33c59f83aca92e9b2a368c0663c30268371</string>
+	<key>installer_item_location</key>
+	<string>Apple/Xcode/Command Line Tools/command_line_tools_for_xcode_.dmg</string>
+	<key>installer_item_size</key>
+	<integer>167644</integer>
+	<key>minimum_os_version</key>
+	<string>10.7.3</string>
+	<key>name</key>
+	<string>Command Line Tools for Xcode</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>46314</integer>
+			<key>packageid</key>
+			<string>com.apple.pkg.clang</string>
+			<key>version</key>
+			<string>1.0.0.9000000000.1.1249367152</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>181902</integer>
+			<key>packageid</key>
+			<string>com.apple.pkg.DeveloperToolsCLI</string>
+			<key>version</key>
+			<string>1.0.0.9000000000.1.1249367152</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>49762</integer>
+			<key>packageid</key>
+			<string>com.apple.pkg.llvm-gcc4.2</string>
+			<key>version</key>
+			<string>4.2.0.9000000000.1.1249367152</string>
+		</dict>
+	</array>
+	<key>requires</key>
+	<array/>
+	<key>suppress_bundle_relocation</key>
+	<false/>
+	<key>unattend_uninstall</key>
+	<false/>
+	<key>unattended_install</key>
+	<false/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>update_for</key>
+	<array/>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>
