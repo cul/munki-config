@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>RestartAction</key>
@@ -42,10 +42,32 @@
 	<string>10.4.0</string>
 	<key>name</key>
 	<string>AcrobatPro9Update</string>
+	<key>postinstall_script</key>
+	<string>#!/bin/bash
+		/usr/bin/logger "Munki: Running AcrobatPro9Update-9.4.6 postinstall_script.."
+		sed -i .bak 's/\&lt;string\&gt;AcroENUPro90SelfHeal\.xml\&lt;\/string\&gt;//g' /Applications/Adobe\ Acrobat\ 9\ Pro/Adobe\ Acrobat\ Pro.app/Contents/MacOS/SHInit.xml
+		sed -i .bak 's/\&lt;string\&gt;AcroENUDist90SelfHeal\.xml\&lt;\/string\&gt;//g' /Applications/Adobe\ Acrobat\ 9\ Pro/Acrobat\ Distiller.app/Contents/MacOS/SHInit.xml
+			</string>
+	<key>preinstall_script</key>
+	<string>#!/bin/bash
+		/usr/bin/logger "Munki: Running AcrobatPro9Update-9.4.6 preinstall_script..."
+		if [ -f /Applications/Adobe\ Acrobat\ 9\ Pro/Adobe\ Acrobat\ Pro.app/Contents/MacOS/SHInit.xml.bak ]; then
+		/bin/mv /Applications/Adobe\ Acrobat\ 9\ Pro/Adobe\ Acrobat\ Pro.app/Contents/MacOS/SHInit.xml.bak /Applications/Adobe\ Acrobat\ 9\ Pro/Adobe\ Acrobat\ Pro.app/Contents/MacOS/SHInit.xml
+		fi
+		if [ -f /Applications/Adobe\ Acrobat\ 9\ Pro/Acrobat\ Distiller.app/Contents/MacOS/SHInit.xml.bak ]; then
+		/bin/mv /Applications/Adobe\ Acrobat\ 9\ Pro/Acrobat\ Distiller.app/Contents/MacOS/SHInit.xml.bak /Applications/Adobe\ Acrobat\ 9\ Pro/Acrobat\ Distiller.app/Contents/MacOS/SHInit.xml
+		fi
+			</string>
 	<key>requires</key>
 	<array>
 		<string>AcrobatPro9Update-9.4.5</string>
 	</array>
+	<key>suppress_bundle_relocation</key>
+	<false/>
+	<key>unattend_uninstall</key>
+	<false/>
+	<key>unattended_install</key>
+	<false/>
 	<key>uninstallable</key>
 	<false/>
 	<key>update_for</key>
@@ -54,21 +76,5 @@
 	</array>
 	<key>version</key>
 	<string>9.4.6</string>
-	<key>preinstall_script</key>
-	<string>#!/bin/bash
-/usr/bin/logger "Munki: Running AcrobatPro9Update-9.4.6 preinstall_script..."
-if [ -f /Applications/Adobe\ Acrobat\ 9\ Pro/Adobe\ Acrobat\ Pro.app/Contents/MacOS/SHInit.xml.bak ]; then
-/bin/mv /Applications/Adobe\ Acrobat\ 9\ Pro/Adobe\ Acrobat\ Pro.app/Contents/MacOS/SHInit.xml.bak /Applications/Adobe\ Acrobat\ 9\ Pro/Adobe\ Acrobat\ Pro.app/Contents/MacOS/SHInit.xml
-fi
-if [ -f /Applications/Adobe\ Acrobat\ 9\ Pro/Acrobat\ Distiller.app/Contents/MacOS/SHInit.xml.bak ]; then
-/bin/mv /Applications/Adobe\ Acrobat\ 9\ Pro/Acrobat\ Distiller.app/Contents/MacOS/SHInit.xml.bak /Applications/Adobe\ Acrobat\ 9\ Pro/Acrobat\ Distiller.app/Contents/MacOS/SHInit.xml
-fi
-	</string>
-	<key>postinstall_script</key>
-	<string>#!/bin/bash
-/usr/bin/logger "Munki: Running AcrobatPro9Update-9.4.6 postinstall_script..."
-sed -i .bak 's/\&lt;string\&gt;AcroENUPro90SelfHeal\.xml\&lt;\/string\&gt;//g' /Applications/Adobe\ Acrobat\ 9\ Pro/Adobe\ Acrobat\ Pro.app/Contents/MacOS/SHInit.xml
-sed -i .bak 's/\&lt;string\&gt;AcroENUDist90SelfHeal\.xml\&lt;\/string\&gt;//g' /Applications/Adobe\ Acrobat\ 9\ Pro/Acrobat\ Distiller.app/Contents/MacOS/SHInit.xml
-	</string>
 </dict>
 </plist>

@@ -29,7 +29,7 @@
 		<string>Office2011</string>
 		<string>Thunderbird</string>
 		<string>skype</string>
-		<string>cdrs-printers</string>
+		<string>cdrs_printers</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

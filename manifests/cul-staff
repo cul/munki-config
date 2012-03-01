@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-        <key>catalogs</key>
-        <array>
-	  <string>Mozilla</string>
-	  <string>Skype</string>
-	  <string>Dropbox</string>
-	  <string>Microsoft</string>
-	  <string>SyncRO</string>
-        </array>
-	<key>included_manifests</key>
-        <array>
-	  <string>cul-base</string>
-	</array>
-        <key>managed_installs</key>
-        <array>
-	  <string>Thunderbird</string>
-	  <string>skype</string>
-	  <string>Office2011</string>
-        </array>
-	<key>managed_uninstalls</key>
+	<key>catalogs</key>
 	<array>
+		<string>TechSmith</string>
+		<string>cul</string>
+		<string>SyncRO</string>
+		<string>Microsoft</string>
+		<string>Dropbox</string>
+		<string>Skype</string>
+		<string>Mozilla</string>
 	</array>
+	<key>included_manifests</key>
+	<array>
+		<string>cul-base</string>
+	</array>
+	<key>managed_installs</key>
+	<array>
+		<string>Thunderbird</string>
+		<string>skype</string>
+		<string>Office2011</string>
+	</array>
+	<key>managed_uninstalls</key>
+	<array/>
 	<key>optional_installs</key>
 	<array>
-	  <string>Dropbox</string>
-	  <string>Oxygen</string>
+		<string>Dropbox</string>
+		<string>Oxygen</string>
+		<string>Camtasia</string>
+		<string>CamtasiaLicense</string>
 	</array>
-
 </dict>
 </plist>

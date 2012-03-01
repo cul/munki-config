@@ -43,13 +43,11 @@
 	<string>AcrobatPro9Update</string>
 	<key>postinstall_script</key>
 	<string>#!/bin/bash
-		/usr/bin/logger &quot;Munki: Running AcrobatPro9Update-9.5.0 postinstall_script...&quot;
 		sed -i .bak 's/\&lt;string\&gt;AcroENUPro90SelfHeal\.xml\&lt;\/string\&gt;//g' /Applications/Adobe\ Acrobat\ 9\ Pro/Adobe\ Acrobat\ Pro.app/Contents/MacOS/SHInit.xml
 		sed -i .bak 's/\&lt;string\&gt;AcroENUDist90SelfHeal\.xml\&lt;\/string\&gt;//g' /Applications/Adobe\ Acrobat\ 9\ Pro/Acrobat\ Distiller.app/Contents/MacOS/SHInit.xml
 			</string>
 	<key>preinstall_script</key>
 	<string>#!/bin/bash
-		/usr/bin/logger &quot;Munki: Running AcrobatPro9Update-9.5.0 preinstall_script...&quot;
 		if [ -f /Applications/Adobe\ Acrobat\ 9\ Pro/Adobe\ Acrobat\ Pro.app/Contents/MacOS/SHInit.xml.bak ]; then
 		/bin/mv /Applications/Adobe\ Acrobat\ 9\ Pro/Adobe\ Acrobat\ Pro.app/Contents/MacOS/SHInit.xml.bak /Applications/Adobe\ Acrobat\ 9\ Pro/Adobe\ Acrobat\ Pro.app/Contents/MacOS/SHInit.xml
 		fi
