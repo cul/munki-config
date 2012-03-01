@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RestartAction</key>
+	<string>None</string>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>GitHub</string>
+	</array>
+	<key>description</key>
+	<string>GitHub client for OSX</string>
+	<key>display_name</key>
+	<string>GitHub4Mac</string>
+	<key>installer_item_hash</key>
+	<string>1af79b773e8974528a8eb98fb34ce69247713a8acc71dd8527e5558fc23e8fed</string>
+	<key>installer_item_location</key>
+	<string>GitHub/GitHub4Mac/1.1.7/GitHub.dmg</string>
+	<key>installer_item_size</key>
+	<integer>26159</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.github.GitHub</string>
+			<key>CFBundleName</key>
+			<string>GitHub</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.1.7</string>
+			<key>minosversion</key>
+			<string>10.6</string>
+			<key>path</key>
+			<string>/Applications/GitHub.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>GitHub.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>GitHub</string>
+	<key>requires</key>
+	<array/>
+	<key>suppress_bundle_relocation</key>
+	<false/>
+	<key>unattend_uninstall</key>
+	<false/>
+	<key>unattended_install</key>
+	<false/>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>update_for</key>
+	<array/>
+	<key>version</key>
+	<string>1.1.7</string>
+</dict>
+</plist>
