@@ -1,114 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-	<dict>
-		<key>catalogs</key>
-		<array>
-			<string>Lame</string>
-			<string>FileMaker</string>
-			<string>Emicsoft</string>
-			<string>RedGiant</string>
-			<string>Roxio</string>
-			<string>divx</string>
-			<string>charismac</string>
-			<string>bombich</string>
-			<string>Audacity</string>
-			<string>VideoMonkey</string>
-			<string>ShinyFrog</string>
-			<string>RipDifferent</string>
-			<string>Handbrake</string>
-			<string>Blender</string>
-			<string>Omni_Group</string>
-			<string>RogueAmoeba</string>
-			<string>FetchSoftworks</string>
-			<string>Gawker</string>
-			<string>Techspansion</string>
-			<string>Mozilla</string>
-			<string>Skype</string>
-			<string>Vmware</string>
-			<string>cul</string>
-			<string>David_Kocher</string>
-			<string>Microsoft</string>
-			<string>Apple</string>
-			<string>Dropbox</string>
-			<string>Adobe</string>
-			<string>common</string>
-			<string>Google</string>
-			<string>Realplayer</string>
-			<string>Sassafras</string>
-			<string>Symantec</string>
-			<string>Telestream</string>
-			<string>Thomson_Reuters</string>
-			<string>umich</string>
-			<string>VideoLAN</string>
-			<string>Symantec</string>
-			<string>squared5</string>
-			<string>ffmpegX</string>
-			<string>MildMannered</string>
-			<string>Tagaya_Yoichi</string>
-		</array>
-		<key>included_manifests</key>
-		<array>
-			<string>Acrobat</string>
-			<string>CS5</string>
-			<string>iLife11</string>
-		</array>
-		<key>managed_installs</key>
-		<array>
-			<string>munkitools</string>
-			<string>libx</string>
-			<string>MunkiScripts</string>
-			<string>iLife</string>
-
-			<string>FileMaker</string>
-
-			<string>Adobe Flash Player</string>
-			<string>Chrome</string>
-			<string>cul-ChromeProfile</string>
-			<string>RealPlayer</string>
-			<string>VLC_media_player</string>
-			<string>EndnoteX4</string>
-
-			<string>keyserver</string>
-			<string>Office2011</string>
-			<string>Thunderbird</string>
-			<string>skype</string>
-			<string>MPEG Streamclip</string>
-		</array>
-		<key>optional_installs</key>
-		<array>
-			<string>Toast</string>
-			<string>ToastLicense</string>
-			<string>Dropbox</string>
-			<string>Firefox4</string>
-			<string>Firefox5</string>
-			<string>Firefox6</string>
-			<string>Fugu</string>
-			<string>Cyberduck</string>
-			<string>SymantecEndpointProtection</string>
-			<string>Audacity</string>
-			<string>blender</string>
-			<string>Google Earth</string>
-			<string>OmniGrafflePro</string>
-			<string>OmniGraffleProLicense</string>
-			<string>Audio Hijack Pro</string>
-			<string>Fetch</string>
-			<string>Gawker</string>
-			<string>HandBrake-0.9.5</string>
-			<string>MacTheRipper</string>
-			<string>Img2icns</string>
-			<string>VideoMonkey</string>
-			<string>VisualHub</string>
-			<string>iSquint</string>
-			<string>Carbon Copy Cloner</string>
-			<string>Discribe OSX</string>
-			<!--	  <string>DivX</string> -->
-			<string>Emicsoft MTS Converter for Mac</string>
-			<string>ffmpegX</string>
-			<string>Iris</string>
-			<string>LooksBuilder</string>
-			<string>R-Name</string>
-			<string>iWork</string>
-		</array>
-	</dict>
+<dict>
+	<key>catalogs</key>
+	<array>
+		<string>Tagaya_Yoichi</string>
+		<string>MildMannered</string>
+		<string>ffmpegX</string>
+		<string>squared5</string>
+		<string>VideoLAN</string>
+		<string>umich</string>
+		<string>Thomson_Reuters</string>
+		<string>Telestream</string>
+		<string>Symantec</string>
+		<string>Sassafras</string>
+		<string>Realplayer</string>
+		<string>Google</string>
+		<string>common</string>
+		<string>Adobe</string>
+		<string>Dropbox</string>
+		<string>Apple</string>
+		<string>Microsoft</string>
+		<string>David_Kocher</string>
+		<string>cul</string>
+		<string>Vmware</string>
+		<string>Skype</string>
+		<string>Mozilla</string>
+		<string>Techspansion</string>
+		<string>Gawker</string>
+		<string>FetchSoftworks</string>
+		<string>RogueAmoeba</string>
+		<string>Omni_Group</string>
+		<string>Blender</string>
+		<string>Handbrake</string>
+		<string>RipDifferent</string>
+		<string>ShinyFrog</string>
+		<string>VideoMonkey</string>
+		<string>Audacity</string>
+		<string>bombich</string>
+		<string>charismac</string>
+		<string>divx</string>
+		<string>Roxio</string>
+		<string>RedGiant</string>
+		<string>Emicsoft</string>
+		<string>FileMaker</string>
+		<string>Lame</string>
+	</array>
+	<key>included_manifests</key>
+	<array>
+		<string>Acrobat</string>
+		<string>CS5</string>
+		<string>iLife11</string>
+	</array>
+	<key>managed_installs</key>
+	<array>
+		<string>munkitools</string>
+		<string>libx</string>
+		<string>MunkiScripts</string>
+		<string>iLife</string>
+		<string>FileMaker</string>
+		<string>Adobe Flash Player</string>
+		<string>Chrome</string>
+		<string>cul-ChromeProfile</string>
+		<string>RealPlayer</string>
+		<string>VLC_media_player</string>
+		<string>EndnoteX4</string>
+		<string>keyserver</string>
+		<string>Office2011</string>
+		<string>Thunderbird</string>
+		<string>skype</string>
+		<string>MPEG Streamclip</string>
+	</array>
+	<key>managed_uninstalls</key>
+	<array/>
+	<key>optional_installs</key>
+	<array>
+		<string>Toast</string>
+		<string>ToastLicense</string>
+		<string>Dropbox</string>
+		<string>Fugu</string>
+		<string>Cyberduck</string>
+		<string>SymantecEndpointProtection</string>
+		<string>Audacity</string>
+		<string>blender</string>
+		<string>Google Earth</string>
+		<string>OmniGrafflePro</string>
+		<string>OmniGraffleProLicense</string>
+		<string>Audio Hijack Pro</string>
+		<string>Fetch</string>
+		<string>Gawker</string>
+		<string>HandBrake-0.9.5</string>
+		<string>MacTheRipper</string>
+		<string>Img2icns</string>
+		<string>VideoMonkey</string>
+		<string>VisualHub</string>
+		<string>iSquint</string>
+		<string>Carbon Copy Cloner</string>
+		<string>Discribe OSX</string>
+		<string>Emicsoft MTS Converter for Mac</string>
+		<string>ffmpegX</string>
+		<string>Iris</string>
+		<string>LooksBuilder</string>
+		<string>R-Name</string>
+		<string>iWork</string>
+		<string>Firefox3</string>
+		<string>Firefox-4.0.1</string>
+		<string>Firefox-5.0.1</string>
+		<string>Firefox-6.0.2</string>
+		<string>Firefox-7.0.1</string>
+		<string>Firefox-9.0.1</string>
+		<string>Firefox-10.0.1</string>
+	</array>
+</dict>
 </plist>

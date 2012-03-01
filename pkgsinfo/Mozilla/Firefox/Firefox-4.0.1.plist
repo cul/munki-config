@@ -23,7 +23,7 @@
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
-	<string>Firefox4</string>
+	<string>Firefox</string>
 	<key>installs</key>
         <array>
                 <dict>
@@ -66,11 +66,6 @@
 	<true/>
 	<key>version</key>
 	<string>4.0.1</string>
-	<key>blocking_applications</key>
-	<array>
-	  <string>Firefox4</string>
-	  <string>Firefox5</string>
-	</array>
 	<key>postinstall_script</key>
 	<string>#!/bin/bash
 localsettings="/Applications/Firefox.app/Contents/MacOS/defaults/pref/local-settings.js"

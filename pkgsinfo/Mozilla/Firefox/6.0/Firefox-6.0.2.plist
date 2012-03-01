@@ -11,11 +11,11 @@
 	<key>display_name</key>
 	<string>Firefox</string>
 	<key>installer_item_hash</key>
-	<string>674552139d7fc787d30dd717d3f6bf30b3773731865e9b402e26307d0d6759bd</string>
+	<string>6c594a3bbd642dcdbf34cdcfa67fd1ec89855f37cbd42feea7813e625335c19c</string>
 	<key>installer_item_location</key>
-	<string>Mozilla/Firefox/9.0/Firefox 9.0.1.dmg</string>
+	<string>Mozilla/Firefox/6.0/Firefox 6.0.2.dmg</string>
 	<key>installer_item_size</key>
-	<integer>31559</integer>
+	<integer>28800</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
@@ -26,7 +26,7 @@
 			<key>CFBundleName</key>
 			<string>Firefox</string>
 			<key>CFBundleShortVersionString</key>
-			<string>9.0.1</string>
+			<string>6.0.2</string>
 			<key>minosversion</key>
 			<string>10.5</string>
 			<key>path</key>
@@ -47,12 +47,12 @@
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
-	<string>Firefox9</string>
+	<string>Firefox</string>
 	<key>uninstall_method</key>
 	<string>remove_copied_items</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>9.0.1</string>
+	<string>6.0.2</string>
 </dict>
 </plist>

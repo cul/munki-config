@@ -54,16 +54,19 @@
 		<string>cul-vmware-license</string>
 		<string>XcodeTools</string>
 		<string>Dropbox</string>
-		<string>Firefox4</string>
-		<string>Firefox5</string>
-		<string>Firefox6</string>
 		<string>Fugu</string>
 		<string>Cyberduck</string>
 		<string>SymantecEndpointProtection</string>
 		<string>TextMate</string>
-		<string>Firefox7</string>
-		<string>Firefox9</string>
 		<string>iLife</string>
+		<string>Firefox3</string>
+		<string>Firefox-4.0.1</string>
+		<string>Firefox-5.0.1</string>
+		<string>Firefox-6.0.2</string>
+		<string>Firefox-7.0.1</string>
+		<string>Firefox-9.0.1</string>
+		<string>Firefox-10.0.1</string>
+		<string>GitHub-1.1.7</string>
 	</array>
 </dict>
 </plist>
