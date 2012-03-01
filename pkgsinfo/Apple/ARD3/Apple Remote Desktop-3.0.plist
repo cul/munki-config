@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Apple</string>
+	</array>
+	<key>description</key>
+	<string>This package installs Apple Remote Desktop 3.0.</string>
+	<key>display_name</key>
+	<string>Apple Remote Desktop</string>
+	<key>installed_size</key>
+	<integer>77872</integer>
+	<key>installer_item_hash</key>
+	<string>af5db9e858d0885a6bb344ac8f97961c49447b2d0579b0670e3462d66fb5d3d5</string>
+	<key>installer_item_location</key>
+	<string>Apple/ARD3/ARD3.dmg</string>
+	<key>installer_item_size</key>
+	<integer>45035</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Apple Remote Desktop</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>RemoteDesktopAdmin.pkg</string>
+			<key>installed_size</key>
+			<integer>50991</integer>
+			<key>name</key>
+			<string>RemoteDesktopAdmin</string>
+			<key>packageid</key>
+			<string>com.apple.pkg.RemoteDesktopAdmin</string>
+			<key>version</key>
+			<string>3.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>RemoteDesktopClient.pkg</string>
+			<key>installed_size</key>
+			<integer>6253</integer>
+			<key>name</key>
+			<string>RemoteDesktopClient</string>
+			<key>packageid</key>
+			<string>com.apple.pkg.RemoteDesktopClient</string>
+			<key>version</key>
+			<string>3.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>RemoteDesktopPrefs.pkg</string>
+			<key>installed_size</key>
+			<integer>1936</integer>
+			<key>name</key>
+			<string>RemoteDesktopPrefs</string>
+			<key>packageid</key>
+			<string>com.apple.pkg.RemoteDesktopPrefs</string>
+			<key>version</key>
+			<string>3.0</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>RemoteDesktopRMDB.pkg</string>
+			<key>installed_size</key>
+			<integer>18692</integer>
+			<key>name</key>
+			<string>RemoteDesktopRMDB</string>
+			<key>packageid</key>
+			<string>com.apple.pkg.RemoteDesktopRMDB</string>
+			<key>version</key>
+			<string>3.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>3.0</string>
+</dict>
+</plist>

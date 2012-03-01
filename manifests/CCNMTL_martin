@@ -5,18 +5,17 @@
         <key>catalogs</key>
         <array>
         <string>ccnmtl</string>
-		<string>Boxee</string>
+		<string>Apple</string>
+		<string>HP</string>
         </array>
 		<key>included_manifests</key>
         <array>
-        <string>Acrobat</string>
-		<string>Office2011</string>
-		<string>CS5</string>
 		<string>CCNMTL_Base</string>
         </array>
         <key>managed_installs</key>
         <array>
-		<string>boxee-0.9.23.15885</string>
+		<string>Apple Remote Desktop-3.0</string>
+		<string>HP Printer Drivers v.2.8 OS X-10.6.0.1.1.1238328574</string>
 		
         </array>
 	<key>managed_uninstalls</key>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>HP</string>
+	</array>
+	<key>description</key>
+	<string>HP Printer Drivers v.2.8 OS X</string>
+	<key>display_name</key>
+	<string>Hewlett-Packard Printer Software</string>
+	<key>installed_size</key>
+	<integer>680956</integer>
+	<key>installer_item_hash</key>
+	<string>a55a309c91765b710943603be714d9a65ac0bd60b1ced32a02f0d411bcfbb9a6</string>
+	<key>installer_item_location</key>
+	<string>HP/HPPrinterDrivers2.8/HPPrinterDrivers2.8.dmg</string>
+	<key>installer_item_size</key>
+	<integer>527809</integer>
+	<key>minimum_os_version</key>
+	<string>10.6.0</string>
+	<key>name</key>
+	<string>HP Printer Drivers v.2.8 OS X</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>1047626</integer>
+			<key>packageid</key>
+			<string>com.apple.pkg.HewlettPackardPrinterDrivers</string>
+			<key>version</key>
+			<string>10.6.0.1.1.1238328574</string>
+		</dict>
+		<dict>
+			<key>packageid</key>
+			<string>com.apple.pkg.HewlettPackardPrinterDriversPreInstall</string>
+			<key>version</key>
+			<string>10.6.0.1</string>
+		</dict>
+	</array>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.hp.printerutility</string>
+			<key>CFBundleName</key>
+			<string>HP Utility</string>
+			<key>CFBundleShortVersionString</key>
+			<string>5.2.4</string>
+			<key>path</key>
+			<string>/Library/Printers/hp/Utilities/HP Utility.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>10.6.0.1.1.1238328574</string>
+</dict>
+</plist>
