@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>Microsoft</string>
+	</array>
+	<key>description</key>
+	<string>Auto Updater for Office 2011, this application will download and install updates if you choose to manage them through MS</string>
+	<key>display_name</key>
+	<string>Microsoft Office 2011 AutoUpdate for Mac</string>
+	<key>installed_size</key>
+	<integer>1969</integer>
+	<key>installer_item_hash</key>
+	<string>d7e875109e78b95a261fbfb8c642452cb6073517577e01a87a89e3efd44c9305</string>
+	<key>installer_item_location</key>
+	<string>Microsoft/Office/2011/Patches/AutoUpdate_233.dmg</string>
+	<key>installer_item_size</key>
+	<integer>864</integer>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Office2011AutoUpdater</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>mau_all_autoupdate.pkg</string>
+			<key>installed_size</key>
+			<integer>1969</integer>
+			<key>packageid</key>
+			<string>com.microsoft.mau.all.autoupdate.pkg.2.3.3</string>
+			<key>version</key>
+			<string>2.3.3</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2.3.3</string>
+	<key>update_for</key>
+	<array>
+		<string>Office2011</string>
+		<string>Office2011Lab</string>
+	</array>
+</dict>
+</plist>
