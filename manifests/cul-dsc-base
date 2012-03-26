@@ -32,8 +32,6 @@
 	  <string>Rosetta</string>
 	  <string>MunkiScripts</string>
 	  <string>munkitools</string>
-
-	  <string>cul-office-postinstall</string>
 		
 	  <string>Chrome-11.0.696.71</string>
 	  <string>RealPlayerSP</string>
@@ -42,9 +40,7 @@
 	  <string>IRTUTOR</string>
 	  
 	  <string>keyserver-6.2.1.3</string>
-	  <string>CUL-ard-client-3.4.0.0</string>
-	  <string>cul-altiris-1.0</string>
-	  <string>cul-office-postinstall</string>
+	  <string>cul_altiris-1.0</string>
         </array>
 
 </dict>

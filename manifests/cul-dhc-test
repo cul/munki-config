@@ -23,7 +23,7 @@
 		</array>
 		<key>managed_installs</key>
 		<array>
-			<string>cul-uni_login_files</string>
+			<string>cul_uni_login_files</string>
 			<string>Logic_Serialization</string>
 			<string>ProApps_Registration</string>
 			<string>MacTeX</string>

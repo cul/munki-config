@@ -32,7 +32,7 @@
 		<string>Rosetta</string>
 		<string>MunkiScripts</string>
 		<string>munkitools</string>
-		<string>Firefox4</string>
+		<string>Firefox3</string>
 		
 		<string>Chrome</string>
 		<string>cul-ChromeProfile</string>
@@ -43,7 +43,7 @@
 		<string>Fugu-1.2.0</string>
 		<string>iTunesAgreementByPass</string>
 		<string>CUL_ard_client-3.4.0.0</string>
-		<string>cul-altiris</string>
+		<string>cul_altiris</string>
 		<string>Scorch</string>
 		<string>FreehandViewer</string>
         </array>
