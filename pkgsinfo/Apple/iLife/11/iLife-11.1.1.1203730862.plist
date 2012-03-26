@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>RestartAction</key>
+	<string>None</string>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
 	<array>
+		<string>testing</string>
 		<string>Apple</string>
 	</array>
 	<key>description</key>
-	<string></string>
+	<string>Apple's Suite of Creativity software. Includes iPhoto, iMovie, iDVD, iWeb and GarageBand</string>
 	<key>display_name</key>
-	<string>iLife ’11</string>
+	<string>iLife '11</string>
 	<key>installed_size</key>
 	<integer>4121484</integer>
 	<key>installer_item_hash</key>
@@ -20,75 +23,71 @@
 	<string>Apple/iLife/11/iLife11.dmg</string>
 	<key>installer_item_size</key>
 	<integer>3051649</integer>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.garageband</string>
+			<key>CFBundleName</key>
+			<string>GarageBand</string>
+			<key>CFBundleShortVersionString</key>
+			<string>6.0</string>
+			<key>path</key>
+			<string>/Applications/GarageBand.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iDVD</string>
+			<key>CFBundleName</key>
+			<string>iDVD</string>
+			<key>CFBundleShortVersionString</key>
+			<string>7.1</string>
+			<key>path</key>
+			<string>/Applications/iDVD.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iMovieApp</string>
+			<key>CFBundleName</key>
+			<string>iMovie</string>
+			<key>CFBundleShortVersionString</key>
+			<string>9.0</string>
+			<key>path</key>
+			<string>/Applications/iMovie.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iPhoto</string>
+			<key>CFBundleName</key>
+			<string>iPhoto</string>
+			<key>CFBundleShortVersionString</key>
+			<string>9.0</string>
+			<key>path</key>
+			<string>/Applications/iPhoto.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iWeb</string>
+			<key>CFBundleShortVersionString</key>
+			<string>3.0.2</string>
+			<key>path</key>
+			<string>/Applications/iWeb.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
 	<key>minimum_os_version</key>
 	<string>10.6.0</string>
 	<key>name</key>
 	<string>iLife</string>
-	<key>package_path</key>
-	<string>Installer/Packages/iLife.pkg</string>
-	<key>installs</key>
-	<array>
-	  <dict>
-	    <key>CFBundleIdentifier</key>
-	    <string>com.apple.garageband</string>
-	    <key>CFBundleName</key>
-	    <string>GarageBand</string>
-	    <key>CFBundleShortVersionString</key>
-	    <string>6.0</string>
-	    <key>path</key>
-	    <string>/Applications/GarageBand.app</string>
-	    <key>type</key>
-	    <string>application</string>
-	    </dict>
-	  <dict>
-	    <key>CFBundleIdentifier</key>
-	    <string>com.apple.iDVD</string>
-	    <key>CFBundleName</key>
-	    <string>iDVD</string>
-	    <key>CFBundleShortVersionString</key>
-	    <string>7.1</string>
-	    <key>path</key>
-	    <string>/Applications/iDVD.app</string>
-	    <key>type</key>
-	    <string>application</string>
-	  </dict>
-	  <dict>
-	    <key>CFBundleIdentifier</key>
-	    <string>com.apple.iPhoto</string>
-	    <key>CFBundleName</key>
-	    <string>iPhoto</string>
-	    <key>CFBundleShortVersionString</key>
-	    <string>9.0</string>
-	    <key>path</key>
-	    <string>/Applications/iPhoto.app</string>
-	    <key>type</key>
-	    <string>application</string>
-	    </dict>
-	  <dict>
-	    <key>CFBundleIdentifier</key>
-	    <string>com.apple.iMovieApp</string>
-	    <key>CFBundleName</key>
-	    <string>iMovie</string>
-	    <key>CFBundleShortVersionString</key>
-	    <string>9.0</string>
-	    <key>path</key>
-	    <string>/Applications/iMovie.app</string>
-	    <key>type</key>
-	    <string>application</string>
-	    </dict>
-	  <dict>
-	    <key>CFBundleIdentifier</key>
-	    <string>com.apple.iMovieApp</string>
-	    <key>CFBundleName</key>
-	    <string>iMovie</string>
-	    <key>CFBundleShortVersionString</key>
-	    <string>9.0</string>
-	    <key>path</key>
-	    <string>/Applications/iMovie.app</string>
-	    <key>type</key>
-	    <string>application</string>
-	    </dict>
-	</array>
 	<key>receipts</key>
 	<array>
 		<dict>
@@ -292,12 +291,21 @@
 			<string>3.2.1.1263389684</string>
 		</dict>
 	</array>
+	<key>requires</key>
+	<array/>
+	<key>suppress_bundle_relocation</key>
+	<false/>
+	<key>unattend_uninstall</key>
+	<false/>
+	<key>unattended_install</key>
+	<false/>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
+	<key>update_for</key>
+	<array/>
 	<key>version</key>
 	<string>11.1.1.1203730862</string>
 </dict>
 </plist>
-
