@@ -4,8 +4,8 @@
 <dict>
 	<key>catalogs</key>
 	<array>
-		<string>testing</string>
 		<string>cul</string>
+		<string>testing</string>
 	</array>
 	<key>included_manifests</key>
 	<array>

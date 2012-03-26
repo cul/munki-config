@@ -9,33 +9,32 @@
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
-		<string>cul</string>
 	</array>
 	<key>description</key>
-	<string></string>
+	<string>Serializes Stata</string>
 	<key>display_name</key>
-	<string>SilverBack_License</string>
+	<string></string>
 	<key>installed_size</key>
-	<integer>4</integer>
+	<integer>12</integer>
 	<key>installer_item_hash</key>
-	<string>c58bd9549fe7a14e4daa8aaef33e3d17f298fbac5b24bb69334844d97529a728</string>
+	<string>532b43203b16afd71f7d5f8a2d28f4379a1cf368d20a6b4442b78ed3f70d6e77</string>
 	<key>installer_item_location</key>
-	<string>cul/serialization/silverback/SilverBack_License.dmg</string>
+	<string>cul/serialization/stata/Stata11Serialize.dmg</string>
 	<key>installer_item_size</key>
-	<integer>17</integer>
+	<integer>109</integer>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
-	<string>SilverBack_License</string>
+	<string>StataSerialize</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>filename</key>
-			<string>SilverBack_License.pkg</string>
+			<string>Stata11Serialize.pkg</string>
 			<key>installed_size</key>
-			<integer>4</integer>
+			<integer>12</integer>
 			<key>packageid</key>
-			<string>edu.columbia.silverbacklicense.com.clearleft.Silverback.pkg</string>
+			<string>edu.columbia.Stata11Preferences.pkg</string>
 			<key>version</key>
 			<string>1.0</string>
 		</dict>
@@ -53,9 +52,7 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>update_for</key>
-	<array>
-		<string>Silverback</string>
-	</array>
+	<array/>
 	<key>version</key>
 	<string>1.0</string>
 </dict>

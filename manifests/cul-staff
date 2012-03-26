@@ -4,13 +4,13 @@
 <dict>
 	<key>catalogs</key>
 	<array>
-		<string>TechSmith</string>
-		<string>cul</string>
-		<string>SyncRO</string>
-		<string>Microsoft</string>
-		<string>Dropbox</string>
-		<string>Skype</string>
 		<string>Mozilla</string>
+		<string>Skype</string>
+		<string>Dropbox</string>
+		<string>Microsoft</string>
+		<string>SyncRO</string>
+		<string>cul</string>
+		<string>TechSmith</string>
 	</array>
 	<key>included_manifests</key>
 	<array>
