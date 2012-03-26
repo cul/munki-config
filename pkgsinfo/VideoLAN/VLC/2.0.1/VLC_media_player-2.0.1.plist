@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RestartAction</key>
+	<string>None</string>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>description</key>
+	<string>Media Player, plays most formats. </string>
+	<key>display_name</key>
+	<string>VLC Media Player</string>
+	<key>installer_item_hash</key>
+	<string>3e0483c85d06c6392d50762a0820a14b7bcbc4c3308fd7724f6d59ccf313bb62</string>
+	<key>installer_item_location</key>
+	<string>VideoLAN/VLC/2.0.1/vlc-2.0.1.dmg</string>
+	<key>installer_item_size</key>
+	<integer>41326</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.videolan.vlc</string>
+			<key>CFBundleName</key>
+			<string>VLC media player</string>
+			<key>CFBundleShortVersionString</key>
+			<string>2.0.1</string>
+			<key>path</key>
+			<string>/Applications/VLC.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>VLC.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>VLC_media_player</string>
+	<key>requires</key>
+	<array/>
+	<key>suppress_bundle_relocation</key>
+	<false/>
+	<key>unattend_uninstall</key>
+	<false/>
+	<key>unattended_install</key>
+	<false/>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>update_for</key>
+	<array/>
+	<key>version</key>
+	<string>2.0.1</string>
+</dict>
+</plist>
