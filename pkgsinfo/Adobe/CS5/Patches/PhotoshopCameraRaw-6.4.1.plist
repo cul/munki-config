@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>AdobeSetupType</key>
 	<string>ProductInstall</string>
+	<key>RestartAction</key>
+	<string>None</string>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
+		<string>Adobe</string>
 	</array>
 	<key>description</key>
 	<string></string>
@@ -60,17 +63,22 @@
 			<string>6.4</string>
 		</dict>
 	</array>
+	<key>requires</key>
+	<array/>
+	<key>suppress_bundle_relocation</key>
+	<false/>
+	<key>unattend_uninstall</key>
+	<false/>
+	<key>unattended_install</key>
+	<false/>
 	<key>uninstallable</key>
 	<false/>
+	<key>update_for</key>
+	<array>
+		<string>CreativeSuite5DesignPremium</string>
+		<string>PhotoshopCameraRaw-6.4.0</string>
+	</array>
 	<key>version</key>
 	<string>6.4.1</string>
-        <key>requires</key>
-        <array>
-          <string>PhotoshopCameraRaw-6.4.0</string>
-        </array>
-        <key>update_for</key>
-        <array>
-        <string>CreativeSuite5DesignPremium</string>
-        </array>
 </dict>
 </plist>

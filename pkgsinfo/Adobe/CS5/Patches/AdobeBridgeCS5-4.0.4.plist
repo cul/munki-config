@@ -54,10 +54,6 @@
 	<false/>
 	<key>version</key>
 	<string>4.0.4</string>
-	<key>requires</key>
-	<array>
-	  <string>CreativeSuite5DesignPremium</string>
-	</array>
      <key>update_for</key>
      <array>
         <string>CreativeSuite5DesignPremium</string>
