@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RestartAction</key>
+	<string>None</string>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array/>
+	<key>description</key>
+	<string>The AVCCAM Importer QuickTime plug-in component is to enable direct editing of AVCHD ".mts" file (*1) without conversion.
+	AVCHD clips recorded on a Panasonic AVCCAM lineup product can be handled directly in QuickTime 7 and Final Cut Pro 7.0.3.</string>
+	<key>display_name</key>
+	<string>AVCCamViewer</string>
+	<key>installed_size</key>
+	<integer>82668</integer>
+	<key>installer_item_hash</key>
+	<string>8dd72f358f31e1085c7dff5b0d7328ee05570ee4bc7273c3f0351b26b631a964</string>
+	<key>installer_item_location</key>
+	<string>Panasonic/AVCCamViewer/1.2/AVCCAMVIEWER_1.2.sl.dmg</string>
+	<key>installer_item_size</key>
+	<integer>56638</integer>
+	<key>minimum_os_version</key>
+	<string>10.6.0</string>
+	<key>name</key>
+	<string>AVCCamViewer</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>avccamviewer.pkg</string>
+			<key>installed_size</key>
+			<integer>82688</integer>
+			<key>packageid</key>
+			<string>com.panasonic.AVCCAMViewer.pkg</string>
+			<key>version</key>
+			<string>1.1</string>
+		</dict>
+	</array>
+	<key>requires</key>
+	<array/>
+	<key>suppress_bundle_relocation</key>
+	<false/>
+	<key>unattend_uninstall</key>
+	<false/>
+	<key>unattended_install</key>
+	<false/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>update_for</key>
+	<array/>
+	<key>version</key>
+	<string>1.2</string>
+</dict>
+</plist>
