@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RestartAction</key>
+	<string>RequireRestart</string>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array/>
+	<key>description</key>
+	<string>Key features for Mac version
+	- Copy and playback AVCHD data
+	Copy AVCHD data to SD memory card media
+	
+	* Additional feature available with Mac OS X 10.5 (Leopard), 10.6 (SnowLeopard):
+	- Copy and playback BD-RE ver.3.0 data</string>
+	<key>display_name</key>
+	<string>AVCCAMImporter</string>
+	<key>installed_size</key>
+	<integer>1704</integer>
+	<key>installer_item_hash</key>
+	<string>7efeb4b4bfe22cc8ab17bd06d3ca726f255b22a2ef7dc2fa6e352c7fbfcbf9b3</string>
+	<key>installer_item_location</key>
+	<string>Panasonic/AVCCAMImporter/1.1/AVCCAMImporter_v1.1.dmg</string>
+	<key>installer_item_size</key>
+	<integer>3852</integer>
+	<key>minimum_os_version</key>
+	<string>10.6.0</string>
+	<key>name</key>
+	<string>AVCCAMImporter</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>AVCCAMImporter v1.1.pkg</string>
+			<key>installed_size</key>
+			<integer>1704</integer>
+			<key>packageid</key>
+			<string>com.panasonic.AVCCAMImporter</string>
+			<key>version</key>
+			<string>1.1.1</string>
+		</dict>
+	</array>
+	<key>requires</key>
+	<array/>
+	<key>suppress_bundle_relocation</key>
+	<false/>
+	<key>unattend_uninstall</key>
+	<false/>
+	<key>unattended_install</key>
+	<false/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>update_for</key>
+	<array/>
+	<key>version</key>
+	<string>1.1</string>
+</dict>
+</plist>
