@@ -7,7 +7,9 @@
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
-	<array/>
+	<array>
+		<string>Panasonic</string>
+	</array>
 	<key>description</key>
 	<string>Key features for Mac version
 	- Copy and playback AVCHD data
