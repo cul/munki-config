@@ -7,7 +7,9 @@
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
-	<array/>
+	<array>
+		<string>Panasonic</string>
+	</array>
 	<key>description</key>
 	<string>The AVCCAM Importer QuickTime plug-in component is to enable direct editing of AVCHD ".mts" file (*1) without conversion.
 	AVCHD clips recorded on a Panasonic AVCCAM lineup product can be handled directly in QuickTime 7 and Final Cut Pro 7.0.3.</string>
