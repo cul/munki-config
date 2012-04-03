@@ -12,6 +12,7 @@
 	  <string>Microsoft</string>
 	  <string>RipDifferent</string>
 	  <string>Roxio</string>
+	  <string>Panasonic</string>
         </array>
 	<key>included_manifests</key>
         <array>
@@ -29,6 +30,8 @@
 	  <string>MacTheRipper</string>
 	  <string>Toast</string>
 	  <string>ToastLicense</string>
+	  <string>AVCCAMImporter</string>
+	  <string>AVCCamViewer</string>
         </array>
 	<key>managed_uninstalls</key>
 	<array>
