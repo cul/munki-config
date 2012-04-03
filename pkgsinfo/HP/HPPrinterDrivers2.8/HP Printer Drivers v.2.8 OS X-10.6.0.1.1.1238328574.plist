@@ -15,13 +15,13 @@
 	<key>installed_size</key>
 	<integer>680956</integer>
 	<key>installer_item_hash</key>
-	<string>a55a309c91765b710943603be714d9a65ac0bd60b1ced32a02f0d411bcfbb9a6</string>
+	<string>e1d418fe2b89b3a8e515589a85dcc0e3f47c5247db334a1b96959c79aff01f2d</string>
 	<key>installer_item_location</key>
 	<string>HP/HPPrinterDrivers2.8/HPPrinterDrivers2.8.dmg</string>
 	<key>installer_item_size</key>
-	<integer>527809</integer>
+	<integer>509378</integer>
 	<key>minimum_os_version</key>
-	<string>10.6.0</string>
+	<string>10.4.0</string>
 	<key>name</key>
 	<string>HP Printer Drivers v.2.8 OS X</string>
 	<key>receipts</key>
@@ -41,7 +41,14 @@
 			<string>10.6.0.1</string>
 		</dict>
 	</array>
-	<key>installs</key>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>10.6.0.1.1.1238328574</string>
+	
+		<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
@@ -56,11 +63,6 @@
 			<string>application</string>
 		</dict>
 	</array>
-	<key>uninstall_method</key>
-	<string>removepackages</string>
-	<key>uninstallable</key>
-	<true/>
-	<key>version</key>
-	<string>10.6.0.1.1.1238328574</string>
+	
 </dict>
 </plist>
