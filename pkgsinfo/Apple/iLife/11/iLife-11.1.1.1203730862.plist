@@ -17,6 +17,8 @@
 	<string>2d6b4518158c29cdd56e892b2a20125a61d45be4ce85105ce7c324612470e2a1</string>
 	<key>installer_item_location</key>
 	<string>Apple/iLife/11/iLife11.dmg</string>
+	<key>installed_size</key>
+	<integer>4121484</integer>
 	<key>installer_item_size</key>
 	<integer>3051484</integer>
 	<key>package_path</key>
