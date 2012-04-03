@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>RestartAction</key>
-	<string>None</string>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
@@ -15,14 +13,14 @@
 	<string>Apple's Suite of Creativity software. Includes iPhoto, iMovie, iDVD, iWeb and GarageBand</string>
 	<key>display_name</key>
 	<string>iLife '11</string>
-	<key>installed_size</key>
-	<integer>4121484</integer>
 	<key>installer_item_hash</key>
-	<string>05225257714fd409f446f9fb4ef6b0aee4c9a77a0dae128ae596dc4b14a299fa</string>
+	<string>2d6b4518158c29cdd56e892b2a20125a61d45be4ce85105ce7c324612470e2a1</string>
 	<key>installer_item_location</key>
 	<string>Apple/iLife/11/iLife11.dmg</string>
 	<key>installer_item_size</key>
-	<integer>3051649</integer>
+	<integer>3051484</integer>
+	<key>package_path</key>
+	<string>Installer/Packages/iLife.pkg</string>
 	<key>installs</key>
 	<array>
 		<dict>
@@ -84,10 +82,6 @@
 			<string>application</string>
 		</dict>
 	</array>
-	<key>minimum_os_version</key>
-	<string>10.6.0</string>
-	<key>name</key>
-	<string>iLife</string>
 	<key>receipts</key>
 	<array>
 		<dict>
@@ -291,12 +285,12 @@
 			<string>3.2.1.1263389684</string>
 		</dict>
 	</array>
+	<key>minimum_os_version</key>
+	<string>10.6.0</string>
+	<key>name</key>
+	<string>iLife</string>
 	<key>requires</key>
 	<array/>
-	<key>suppress_bundle_relocation</key>
-	<false/>
-	<key>unattend_uninstall</key>
-	<false/>
 	<key>unattended_install</key>
 	<false/>
 	<key>uninstall_method</key>
