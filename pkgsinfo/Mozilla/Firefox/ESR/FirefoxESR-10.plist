@@ -7,7 +7,9 @@
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
-	<array/>
+	<array>
+		<string>Mozilla</string>
+	</array>
 	<key>description</key>
 	<string>Firefox for CUL with LibX built in</string>
 	<key>display_name</key>
