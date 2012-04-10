@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-        <key>catalogs</key>
-        <array>
-		<string>Apple</string>
-		<string>common</string>
-		<string>cul</string>
-		<string>Google</string>
-		<string>Microsoft</string>
-		<string>Mozilla</string>
-		<string>RealPlayerSP</string>
-		<string>Sassafras</string>
-		<string>Skype</string>
-		<string>Symantec</string>
-		<string>Telestream</string>
-		<string>Thomson_Reuters</string>
-		<string>umich</string>
-		<string>VideoLAN</string>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
 		<string>Perkin_Elmer</string>
-        </array>
-	<key>included_manifests</key>
-        <array>
-	  <string>Acrobat</string>
-	  <string>CS5</string>
-	  <string>iLife11</string>
-	  <string>Office2011</string>
+		<string>VideoLAN</string>
+		<string>umich</string>
+		<string>Thomson_Reuters</string>
+		<string>Telestream</string>
+		<string>Symantec</string>
+		<string>Skype</string>
+		<string>Sassafras</string>
+		<string>RealPlayerSP</string>
+		<string>Mozilla</string>
+		<string>Microsoft</string>
+		<string>Google</string>
+		<string>cul</string>
+		<string>common</string>
+		<string>Apple</string>
 	</array>
-        <key>managed_installs</key>
-        <array>
-	  <string>Rosetta</string>
-	  <string>MunkiScripts</string>
-	  <string>munkitools</string>
-		
-	  <string>Chrome-11.0.696.71</string>
-	  <string>RealPlayerSP</string>
-	  <string>Fugu-1.2.0</string>
-	  <string>VLC_media_player</string>
-	  <string>IRTUTOR</string>
-	  
-	  <string>keyserver-6.2.1.3</string>
-	  <string>cul_altiris-1.0</string>
-        </array>
-
+	<key>included_manifests</key>
+	<array>
+		<string>Acrobat</string>
+		<string>CS5</string>
+		<string>iLife11</string>
+		<string>Office2011</string>
+	</array>
+	<key>managed_installs</key>
+	<array>
+		<string>Rosetta</string>
+		<string>MunkiScripts</string>
+		<string>munkitools</string>
+		<string>Chrome-11.0.696.71</string>
+		<string>RealPlayerSP</string>
+		<string>Fugu-1.2.0</string>
+		<string>IRTUTOR</string>
+		<string>keyserver-6.2.1.3</string>
+		<string>cul_altiris-1.0</string>
+	</array>
+	<key>managed_uninstalls</key>
+	<array>
+	</array>
 </dict>
 </plist>
