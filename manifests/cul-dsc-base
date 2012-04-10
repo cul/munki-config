@@ -39,6 +39,7 @@
 		<string>IRTUTOR</string>
 		<string>keyserver-6.2.1.3</string>
 		<string>cul_altiris-1.0</string>
+		<string>VLC_media_player</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
