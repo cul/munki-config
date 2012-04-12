@@ -4,12 +4,11 @@
 <dict>
 	<key>catalogs</key>
 	<array>
-		<string>cul</string>
 		<string>testing</string>
+		<string>cul</string>
 	</array>
 	<key>included_manifests</key>
 	<array>
-		<string>cul-base</string>
 	</array>
 	<key>managed_installs</key>
 	<array>
@@ -19,7 +18,8 @@
 		<string>Digital Editions</string>
 	</array>
 	<key>managed_uninstalls</key>
-	<array/>
+	<array>
+	</array>
 	<key>optional_installs</key>
 	<array>
 		<string>Xcode</string>
