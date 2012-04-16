@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RestartAction</key>
+	<string>None</string>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>divergent_media</string>
+	</array>
+	<key>description</key>
+	<string>Re-wrap your existing HDV (mts) or AVCHD (mts) footage into QuickTime movies faster than realtime and with no image loss.</string>
+	<key>display_name</key>
+	<string>ClipWrap</string>
+	<key>installer_item_hash</key>
+	<string>ecb67d0469ba3e6472a9626a633ce4d2f8328db4d07874b95a42516ef99e56fc</string>
+	<key>installer_item_location</key>
+	<string>divergent_media/ClipWrap/2.5.1/ClipWrap_2.5.1.dmg</string>
+	<key>installer_item_size</key>
+	<integer>4219</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.divergentmedia.clipwrap</string>
+			<key>CFBundleName</key>
+			<string>ClipWrap</string>
+			<key>CFBundleShortVersionString</key>
+			<string>2.5.1</string>
+			<key>path</key>
+			<string>/Applications/ClipWrap.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>ClipWrap.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>ClipWrap</string>
+	<key>requires</key>
+	<array/>
+	<key>suppress_bundle_relocation</key>
+	<false/>
+	<key>unattend_uninstall</key>
+	<false/>
+	<key>unattended_install</key>
+	<false/>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>update_for</key>
+	<array/>
+	<key>version</key>
+	<string>2.5.1</string>
+</dict>
+</plist>
