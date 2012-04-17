@@ -9,6 +9,7 @@
 	</array>
 	<key>included_manifests</key>
 	<array>
+		<string>cul-base</string>
 	</array>
 	<key>managed_installs</key>
 	<array>
