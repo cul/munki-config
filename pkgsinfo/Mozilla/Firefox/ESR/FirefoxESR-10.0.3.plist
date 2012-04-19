@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>RestartAction</key>
-	<string>None</string>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
@@ -11,15 +9,15 @@
 		<string>Mozilla</string>
 	</array>
 	<key>description</key>
-	<string>Firefox for CUL with LibX built in</string>
+	<string>Firefox bundled with LibX for CUL workstations</string>
 	<key>display_name</key>
 	<string>Firefox</string>
 	<key>installer_item_hash</key>
-	<string>88b8a511929f433dc8f600db1c6e75acfd6b98b230f0f635fe0c7fd13612e5a7</string>
+	<string>7b0eed57eefa708a1fbdf4ed4e3678a09ba5e4a152e07b49bc814cc6e17cb9d0</string>
 	<key>installer_item_location</key>
-	<string>Mozilla/Firefox/ESR/Firefox10-esr.dmg</string>
+	<string>Mozilla/Firefox/ESR/Firefox.dmg</string>
 	<key>installer_item_size</key>
-	<integer>37610</integer>
+	<integer>37752</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
@@ -52,29 +50,11 @@
 	<string>10.4.0</string>
 	<key>name</key>
 	<string>FirefoxESR</string>
-	<key>postinstall_script</key>
-	<string>#!/bin/bash
-		override="/Applications/Firefox.app/Contents/MacOS/override.ini"
-		touch -f $override
-		echo "[XRE]
-		EnableProfileMigrator=false" &gt; $override
-	
-		exit 0</string>
-	<key>requires</key>
-	<array/>
-	<key>suppress_bundle_relocation</key>
-	<false/>
-	<key>unattend_uninstall</key>
-	<false/>
-	<key>unattended_install</key>
-	<false/>
 	<key>uninstall_method</key>
 	<string>remove_copied_items</string>
 	<key>uninstallable</key>
 	<true/>
-	<key>update_for</key>
-	<array/>
 	<key>version</key>
-	<string>10</string>
+	<string>10.0.3</string>
 </dict>
 </plist>

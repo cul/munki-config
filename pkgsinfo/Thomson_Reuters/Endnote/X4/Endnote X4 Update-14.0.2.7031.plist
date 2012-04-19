@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+		<string>Thomson_Reuters</string>
+	</array>
+	<key>display_name</key>
+	<string>Endnote X4.0.2 update</string>
+	<key>installer_item_hash</key>
+	<string>7765a7d9db9a8ac6cef0ba260128c429e23c938822358e73cca415ffa28cefc5</string>
+	<key>installer_item_location</key>
+	<string>Thomson_Reuters/Endnote/X4/EndNote X4.dmg</string>
+	<key>installer_item_size</key>
+	<integer>108075</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.ThomsonResearchSoft.EndNote</string>
+			<key>CFBundleShortVersionString</key>
+			<string>14.0.2.7031</string>
+			<key>path</key>
+			<string>/Applications/Endnote X4/EndNote X4.app</string>
+			<key>type</key>
+			<string>application</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications/Endnote X4</string>
+			<key>source_item</key>
+			<string>EndNote X4.app</string>
+		</dict>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications/Endnote X4</string>
+			<key>source_item</key>
+			<string>Cite While You Write</string>
+		</dict>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications/Endnote X4</string>
+			<key>source_item</key>
+			<string>Connections</string>
+		</dict>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications/Endnote X4</string>
+			<key>source_item</key>
+			<string>EndNoteX4MacHelp.pdf</string>
+		</dict>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications/Endnote X4</string>
+			<key>source_item</key>
+			<string>Examples</string>
+		</dict>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications/Endnote X4</string>
+			<key>source_item</key>
+			<string>Filters</string>
+		</dict>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications/Endnote X4</string>
+			<key>source_item</key>
+			<string>GettingStartedGuide.pdf</string>
+		</dict>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications/Endnote X4</string>
+			<key>source_item</key>
+			<string>License Agreement.txt</string>
+		</dict>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications/Endnote X4</string>
+			<key>source_item</key>
+			<string>Plugins</string>
+		</dict>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications/Endnote X4</string>
+			<key>source_item</key>
+			<string>Product-Support</string>
+		</dict>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications/Endnote X4</string>
+			<key>source_item</key>
+			<string>Readme.txt</string>
+		</dict>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications/Endnote X4</string>
+			<key>source_item</key>
+			<string>Services</string>
+		</dict>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications/Endnote X4</string>
+			<key>source_item</key>
+			<string>Spell</string>
+		</dict>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications/Endnote X4</string>
+			<key>source_item</key>
+			<string>Styles</string>
+		</dict>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications/Endnote X4</string>
+			<key>source_item</key>
+			<string>Templates</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Endnote X4 Update</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>14.0.2.7031</string>
+	<key>update_for</key>
+	<array>
+		<string>EndnoteX4</string>
+	</array>
+</dict>
+</plist>
