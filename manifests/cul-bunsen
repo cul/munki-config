@@ -39,11 +39,10 @@
 		<string>libx</string>
 		<string>keyserver</string>
 		<string>munki-client-ssl</string>
-		<string>MunkiR4R</string>
+		<string>Macaque</string>
 	</array>
 	<key>managed_uninstalls</key>
-	<array>
-	</array>
+	<array/>
 	<key>optional_installs</key>
 	<array>
 		<string>VMWare</string>
