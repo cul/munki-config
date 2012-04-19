@@ -4,69 +4,27 @@
 <dict>
 	<key>catalogs</key>
 	<array>
-		<string>testing</string>
-		<string>squared5</string>
-		<string>Symantec</string>
-		<string>MacroMates</string>
-		<string>VideoLAN</string>
-		<string>umich</string>
-		<string>Thomson_Reuters</string>
-		<string>Telestream</string>
-		<string>Sassafras</string>
-		<string>Realplayer</string>
-		<string>Google</string>
-		<string>common</string>
-		<string>Adobe</string>
-		<string>Dropbox</string>
 		<string>Apple</string>
-		<string>Microsoft</string>
-		<string>David_Kocher</string>
-		<string>cul</string>
-		<string>Vmware</string>
-		<string>Skype</string>
-		<string>Mozilla</string>
+		<string>Dropbox</string>
+		<string>Adobe</string>
+		<string>common</string>
+		<string>Google</string>
+		<string>Realplayer</string>
+		<string>Sassafras</string>
+		<string>Telestream</string>
+		<string>Thomson_Reuters</string>
+		<string>umich</string>
+		<string>VideoLAN</string>
+		<string>MacroMates</string>
+		<string>Symantec</string>
+		<string>squared5</string>
+		<string>testing</string>
 	</array>
 	<key>included_manifests</key>
 	<array/>
 	<key>managed_installs</key>
-	<array>
-		<string>munkitools</string>
-		<string>MunkiScripts</string>
-		<string>keyserver</string>
-	</array>
+	<array/>
 	<key>managed_uninstalls</key>
 	<array/>
-	<key>optional_installs</key>
-	<array>
-		<string>Acrobat</string>
-		<string>libx</string>
-		<string>Office2011</string>
-		<string>Thunderbird</string>
-		<string>skype</string>
-		<string>MPEG Streamclip</string>
-		<string>Adobe Flash Player</string>
-		<string>Chrome</string>
-		<string>cul-ChromeProfile</string>
-		<string>RealPlayer</string>
-		<string>VLC_media_player</string>
-		<string>EndnoteX4</string>
-		<string>VMWare</string>
-		<string>cul-vmware-license</string>
-		<string>XcodeTools</string>
-		<string>Dropbox</string>
-		<string>Fugu</string>
-		<string>Cyberduck</string>
-		<string>SymantecEndpointProtection</string>
-		<string>TextMate</string>
-		<string>iLife</string>
-		<string>Firefox3</string>
-		<string>Firefox-4.0.1</string>
-		<string>Firefox-5.0.1</string>
-		<string>Firefox-6.0.2</string>
-		<string>Firefox-7.0.1</string>
-		<string>Firefox-9.0.1</string>
-		<string>Firefox-10.0.1</string>
-		<string>GitHub-1.1.7</string>
-	</array>
 </dict>
 </plist>
