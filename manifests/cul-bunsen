@@ -4,30 +4,30 @@
 <dict>
 	<key>catalogs</key>
 	<array>
-		<string>TechSmith</string>
-		<string>testing</string>
-		<string>squared5</string>
-		<string>Symantec</string>
-		<string>VideoLAN</string>
-		<string>umich</string>
-		<string>Thomson_Reuters</string>
-		<string>Telestream</string>
-		<string>Sassafras</string>
-		<string>Realplayer</string>
-		<string>Google</string>
-		<string>common</string>
-		<string>Adobe</string>
-		<string>Dropbox</string>
-		<string>Apple</string>
-		<string>Microsoft</string>
-		<string>David_Kocher</string>
-		<string>cul</string>
-		<string>Vmware</string>
-		<string>Skype</string>
-		<string>Mozilla</string>
-		<string>CambridgeSoft</string>
-		<string>Clearleft</string>
 		<string>Omni_Group</string>
+		<string>Clearleft</string>
+		<string>CambridgeSoft</string>
+		<string>Mozilla</string>
+		<string>Skype</string>
+		<string>Vmware</string>
+		<string>cul</string>
+		<string>David_Kocher</string>
+		<string>Microsoft</string>
+		<string>Apple</string>
+		<string>Dropbox</string>
+		<string>Adobe</string>
+		<string>common</string>
+		<string>Google</string>
+		<string>Realplayer</string>
+		<string>Sassafras</string>
+		<string>Telestream</string>
+		<string>Thomson_Reuters</string>
+		<string>umich</string>
+		<string>VideoLAN</string>
+		<string>Symantec</string>
+		<string>squared5</string>
+		<string>testing</string>
+		<string>TechSmith</string>
 	</array>
 	<key>included_manifests</key>
 	<array>
@@ -78,6 +78,7 @@
 		<string>OmniGraffleProLicense</string>
 		<string>FirefoxESR</string>
 		<string>Firefox-11.0</string>
+		<string>MunkiR4R</string>
 	</array>
 </dict>
 </plist>
