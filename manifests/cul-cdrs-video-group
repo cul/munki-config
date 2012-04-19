@@ -4,47 +4,47 @@
 <dict>
 	<key>catalogs</key>
 	<array>
-		<string>Tagaya_Yoichi</string>
-		<string>MildMannered</string>
-		<string>ffmpegX</string>
-		<string>squared5</string>
-		<string>VideoLAN</string>
-		<string>umich</string>
-		<string>Thomson_Reuters</string>
-		<string>Telestream</string>
-		<string>Symantec</string>
-		<string>Sassafras</string>
-		<string>Realplayer</string>
-		<string>Google</string>
-		<string>common</string>
-		<string>Adobe</string>
-		<string>Dropbox</string>
-		<string>Apple</string>
-		<string>Microsoft</string>
-		<string>David_Kocher</string>
-		<string>cul</string>
-		<string>Vmware</string>
-		<string>Skype</string>
-		<string>Mozilla</string>
-		<string>Techspansion</string>
-		<string>Gawker</string>
-		<string>FetchSoftworks</string>
-		<string>RogueAmoeba</string>
-		<string>Omni_Group</string>
-		<string>Blender</string>
-		<string>Handbrake</string>
-		<string>RipDifferent</string>
-		<string>ShinyFrog</string>
-		<string>VideoMonkey</string>
-		<string>Audacity</string>
-		<string>bombich</string>
-		<string>charismac</string>
-		<string>divx</string>
-		<string>Roxio</string>
-		<string>RedGiant</string>
-		<string>Emicsoft</string>
-		<string>FileMaker</string>
 		<string>Lame</string>
+		<string>FileMaker</string>
+		<string>Emicsoft</string>
+		<string>RedGiant</string>
+		<string>Roxio</string>
+		<string>divx</string>
+		<string>charismac</string>
+		<string>bombich</string>
+		<string>Audacity</string>
+		<string>VideoMonkey</string>
+		<string>ShinyFrog</string>
+		<string>RipDifferent</string>
+		<string>Handbrake</string>
+		<string>Blender</string>
+		<string>Omni_Group</string>
+		<string>RogueAmoeba</string>
+		<string>FetchSoftworks</string>
+		<string>Gawker</string>
+		<string>Techspansion</string>
+		<string>Mozilla</string>
+		<string>Skype</string>
+		<string>Vmware</string>
+		<string>cul</string>
+		<string>David_Kocher</string>
+		<string>Microsoft</string>
+		<string>Apple</string>
+		<string>Dropbox</string>
+		<string>Adobe</string>
+		<string>common</string>
+		<string>Google</string>
+		<string>Realplayer</string>
+		<string>Sassafras</string>
+		<string>Symantec</string>
+		<string>Telestream</string>
+		<string>Thomson_Reuters</string>
+		<string>umich</string>
+		<string>VideoLAN</string>
+		<string>squared5</string>
+		<string>ffmpegX</string>
+		<string>MildMannered</string>
+		<string>Tagaya_Yoichi</string>
 	</array>
 	<key>included_manifests</key>
 	<array>
@@ -56,13 +56,12 @@
 	<array>
 		<string>munkitools</string>
 		<string>libx</string>
-		<string>MunkiScripts</string>
 		<string>iLife</string>
 		<string>FileMaker</string>
 		<string>Adobe Flash Player</string>
 		<string>Chrome</string>
 		<string>cul-ChromeProfile</string>
-		<string>RealPlayer</string>
+		<string>Realplayer</string>
 		<string>VLC_media_player</string>
 		<string>EndnoteX4</string>
 		<string>keyserver</string>
@@ -70,6 +69,7 @@
 		<string>Thunderbird</string>
 		<string>skype</string>
 		<string>MPEG Streamclip</string>
+		<string>Macaque</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array/>
