@@ -4,20 +4,20 @@
 <dict>
 	<key>catalogs</key>
 	<array>
-		<string>Apple</string>
-		<string>Adobe</string>
-		<string>common</string>
-		<string>cul</string>
-		<string>Google</string>
-		<string>Microsoft</string>
-		<string>Mozilla</string>
-		<string>Realplayer</string>
-		<string>Sassafras</string>
-		<string>squared5</string>
-		<string>Telestream</string>
-		<string>Thomson_Reuters</string>
-		<string>umich</string>
 		<string>VideoLAN</string>
+		<string>umich</string>
+		<string>Thomson_Reuters</string>
+		<string>Telestream</string>
+		<string>squared5</string>
+		<string>Sassafras</string>
+		<string>Realplayer</string>
+		<string>Mozilla</string>
+		<string>Microsoft</string>
+		<string>Google</string>
+		<string>cul</string>
+		<string>common</string>
+		<string>Adobe</string>
+		<string>Apple</string>
 	</array>
 	<key>included_manifests</key>
 	<array>
@@ -28,7 +28,6 @@
 	<key>managed_installs</key>
 	<array>
 		<string>Rosetta</string>
-		<string>MunkiScripts</string>
 		<string>munkitools</string>
 		<string>Firefox3</string>
 		<string>libx</string>
@@ -41,6 +40,7 @@
 		<string>MPEG Streamclip</string>
 		<string>EndnoteX4</string>
 		<string>keyserver</string>
+		<string>Macaque</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array/>
