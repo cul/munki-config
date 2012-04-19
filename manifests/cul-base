@@ -1,48 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-        <key>catalogs</key>
-        <array>
-		<string>Apple</string>
-		<string>Adobe</string>
-		<string>common</string>
-		<string>cul</string>
-		<string>Google</string>
-		<string>Microsoft</string>
-		<string>Mozilla</string>
-		<string>Realplayer</string>
-		<string>Sassafras</string>
-		<string>squared5</string>
-		<string>Telestream</string>
-		<string>Thomson_Reuters</string>
-		<string>umich</string>
+	<key>catalogs</key>
+	<array>
 		<string>VideoLAN</string>
-        </array>
-	<key>included_manifests</key>
-        <array>
-	  <string>Acrobat</string>
-	  <string>CS5</string>
-	  <string>iLife11</string>
+		<string>umich</string>
+		<string>Thomson_Reuters</string>
+		<string>Telestream</string>
+		<string>squared5</string>
+		<string>Sassafras</string>
+		<string>Realplayer</string>
+		<string>Mozilla</string>
+		<string>Microsoft</string>
+		<string>Google</string>
+		<string>cul</string>
+		<string>common</string>
+		<string>Adobe</string>
+		<string>Apple</string>
 	</array>
-        <key>managed_installs</key>
-        <array>
-	  <string>Rosetta</string>
-	  <string>MunkiScripts</string>
-	  <string>munkitools</string>
-	
-	  <string>Firefox3</string>
-	  <string>libx</string>
-	  
-	  <string>Adobe Flash Player</string>
-	  <string>Chrome</string>
-	  <string>cul-ChromeProfile</string>
-	  <string>RealPlayer</string>
-	  <string>Fugu-1.2.0</string>
-	  <string>VLC_media_player</string>
-	  <string>MPEG Streamclip</string>
-	  <string>EndnoteX4</string>
-	  <string>keyserver</string>
-        </array>
+	<key>included_manifests</key>
+	<array>
+		<string>Acrobat</string>
+		<string>CS5</string>
+		<string>iLife11</string>
+	</array>
+	<key>managed_installs</key>
+	<array>
+		<string>Rosetta</string>
+		<string>MunkiScripts</string>
+		<string>munkitools</string>
+		<string>Firefox3</string>
+		<string>libx</string>
+		<string>Adobe Flash Player</string>
+		<string>Chrome</string>
+		<string>cul-ChromeProfile</string>
+		<string>Realplayer</string>
+		<string>Fugu-1.2.0</string>
+		<string>VLC_media_player</string>
+		<string>MPEG Streamclip</string>
+		<string>EndnoteX4</string>
+		<string>keyserver</string>
+		<string>Macaque</string>
+	</array>
+	<key>managed_uninstalls</key>
+	<array/>
 </dict>
 </plist>
