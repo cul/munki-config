@@ -4,21 +4,21 @@
 <dict>
 	<key>catalogs</key>
 	<array>
-		<string>common</string>
-		<string>Apple</string>
-		<string>Audacity</string>
-		<string>Blender</string>
-		<string>cul</string>
-		<string>Celtx</string>
-		<string>FileMaker</string>
-		<string>Google</string>
-		<string>hamingja</string>
-		<string>Red</string>
-		<string>Tug</string>
-		<string>MSLab</string>
-		<string>Lame</string>
-		<string>Solero</string>
 		<string>Panasonic</string>
+		<string>Solero</string>
+		<string>Lame</string>
+		<string>MSLab</string>
+		<string>Tug</string>
+		<string>Red</string>
+		<string>hamingja</string>
+		<string>Google</string>
+		<string>FileMaker</string>
+		<string>Celtx</string>
+		<string>cul</string>
+		<string>Blender</string>
+		<string>Audacity</string>
+		<string>Apple</string>
+		<string>common</string>
 	</array>
 	<key>included_manifests</key>
 	<array>
@@ -46,7 +46,6 @@
 		<string>FreehandViewer</string>
 		<string>AVCCAMImporter</string>
 		<string>AVCCamViewer</string>
-		<string>Macaque</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array/>
