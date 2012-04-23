@@ -4,9 +4,9 @@
 <dict>
 	<key>catalogs</key>
 	<array>
-		<string>common</string>
-		<string>cul</string>
 		<string>testing</string>
+		<string>cul</string>
+		<string>common</string>
 	</array>
 	<key>included_manifests</key>
 	<array>
@@ -14,17 +14,9 @@
 	</array>
 	<key>managed_installs</key>
 	<array>
-		<string>libx</string>
-		<string>Finale2010</string>
-		<string>Ableton Live</string>
-		<string>Digital Editions</string>
-		<string>Macaque</string>
 	</array>
 	<key>managed_uninstalls</key>
-	<array/>
-	<key>optional_installs</key>
 	<array>
-		<string>Xcode</string>
 	</array>
 </dict>
 </plist>
