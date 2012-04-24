@@ -42,7 +42,8 @@
 		<string>MunkiR4R</string>
 	</array>
 	<key>managed_uninstalls</key>
-	<array/>
+	<array>
+	</array>
 	<key>optional_installs</key>
 	<array>
 		<string>VMWare</string>
@@ -78,6 +79,7 @@
 		<string>OmniGraffleProLicense</string>
 		<string>FirefoxESR</string>
 		<string>Firefox-11.0</string>
+		<string>SSH Enabler</string>
 	</array>
 </dict>
 </plist>
