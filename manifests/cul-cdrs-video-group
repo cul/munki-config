@@ -1,50 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>catalogs</key>
 	<array>
-		<string>Lame</string>
-		<string>FileMaker</string>
-		<string>Emicsoft</string>
-		<string>RedGiant</string>
-		<string>Roxio</string>
-		<string>divx</string>
-		<string>charismac</string>
-		<string>bombich</string>
-		<string>Audacity</string>
-		<string>VideoMonkey</string>
-		<string>ShinyFrog</string>
-		<string>RipDifferent</string>
-		<string>Handbrake</string>
-		<string>Blender</string>
-		<string>Omni_Group</string>
-		<string>RogueAmoeba</string>
-		<string>FetchSoftworks</string>
-		<string>Gawker</string>
-		<string>Techspansion</string>
-		<string>Mozilla</string>
-		<string>Skype</string>
-		<string>Vmware</string>
-		<string>cul</string>
-		<string>David_Kocher</string>
+		<string>testing</string>
 		<string>Microsoft</string>
 		<string>Apple</string>
+		<string>VideoMonkey</string>
+		<string>Gawker</string>
 		<string>Dropbox</string>
 		<string>Adobe</string>
+		<string>Emicsoft</string>
 		<string>common</string>
+		<string>Techspansion</string>
+		<string>RedGiant</string>
+		<string>Roxio</string>
+		<string>Lame</string>
 		<string>Google</string>
+		<string>divx</string>
+		<string>FileMaker</string>
+		<string>Mozilla</string>
 		<string>Realplayer</string>
+		<string>charismac</string>
 		<string>Sassafras</string>
+		<string>Skype</string>
+		<string>Tagaya_Yoichi</string>
 		<string>Symantec</string>
+		<string>RipDifferent</string>
 		<string>Telestream</string>
+		<string>Handbrake</string>
 		<string>Thomson_Reuters</string>
+		<string>Blender</string>
+		<string>Vmware</string>
+		<string>ShinyFrog</string>
+		<string>Omni_Group</string>
 		<string>umich</string>
 		<string>VideoLAN</string>
 		<string>squared5</string>
+		<string>bombich</string>
+		<string>cul</string>
+		<string>RogueAmoeba</string>
 		<string>ffmpegX</string>
+		<string>Audacity</string>
+		<string>David_Kocher</string>
+		<string>FetchSoftworks</string>
 		<string>MildMannered</string>
-		<string>Tagaya_Yoichi</string>
 	</array>
 	<key>included_manifests</key>
 	<array>
@@ -70,9 +71,11 @@
 		<string>skype</string>
 		<string>MPEG Streamclip</string>
 		<string>Macaque</string>
+		<string>SSH Enabler</string>
 	</array>
 	<key>managed_uninstalls</key>
-	<array/>
+	<array>
+	</array>
 	<key>optional_installs</key>
 	<array>
 		<string>Toast</string>
