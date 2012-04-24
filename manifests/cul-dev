@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>catalogs</key>
 	<array>
+		<string>Omni_Group</string>
+		<string>Mozilla</string>
+		<string>Skype</string>
+		<string>Vmware</string>
+		<string>cul</string>
+		<string>David_Kocher</string>
+		<string>Microsoft</string>
 		<string>testing</string>
 		<string>squared5</string>
 		<string>Symantec</string>
 		<string>MacroMates</string>
 		<string>VideoLAN</string>
-		<string>umich</string>
 		<string>Thomson_Reuters</string>
 		<string>Telestream</string>
-		<string>David_Kocher</string>
-		<string>Mozilla</string>
-		<string>cul</string>
 		<string>Sassafras</string>
-		<string>Vmware</string>
-		<string>Skype</string>
 		<string>Realplayer</string>
 		<string>Google</string>
 		<string>common</string>
 		<string>Adobe</string>
 		<string>Dropbox</string>
 		<string>Apple</string>
-		<string>Microsoft</string>
+		<string>umich</string>
 	</array>
 	<key>included_manifests</key>
 	<array>
@@ -69,6 +70,8 @@
 		<string>Firefox-9.0.1</string>
 		<string>Firefox-10.0.1</string>
 		<string>GitHub</string>
+		<string>OmniGrafflePro</string>
+		<string>OmniGraffleProLicense</string>
 	</array>
 </dict>
 </plist>
