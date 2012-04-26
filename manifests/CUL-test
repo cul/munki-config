@@ -5,9 +5,9 @@
 	<key>catalogs</key>
 	<array>
 		<string>Adobe</string>
-		<string>common</string>
-		<string>cul</string>
 		<string>testing</string>
+		<string>cul</string>
+		<string>common</string>
 	</array>
 	<key>included_manifests</key>
 	<array>
