@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>catalogs</key>
 	<array>
-		<string>Microsoft</string>
 		<string>Apple</string>
-		<string>Dropbox</string>
-		<string>Adobe</string>
-		<string>common</string>
-		<string>Google</string>
-		<string>Realplayer</string>
-		<string>Skype</string>
-		<string>Vmware</string>
-		<string>Sassafras</string>
-		<string>cul</string>
-		<string>Mozilla</string>
-		<string>David_Kocher</string>
-		<string>Telestream</string>
-		<string>Thomson_Reuters</string>
-		<string>umich</string>
-		<string>VideoLAN</string>
-		<string>MacroMates</string>
-		<string>Symantec</string>
-		<string>Omni_Group</string>
-		<string>squared5</string>
 		<string>testing</string>
+		<string>squared5</string>
+		<string>Omni_Group</string>
+		<string>Symantec</string>
+		<string>MacroMates</string>
+		<string>VideoLAN</string>
+		<string>umich</string>
+		<string>Thomson_Reuters</string>
+		<string>Telestream</string>
+		<string>David_Kocher</string>
+		<string>Mozilla</string>
+		<string>cul</string>
+		<string>Sassafras</string>
+		<string>Vmware</string>
+		<string>Skype</string>
+		<string>Realplayer</string>
+		<string>Google</string>
+		<string>common</string>
+		<string>Adobe</string>
+		<string>Dropbox</string>
+		<string>Microsoft</string>
 	</array>
 	<key>included_manifests</key>
 	<array>
@@ -73,6 +73,7 @@
 		<string>OmniGrafflePro</string>
 		<string>OmniGraffleProLicense</string>
 		<string>FirefoxESR</string>
+		<string>CreativeSuite5DesignPremium</string>
 	</array>
 </dict>
 </plist>
