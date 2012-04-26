@@ -4,9 +4,10 @@
 <dict>
 	<key>catalogs</key>
 	<array>
-		<string>testing</string>
-		<string>cul</string>
+		<string>Adobe</string>
 		<string>common</string>
+		<string>cul</string>
+		<string>testing</string>
 	</array>
 	<key>included_manifests</key>
 	<array>
@@ -16,6 +17,11 @@
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
+	</array>
+	<key>optional_installs</key>
+	<array>
+		<string>Acrobat</string>
+		<string>CreativeSuite5DesignPremium</string>
 	</array>
 </dict>
 </plist>
