@@ -4,6 +4,7 @@
 <dict>
 	<key>catalogs</key>
 	<array>
+		<string>Apple</string>
 		<string>Adobe</string>
 		<string>testing</string>
 		<string>cul</string>
