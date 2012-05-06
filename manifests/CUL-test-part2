@@ -4,11 +4,11 @@
 <dict>
 	<key>catalogs</key>
 	<array>
-		<string>Apple</string>
-		<string>Adobe</string>
-		<string>testing</string>
-		<string>cul</string>
 		<string>common</string>
+		<string>cul</string>
+		<string>testing</string>
+		<string>Adobe</string>
+		<string>Apple</string>
 	</array>
 	<key>included_manifests</key>
 	<array>
@@ -23,6 +23,7 @@
 	<array>
 		<string>Acrobat</string>
 		<string>CreativeSuite5DesignPremium</string>
+		<string>iLife</string>
 	</array>
 </dict>
 </plist>
