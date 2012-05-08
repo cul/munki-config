@@ -4,30 +4,30 @@
 <dict>
 	<key>catalogs</key>
 	<array>
-		<string>Apple</string>
-		<string>Adobe</string>
-		<string>common</string>
-		<string>Google</string>
-		<string>Dropbox</string>
-		<string>Realplayer</string>
-		<string>Sassafras</string>
-		<string>Telestream</string>
-		<string>Omni_Group</string>
-		<string>Thomson_Reuters</string>
-		<string>umich</string>
-		<string>VideoLAN</string>
-		<string>Symantec</string>
-		<string>squared5</string>
 		<string>Clearleft</string>
-		<string>CambridgeSoft</string>
-		<string>Mozilla</string>
-		<string>Skype</string>
-		<string>Vmware</string>
-		<string>cul</string>
-		<string>testing</string>
-		<string>TechSmith</string>
-		<string>David_Kocher</string>
+		<string>Omni_Group</string>
+		<string>Google</string>
+		<string>Telestream</string>
+		<string>Symantec</string>
+		<string>common</string>
+		<string>Adobe</string>
+		<string>Sassafras</string>
+		<string>Apple</string>
 		<string>Microsoft</string>
+		<string>Realplayer</string>
+		<string>VideoLAN</string>
+		<string>Dropbox</string>
+		<string>David_Kocher</string>
+		<string>TechSmith</string>
+		<string>testing</string>
+		<string>cul</string>
+		<string>Vmware</string>
+		<string>Skype</string>
+		<string>umich</string>
+		<string>squared5</string>
+		<string>Thomson_Reuters</string>
+		<string>Mozilla</string>
+		<string>CambridgeSoft</string>
 	</array>
 	<key>included_manifests</key>
 	<array>
@@ -38,7 +38,7 @@
 		<string>munkitools</string>
 		<string>libx</string>
 		<string>keyserver</string>
-		<string>munki-client-ssl</string>
+		<string>munkiSSL</string>
 		<string>MunkiR4R</string>
 	</array>
 	<key>managed_uninstalls</key>
@@ -60,7 +60,7 @@
 		<string>Office2011</string>
 		<string>EndnoteX4</string>
 		<string>VLC_media_player</string>
-		<string>Realplayer</string>
+		<string>RealPlayer</string>
 		<string>Adobe Flash Player</string>
 		<string>Chrome</string>
 		<string>cul-ChromeProfile</string>
@@ -79,6 +79,7 @@
 		<string>OmniGraffleProLicense</string>
 		<string>FirefoxESR</string>
 		<string>Firefox-11.0</string>
+		<string>InstallLion</string>
 	</array>
 </dict>
 </plist>
