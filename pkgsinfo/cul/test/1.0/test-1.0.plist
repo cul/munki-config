@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>RestartAction</key>
-	<string>None</string>
+	<string>RequireRestart</string>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
 	<array/>
 	<key>description</key>
-	<string></string>
+	<string>this is a test</string>
 	<key>display_name</key>
 	<string>test</string>
 	<key>installed_size</key>
-	<integer>12</integer>
+	<integer>40</integer>
 	<key>installer_item_hash</key>
-	<string>ba690881b21dcdadb3a36c2109fa4653f81d85980c2bcc9d107eff19da26c0a7</string>
+	<string>b300444d0ece66e1af048ee139c316f491d606036c6987eb63b6b076eb33c668</string>
 	<key>installer_item_location</key>
 	<string>cul/test/1.0/test-1.0.dmg</string>
 	<key>installer_item_size</key>
-	<integer>23</integer>
+	<integer>7</integer>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
@@ -27,22 +27,18 @@
 	<key>receipts</key>
 	<array>
 		<dict>
-			<key>filename</key>
-			<string>cacert.pkg</string>
 			<key>installed_size</key>
-			<integer>4</integer>
+			<integer>20</integer>
 			<key>packageid</key>
-			<string>edu.columbia.munkiclientssl.cacert.pkg</string>
+			<string>edu.columbia.uniauth.etc.pkg</string>
 			<key>version</key>
-			<string>3.0</string>
+			<string>1.0</string>
 		</dict>
 		<dict>
-			<key>filename</key>
-			<string>munki.pkg</string>
 			<key>installed_size</key>
-			<integer>8</integer>
+			<integer>20</integer>
 			<key>packageid</key>
-			<string>edu.columbia.munkiclientssl.munki.pkg</string>
+			<string>edu.columbia.uniauth.Library.pkg</string>
 			<key>version</key>
 			<string>1.0</string>
 		</dict>
