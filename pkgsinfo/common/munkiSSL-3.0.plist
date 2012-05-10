@@ -63,7 +63,7 @@
 	<true/>
 	<key>update_for</key>
 	<array>
-		<string>munki-client-ssl</string>
+		<string>munki_client_ssl</string>
 	</array>
 	<key>version</key>
 	<string>3.0</string>

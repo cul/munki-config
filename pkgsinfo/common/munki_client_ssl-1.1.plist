@@ -11,7 +11,7 @@
 	<key>description</key>
 	<string>Installs SSL certs</string>
 	<key>display_name</key>
-	<string>munki-client-ssl</string>
+	<string>munki_client_ssl</string>
 	<key>installed_size</key>
 	<integer>12</integer>
 	<key>installer_item_hash</key>

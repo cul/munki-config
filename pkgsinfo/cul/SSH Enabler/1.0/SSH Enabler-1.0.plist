@@ -1,55 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>RestartAction</key>
-	<string>RequireRestart</string>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
 	<array>
 		<string>testing</string>
-		<string>randomtest</string>
 	</array>
 	<key>description</key>
-	<string>this is a test</string>
+	<string></string>
 	<key>display_name</key>
-	<string>test</string>
+	<string>SSH Enabler</string>
 	<key>installed_size</key>
-	<integer>40</integer>
+	<integer>4</integer>
 	<key>installer_item_hash</key>
-	<string>a2a7bec1030572d87587a741ef43a461293c818810c24722d2c8d99d004f6ca6</string>
+	<string>15ac41ab6115c0529cbea56ee3a7be32d93af4ec00d9774176affe7baa2bd3db</string>
 	<key>installer_item_location</key>
-	<string>cul/test/1.0/test-1.0.dmg</string>
+	<string>cul/SSH Enabler/1.0/SSH Enabler.pkg</string>
 	<key>installer_item_size</key>
-	<integer>7</integer>
+	<integer>2</integer>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
-	<string>test</string>
+	<string>SSH Enabler</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>20</integer>
+			<integer>4</integer>
 			<key>packageid</key>
-			<string>edu.columbia.uniauth.etc.pkg</string>
-			<key>version</key>
-			<string>1.0</string>
-		</dict>
-		<dict>
-			<key>installed_size</key>
-			<integer>20</integer>
-			<key>packageid</key>
-			<string>edu.columbia.uniauth.Library.pkg</string>
+			<string>edu.columbia.sshEnabler.remote_login.pkg</string>
 			<key>version</key>
 			<string>1.0</string>
 		</dict>
 	</array>
+	<key>requires</key>
+	<array/>
+	<key>unattended_install</key>
+	<false/>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
+	<key>update_for</key>
+	<array/>
 	<key>version</key>
 	<string>1.0</string>
 </dict>
