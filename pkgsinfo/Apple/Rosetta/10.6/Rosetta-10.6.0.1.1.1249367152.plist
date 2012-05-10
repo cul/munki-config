@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>RestartAction</key>
+	<string>None</string>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
@@ -20,6 +22,8 @@
 	<string>Apple/Rosetta/10.6/Rosetta.pkg</string>
 	<key>installer_item_size</key>
 	<integer>1959</integer>
+	<key>maximum_os_version</key>
+	<string>10.6.10</string>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
