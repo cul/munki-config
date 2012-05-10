@@ -22,8 +22,6 @@
 	<string>Apple/Rosetta/10.6/Rosetta.pkg</string>
 	<key>installer_item_size</key>
 	<integer>1959</integer>
-	<key>maximum_os_version</key>
-	<string>10.6.10</string>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
