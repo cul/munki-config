@@ -13,7 +13,7 @@
 	<key>description</key>
 	<string></string>
 	<key>display_name</key>
-	<string></string>
+	<string>Macaque</string>
 	<key>installer_item_hash</key>
 	<string>68b11b1be701e1eaadc05b6de6d78e2a81ee97b2cc1d1f3e2432b0a720fb53d5</string>
 	<key>installer_item_location</key>
@@ -110,20 +110,12 @@
 	<string>10.4.0</string>
 	<key>name</key>
 	<string>Macaque</string>
-	<key>requires</key>
-	<array/>
-	<key>suppress_bundle_relocation</key>
-	<false/>
-	<key>unattend_uninstall</key>
-	<false/>
 	<key>unattended_install</key>
 	<true/>
 	<key>uninstall_method</key>
 	<string>remove_copied_items</string>
 	<key>uninstallable</key>
 	<true/>
-	<key>update_for</key>
-	<array/>
 	<key>version</key>
 	<string>0.9.9</string>
 </dict>
