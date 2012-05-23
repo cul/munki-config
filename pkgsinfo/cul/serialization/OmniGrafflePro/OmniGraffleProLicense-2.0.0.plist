@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>RestartAction</key>
+	<string>None</string>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
@@ -20,6 +22,17 @@
 	<string>cul/serialization/OmniGrafflePro/OmniGraffleProLicense-2.0.dmg</string>
 	<key>installer_item_size</key>
 	<integer>16</integer>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>md5checksum</key>
+			<string>d2c7ac7c21e656cb3cdd147f37f1bb26</string>
+			<key>path</key>
+			<string>/Library/Application Support/Omni Group/Software Licenses/OmniGraffle-590917.omnilicense</string>
+			<key>type</key>
+			<string>file</string>
+		</dict>
+	</array>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
@@ -41,14 +54,14 @@
 	<array>
 		<string>OmniGrafflePro</string>
 	</array>
-	<key>update_for</key>
-	<array>
-		<string>OmniGraffleProLicense</string>
-	</array>
 	<key>uninstall_method</key>
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
+	<key>update_for</key>
+	<array>
+		<string>OmniGraffleProLicense</string>
+	</array>
 	<key>version</key>
 	<string>2.0.0</string>
 </dict>
