@@ -37,6 +37,10 @@
 	<string>10.4.0</string>
 	<key>name</key>
 	<string>OmniGraffleProLicense</string>
+	<key>postinstall_script</key>
+	<string>#!/bin/bash
+	chmod 755 "/Library/Application Support/Omni Group/Software Licenses/OmniGraffle-590917.omnilicense"
+	end</string>
 	<key>receipts</key>
 	<array>
 		<dict>
