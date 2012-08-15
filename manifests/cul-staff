@@ -12,6 +12,7 @@
 		<string>Dropbox</string>
 		<string>Skype</string>
 		<string>Mozilla</string>
+		<string>Amazon</string>
 	</array>
 	<key>included_manifests</key>
 	<array>
@@ -34,6 +35,7 @@
 		<string>CamtasiaLicense</string>
 		<string>Silverback</string>
 		<string>SilverBack_License</string>
+		<string>Kindle</string>
 	</array>
 </dict>
 </plist>

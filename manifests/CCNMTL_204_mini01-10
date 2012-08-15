@@ -5,6 +5,7 @@
 	<key>catalogs</key>
 	<array>
 		<string>Apple</string>
+		<string>Growl</string>
 	</array>
 	<key>included_manifests</key>
 	<array>
@@ -13,6 +14,7 @@
 	<key>managed_installs</key>
 	<array>
 		<string>iLife</string>
+		<string>Growl-1.3.3</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array/>

@@ -11,7 +11,7 @@
 	<key>description</key>
 	<string>Firefox bundled with LibX for CUL workstations</string>
 	<key>display_name</key>
-	<string>Firefox</string>
+	<string>FirefoxESR</string>
 	<key>installer_item_hash</key>
 	<string>7b0eed57eefa708a1fbdf4ed4e3678a09ba5e4a152e07b49bc814cc6e17cb9d0</string>
 	<key>installer_item_location</key>

@@ -10,6 +10,7 @@
 		<key>included_manifests</key>
         <array>
 		<string>CCNMTL_Base</string>
+		<string>CCNMTL_204_mini01-10</string>
         </array>
         <key>managed_installs</key>
         <array>

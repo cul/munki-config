@@ -27,14 +27,12 @@
 	</array>
 	<key>managed_installs</key>
 	<array>
-		<string>Rosetta</string>
 		<string>munkitools</string>
 		<string>libx</string>
 		<string>Adobe Flash Player</string>
 		<string>Chrome</string>
 		<string>cul-ChromeProfile</string>
 		<string>Realplayer</string>
-		<string>Fugu-1.2.0</string>
 		<string>VLC_media_player</string>
 		<string>MPEG Streamclip</string>
 		<string>EndnoteX4</string>

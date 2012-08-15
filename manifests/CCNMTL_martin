@@ -14,7 +14,7 @@
         </array>
         <key>managed_installs</key>
         <array>
-		<string>Apple Remote Desktop-3.0</string>
+		<!--string>Apple Remote Desktop-3.0</string-->
 		<string>HP Printer Drivers v.2.8 OS X-10.6.0.1.1.1238328574</string>
 		
         </array>

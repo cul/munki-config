@@ -57,8 +57,6 @@
 			<string>3.4.0.1</string>
 		</dict>
 	</array>
-	<key>requires</key>
-	<array/>
 	<key>suppress_bundle_relocation</key>
 	<false/>
 	<key>unattend_uninstall</key>
@@ -69,8 +67,6 @@
 	<string>removepackages</string>
 	<key>uninstallable</key>
 	<true/>
-	<key>update_for</key>
-	<array/>
 	<key>version</key>
 	<string>3.4.0.1</string>
 </dict>

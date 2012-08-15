@@ -47,6 +47,8 @@
 		<string>CDRS_FCP_Serialzation</string>
 		<string>Camtasia</string>
 		<string>CamtasiaLicense</string>
+		<string>VMWare</string>
+		<string>cul-vmware-license</string>
 	</array>
 </dict>
 </plist>

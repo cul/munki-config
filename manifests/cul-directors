@@ -26,6 +26,7 @@
 		<string>Adobe</string>
 		<string>Dropbox</string>
 		<string>Microsoft</string>
+		<string>squirrels</string>
 	</array>
 	<key>managed_installs</key>
 	<array>

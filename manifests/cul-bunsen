@@ -35,7 +35,8 @@
 		<string>libx</string>
 		<string>keyserver</string>
 		<string>munki-client-ssl</string>
-		<string>MunkiR4R</string>
+		<string>MACaqueDev-0.01</string>
+
 	</array>
 	<key>optional_installs</key>
 	<array>
